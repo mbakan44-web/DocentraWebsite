@@ -111,6 +111,15 @@ const navLinks = document.querySelector('.nav-links');
 if (mobileMenu) {
     mobileMenu.addEventListener('click', () => {
         navLinks.classList.toggle('active');
+        // Optional: Animate hamburger to X
+        mobileMenu.classList.toggle('is-active');
+    });
+
+    // Close menu when clicking a link
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+        });
     });
 }
 
