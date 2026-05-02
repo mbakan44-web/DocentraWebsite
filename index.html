@@ -428,7 +428,7 @@
     <script src="script.js"></script>
     <script>
         /**
-         * IP tabanlı otomatik fiyatlandırma sistemi - Gelişmiş Versiyon
+         * Akıllı Dinamik Fiyatlandırma Sistemi - V3
          * Baz fiyat: 2250 TRY
          */
         async function syncGlobalPricing() {
@@ -436,18 +436,28 @@
             const priceElements = document.querySelectorAll('.dynamic-price');
             
             try {
-                // 1. Kullanıcının bulunduğu ülkeyi ve para birimini algıla
-                const geoInfo = await fetch('https://ipapi.co/json/').then(res => res.json());
-                const currencyCode = geoInfo.currency || 'USD';
+                // 1. URL Parametresi Kontrolü (Test için: ?currency=USD yazılabilir)
+                const urlParams = new URLSearchParams(window.location.search);
+                let currencyCode = urlParams.get('currency');
+
+                if (!currencyCode) {
+                    // 2. IP Tabanlı Algılama
+                    try {
+                        const geoInfo = await fetch('https://ipapi.co/json/').then(res => res.json());
+                        currencyCode = geoInfo.currency;
+                    } catch (e) {
+                        // 3. Yedek (Fallback): IP başarısız olursa seçili dile göre kur ata
+                        const currentLang = document.getElementById('lang-selector')?.value || 'en';
+                        const langToCurrency = { 'tr': 'TRY', 'en': 'USD', 'de': 'EUR', 'fr': 'EUR', 'es': 'EUR', 'it': 'EUR', 'ja': 'JPY', 'zh': 'CNY', 'ru': 'RUB' };
+                        currencyCode = langToCurrency[currentLang] || 'USD';
+                    }
+                }
                 
-                // 2. TRY bazlı güncel döviz kurlarını çek
+                // 4. Kur Bilgisini Çek
                 const exchangeData = await fetch('https://api.exchangerate-api.com/v4/latest/TRY').then(res => res.json());
                 const conversionRate = exchangeData.rates[currencyCode] || 1;
                 
-                // 3. Yerel fiyatı hesapla
                 const localPriceValue = (BASE_TRY * conversionRate);
-                
-                // 4. Şık bir şekilde formatla
                 const formattedPrice = localPriceValue.toLocaleString(undefined, { 
                     style: 'currency', 
                     currency: currencyCode,
@@ -455,24 +465,27 @@
                     maximumFractionDigits: 0
                 });
 
-                // 5. Sitedeki fiyat alanlarını "Garantili" güncelle
+                // 5. Güncelleme
                 priceElements.forEach(el => {
                     el.innerText = formattedPrice;
-                    el.setAttribute('data-i18n-skip', 'true'); // Çeviri scriptinin dokunmamasını sağlar
+                    el.setAttribute('data-i18n-skip', 'true');
                 });
 
-                console.log(`Fiyat Güncellendi: ${formattedPrice} (${currencyCode})`);
+                console.log(`Fiyat Senkronize Edildi: ${formattedPrice} (${currencyCode})`);
 
             } catch (err) {
-                console.error("Fiyat senkronizasyon hatası:", err);
-                // Hata durumunda varsayılan olarak 2250 TL göster
+                console.error("Fiyat hatası:", err);
                 priceElements.forEach(el => el.innerText = "₺2250");
             }
         }
 
-        // Sayfa yüklendikten 1 saniye sonra çalıştır (Çeviri scriptlerinin bitmesini bekler)
         window.addEventListener('load', () => {
-            setTimeout(syncGlobalPricing, 1000);
+            setTimeout(syncGlobalPricing, 500);
+        });
+
+        // Dil değiştiğinde fiyatı da tekrar kontrol et
+        document.getElementById('lang-selector')?.addEventListener('change', () => {
+            setTimeout(syncGlobalPricing, 300);
         });
     </script>
 </body>
