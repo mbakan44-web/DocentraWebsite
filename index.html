@@ -283,7 +283,7 @@
                             </tr>
                             <tr>
                                 <td data-i18n="cmp-r7">Price</td>
-                                <td class="highlight-col price-cell" data-i18n="cmp-r7-docentra">$49.90 one-time</td>
+                                <td class="highlight-col price-cell dynamic-price">₺2250.00</td>
                                 <td data-i18n="cmp-r7-adobe">$239.88/year</td>
                                 <td data-i18n="cmp-r7-online">$72-$108/year</td>
                             </tr>
@@ -305,7 +305,7 @@
                     <div class="pricing-ribbon" data-i18n="pricing-ribbon">BEST VALUE</div>
                     <div class="pricing-header">
                         <h3 data-i18n="pricing-card-title">Lifetime Professional</h3>
-                        <div class="price" id="price-value" data-i18n="price">$49.90</div>
+                        <div class="price dynamic-price">₺2250.00</div>
                         <p data-i18n="pricing-card-subtitle">Perpetual License per PC</p>
                     </div>
                     <ul class="pricing-features">
@@ -426,5 +426,42 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        /**
+         * IP tabanlı otomatik fiyatlandırma sistemi
+         * Baz fiyat: 2250 TRY
+         */
+        async function syncGlobalPricing() {
+            const BASE_TRY = 2250; 
+            
+            try {
+                // Kullanıcının bulunduğu ülkeyi ve para birimini algıla
+                const geoInfo = await fetch('https://ipapi.co/json/').then(res => res.json());
+                const currencyCode = geoInfo.currency || 'USD';
+                
+                // TRY bazlı güncel döviz kurlarını çek
+                const exchangeData = await fetch('https://api.exchangerate-api.com/v4/latest/TRY').then(res => res.json());
+                const conversionRate = exchangeData.rates[currencyCode] || 1;
+                
+                // Yerel fiyatı hesapla ve şık bir şekilde formatla
+                const localPrice = (BASE_TRY * conversionRate).toLocaleString(undefined, { 
+                    style: 'currency', 
+                    currency: currencyCode 
+                });
+
+                // Sitedeki fiyat alanlarını güncelle
+                const priceElements = document.querySelectorAll('.dynamic-price');
+                priceElements.forEach(el => {
+                    el.innerText = localPrice;
+                });
+
+            } catch (err) {
+                console.error("Fiyat senkronizasyon hatası:", err);
+                // Hata durumunda varsayılan olarak 2250 TL göster
+                document.querySelectorAll('.dynamic-price').forEach(el => el.innerText = "₺2250,00");
+            }
+        }
+        document.addEventListener('DOMContentLoaded', syncGlobalPricing);
+    </script>
 </body>
 </html>
