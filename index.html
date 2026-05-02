@@ -428,40 +428,52 @@
     <script src="script.js"></script>
     <script>
         /**
-         * IP tabanlı otomatik fiyatlandırma sistemi
+         * IP tabanlı otomatik fiyatlandırma sistemi - Gelişmiş Versiyon
          * Baz fiyat: 2250 TRY
          */
         async function syncGlobalPricing() {
             const BASE_TRY = 2250; 
+            const priceElements = document.querySelectorAll('.dynamic-price');
             
             try {
-                // Kullanıcının bulunduğu ülkeyi ve para birimini algıla
+                // 1. Kullanıcının bulunduğu ülkeyi ve para birimini algıla
                 const geoInfo = await fetch('https://ipapi.co/json/').then(res => res.json());
                 const currencyCode = geoInfo.currency || 'USD';
                 
-                // TRY bazlı güncel döviz kurlarını çek
+                // 2. TRY bazlı güncel döviz kurlarını çek
                 const exchangeData = await fetch('https://api.exchangerate-api.com/v4/latest/TRY').then(res => res.json());
                 const conversionRate = exchangeData.rates[currencyCode] || 1;
                 
-                // Yerel fiyatı hesapla ve şık bir şekilde formatla
-                const localPrice = (BASE_TRY * conversionRate).toLocaleString(undefined, { 
+                // 3. Yerel fiyatı hesapla
+                const localPriceValue = (BASE_TRY * conversionRate);
+                
+                // 4. Şık bir şekilde formatla
+                const formattedPrice = localPriceValue.toLocaleString(undefined, { 
                     style: 'currency', 
-                    currency: currencyCode 
+                    currency: currencyCode,
+                    minimumFractionDigits: 0,
+                    maximumFractionDigits: 0
                 });
 
-                // Sitedeki fiyat alanlarını güncelle
-                const priceElements = document.querySelectorAll('.dynamic-price');
+                // 5. Sitedeki fiyat alanlarını "Garantili" güncelle
                 priceElements.forEach(el => {
-                    el.innerText = localPrice;
+                    el.innerText = formattedPrice;
+                    el.setAttribute('data-i18n-skip', 'true'); // Çeviri scriptinin dokunmamasını sağlar
                 });
+
+                console.log(`Fiyat Güncellendi: ${formattedPrice} (${currencyCode})`);
 
             } catch (err) {
                 console.error("Fiyat senkronizasyon hatası:", err);
                 // Hata durumunda varsayılan olarak 2250 TL göster
-                document.querySelectorAll('.dynamic-price').forEach(el => el.innerText = "₺2250,00");
+                priceElements.forEach(el => el.innerText = "₺2250");
             }
         }
-        document.addEventListener('DOMContentLoaded', syncGlobalPricing);
+
+        // Sayfa yüklendikten 1 saniye sonra çalıştır (Çeviri scriptlerinin bitmesini bekler)
+        window.addEventListener('load', () => {
+            setTimeout(syncGlobalPricing, 1000);
+        });
     </script>
 </body>
 </html>
