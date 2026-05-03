@@ -19,7 +19,7 @@ en: {
 "feat-clean-title":"Metadata Cleaner","feat-clean-desc":"Strip hidden author names and edit history from Office files before sharing.",
 "feat-watermark-title":"Watermark & Logo","feat-watermark-desc":"Add company logos or text watermarks across all pages in batch.",
 "hiw-badge":"Simple Setup","hiw-title":"Up and Running in 3 Steps","hiw-subtitle":"No account, no sign-up, no cloud configuration required.",
-"step1-title":"Download","step1-desc":"Download the lightweight installer — under 60 MB.",
+"step1-title":"Download","step1-desc":"Download the complete professional suite installer.","cta-meta":"Windows 10/11 · Professional Suite · Free Trial Included",
 "step2-title":"Install & Launch","step2-desc":"One-click installation. Ready in seconds — no sign-up needed.",
 "step3-title":"Start Working","step3-desc":"All 12+ tools are instantly available. Always private, always fast.",
 "privacy-title":"Your Documents, Your Rules.","privacy-desc":"Unlike cloud-based editors, Docentra processes every single byte on your local hardware. Your sensitive data never touches a remote server.",
@@ -40,7 +40,7 @@ en: {
 "faq-q5":"How does local OCR work without internet?","faq-a5":"Docentra uses Windows' built-in OCR engine for text recognition directly on your device.",
 "faq-q6":"What is the Metadata Cleaner?","faq-a6":"It removes hidden info like author names and edit history from Office files before sharing.",
 "cta-title":"Ready to Take Control of Your Documents?","cta-desc":"Download Docentra for free and experience true local processing. No sign-up required.",
-"cta-btn-download":"⬇️ Download for Windows","cta-meta":"Windows 10/11 · 60 MB · Free Trial Included",
+"cta-btn-download":"⬇️ Download for Windows","cta-meta":"Windows 10/11 · Professional Suite · Free Trial Included",
 "footer-product":"Product","footer-support":"Support","footer-legal":"Legal","footer-help":"Help Center","footer-license":"License Agreement","footer-privacy-policy":"Privacy Policy","footer-terms":"Terms of Service","footer-desc":"Empowering professionals with secure, offline document tools."
 },
 tr: {
@@ -63,7 +63,7 @@ tr: {
 "feat-clean-title":"Meta-Veri Temizleme","feat-clean-desc":"Paylaşmadan önce gizli yazar adı ve düzenleme geçmişini temizleyin.",
 "feat-watermark-title":"Filigran ve Logo","feat-watermark-desc":"Tüm sayfalara toplu olarak logo veya metin filigranı ekleyin.",
 "hiw-badge":"Basit Kurulum","hiw-title":"3 Adımda Hazır","hiw-subtitle":"Hesap, kayıt veya bulut yapılandırması gerekmez.",
-"step1-title":"İndirin","step1-desc":"60 MB altındaki hafif kurulumu indirin.",
+"step1-title":"İndirin","step1-desc":"Tüm araçları içeren profesyonel kurulum paketini indirin.","cta-meta":"Windows 10/11 · Profesyonel Paket · Ücretsiz Deneme Dahil",
 "step2-title":"Kurun ve Başlatın","step2-desc":"Tek tıkla kurulum. Saniyeler içinde hazır.",
 "step3-title":"Çalışmaya Başlayın","step3-desc":"12+ araç anında kullanılabilir. Her zaman gizli, her zaman hızlı.",
 "privacy-title":"Sizin Belgeleriniz, Sizin Kurallarınız.","privacy-desc":"Docentra her bir baytı yerel donanımınızda işler. Hassas verileriniz asla uzak bir sunucuya dokunmaz.",
@@ -84,7 +84,7 @@ tr: {
 "faq-q5":"Yerel OCR internetsiz nasıl çalışıyor?","faq-a5":"Docentra, Windows'un yerleşik OCR motorunu kullanarak cihazınızda metin tanıma yapar.",
 "faq-q6":"Meta-Veri Temizleyici nedir?","faq-a6":"Paylaşmadan önce Office dosyalarındaki gizli yazar adı ve düzenleme geçmişini temizler.",
 "cta-title":"Belgelerinizin Kontrolünü Almaya Hazır mısınız?","cta-desc":"Docentra'yı ücretsiz indirin ve gerçek yerel işlemenin farkını yaşayın.",
-"cta-btn-download":"⬇️ Windows İçin İndir","cta-meta":"Windows 10/11 · 60 MB · Ücretsiz Deneme Dahil",
+"cta-btn-download":"⬇️ Windows İçin İndir","cta-meta":"Windows 10/11 · Profesyonel Paket · Ücretsiz Deneme Dahil",
 "footer-product":"Ürün","footer-support":"Destek","footer-legal":"Yasal","footer-help":"Yardım Merkezi","footer-license":"Lisans Sözleşmesi","footer-privacy-policy":"Gizlilik Politikası","footer-terms":"Kullanım Şartları","footer-desc":"Profesyonelleri güvenli, çevrimdışı belge araçlarıyla güçlendiriyoruz."
 },
 fr: {
@@ -107,7 +107,7 @@ fr: {
 "feat-clean-title":"Nettoyeur de métadonnées","feat-clean-desc":"Supprimez les noms d'auteurs cachés et l'historique avant le partage.",
 "feat-watermark-title":"Filigrane et logo","feat-watermark-desc":"Ajoutez des logos ou filigranes textuels sur toutes les pages.",
 "hiw-badge":"Installation simple","hiw-title":"Prêt en 3 étapes","hiw-subtitle":"Aucun compte ni configuration cloud requis.",
-"step1-title":"Télécharger","step1-desc":"Téléchargez l'installateur léger — moins de 60 Mo.",
+"step1-title":"Télécharger","step1-desc":"Téléchargez la suite professionnelle complète.","cta-meta":"Windows 10/11 · Suite Professionnelle · Essai Gratuit",
 "step2-title":"Installer et lancer","step2-desc":"Installation en un clic. Prêt en quelques secondes.",
 "step3-title":"Commencer à travailler","step3-desc":"Plus de 12 outils disponibles instantanément.",
 "privacy-title":"Vos documents, vos règles.","privacy-desc":"Docentra traite chaque octet sur votre matériel local. Vos données sensibles ne touchent jamais un serveur distant.",
@@ -128,7 +128,7 @@ fr: {
 "faq-q5":"Comment l'OCR local fonctionne sans Internet ?","faq-a5":"Docentra utilise le moteur OCR intégré de Windows pour la reconnaissance de texte.",
 "faq-q6":"Qu'est-ce que le nettoyeur de métadonnées ?","faq-a6":"Il supprime les informations cachées des fichiers Office avant le partage.",
 "cta-title":"Prêt à reprendre le contrôle de vos documents ?","cta-desc":"Téléchargez Docentra gratuitement.",
-"cta-btn-download":"⬇️ Télécharger pour Windows","cta-meta":"Windows 10/11 · 60 Mo · Essai gratuit inclus",
+"cta-btn-download":"⬇️ Télécharger pour Windows","cta-meta":"Windows 10/11 · Suite Professionnelle · Essai Gratuit",
 "footer-product":"Produit","footer-support":"Support","footer-legal":"Juridique","footer-help":"Centre d'aide","footer-license":"Contrat de licence","footer-privacy-policy":"Politique de confidentialité","footer-terms":"Conditions d'utilisation","footer-desc":"Des outils documentaires sécurisés et hors ligne pour les professionnels."
 },
 de: {
@@ -151,7 +151,7 @@ de: {
 "feat-clean-title":"Metadaten-Reiniger","feat-clean-desc":"Entfernen Sie versteckte Autornamen und Bearbeitungshistorie vor dem Teilen.",
 "feat-watermark-title":"Wasserzeichen & Logo","feat-watermark-desc":"Fügen Sie Logos oder Textwasserzeichen auf allen Seiten hinzu.",
 "hiw-badge":"Einfache Einrichtung","hiw-title":"In 3 Schritten startklar","hiw-subtitle":"Kein Konto, keine Anmeldung, keine Cloud-Konfiguration.",
-"step1-title":"Herunterladen","step1-desc":"Laden Sie das leichte Installationsprogramm herunter — unter 60 MB.",
+"step1-title":"Herunterladen","step1-desc":"Laden Sie die vollständige professionelle Suite herunter.","cta-meta":"Windows 10/11 · Profi-Suite · Kostenlose Testversion",
 "step2-title":"Installieren & Starten","step2-desc":"Ein-Klick-Installation. In Sekunden bereit.",
 "step3-title":"Loslegen","step3-desc":"Alle 12+ Werkzeuge sofort verfügbar.",
 "privacy-title":"Ihre Dokumente, Ihre Regeln.","privacy-desc":"Docentra verarbeitet jedes Byte auf Ihrer lokalen Hardware.",
@@ -172,7 +172,7 @@ de: {
 "faq-q5":"Wie funktioniert lokale OCR ohne Internet?","faq-a5":"Docentra nutzt die integrierte Windows-OCR-Engine für Texterkennung.",
 "faq-q6":"Was ist der Metadaten-Reiniger?","faq-a6":"Er entfernt versteckte Informationen aus Office-Dateien vor dem Teilen.",
 "cta-title":"Bereit, die Kontrolle über Ihre Dokumente zu übernehmen?","cta-desc":"Laden Sie Docentra kostenlos herunter.",
-"cta-btn-download":"⬇️ Für Windows herunterladen","cta-meta":"Windows 10/11 · 60 MB · Kostenlose Testversion",
+"cta-btn-download":"⬇️ Für Windows herunterladen","cta-meta":"Windows 10/11 · Profi-Suite · Kostenlose Testversion",
 "footer-product":"Produkt","footer-support":"Support","footer-legal":"Rechtliches","footer-help":"Hilfezentrum","footer-license":"Lizenzvereinbarung","footer-privacy-policy":"Datenschutzrichtlinie","footer-terms":"Nutzungsbedingungen","footer-desc":"Sichere, offline Dokumentenwerkzeuge für Profis."
 },
 es: {
@@ -195,7 +195,7 @@ es: {
 "feat-clean-title":"Limpiador de metadatos","feat-clean-desc":"Elimine nombres de autor ocultos e historial de edición antes de compartir.",
 "feat-watermark-title":"Marca de agua y logo","feat-watermark-desc":"Añada logos o marcas de agua de texto en todas las páginas.",
 "hiw-badge":"Configuración simple","hiw-title":"Listo en 3 pasos","hiw-subtitle":"Sin cuenta, sin registro, sin configuración en la nube.",
-"step1-title":"Descargar","step1-desc":"Descargue el instalador ligero — menos de 60 MB.",
+"step1-title":"Descargar","step1-desc":"Descargue la suite profesional completa.","cta-meta":"Windows 10/11 · Suite Profesional · Prueba Gratuita",
 "step2-title":"Instalar y ejecutar","step2-desc":"Instalación con un clic. Listo en segundos.",
 "step3-title":"Empezar a trabajar","step3-desc":"Más de 12 herramientas disponibles al instante.",
 "privacy-title":"Tus documentos, tus reglas.","privacy-desc":"Docentra procesa cada byte en su hardware local.",
@@ -216,7 +216,7 @@ es: {
 "faq-q5":"¿Cómo funciona el OCR local sin Internet?","faq-a5":"Docentra usa el motor OCR integrado de Windows.",
 "faq-q6":"¿Qué es el limpiador de metadatos?","faq-a6":"Elimina información oculta de archivos Office antes de compartir.",
 "cta-title":"¿Listo para tomar el control de sus documentos?","cta-desc":"Descargue Docentra gratis.",
-"cta-btn-download":"⬇️ Descargar para Windows","cta-meta":"Windows 10/11 · 60 MB · Prueba gratuita incluida",
+"cta-btn-download":"⬇️ Descargar para Windows","cta-meta":"Windows 10/11 · Suite Profesional · Prueba Gratuita",
 "footer-product":"Producto","footer-support":"Soporte","footer-legal":"Legal","footer-help":"Centro de ayuda","footer-license":"Acuerdo de licencia","footer-privacy-policy":"Política de privacidad","footer-terms":"Términos de servicio","footer-desc":"Herramientas documentales seguras y offline para profesionales."
 },
 it: {
@@ -239,7 +239,7 @@ it: {
 "feat-clean-title":"Pulizia metadati","feat-clean-desc":"Rimuovi nomi autore nascosti e cronologia modifiche prima della condivisione.",
 "feat-watermark-title":"Filigrana e logo","feat-watermark-desc":"Aggiungi loghi o filigrane di testo su tutte le pagine.",
 "hiw-badge":"Configurazione semplice","hiw-title":"Pronto in 3 passaggi","hiw-subtitle":"Nessun account, nessuna registrazione, nessuna configurazione cloud.",
-"step1-title":"Scarica","step1-desc":"Scarica l'installer leggero — meno di 60 MB.",
+"step1-title":"Scarica","step1-desc":"Scarica la suite professionale completa.","cta-meta":"Windows 10/11 · Suite Professionale · Prova Gratuita",
 "step2-title":"Installa e avvia","step2-desc":"Installazione con un clic. Pronto in pochi secondi.",
 "step3-title":"Inizia a lavorare","step3-desc":"Tutti i 12+ strumenti disponibili istantaneamente.",
 "privacy-title":"I tuoi documenti, le tue regole.","privacy-desc":"Docentra elabora ogni byte sul tuo hardware locale.",
@@ -260,7 +260,7 @@ it: {
 "faq-q5":"Come funziona l'OCR locale senza Internet?","faq-a5":"Docentra usa il motore OCR integrato di Windows.",
 "faq-q6":"Cos'è il pulitore di metadati?","faq-a6":"Rimuove informazioni nascoste dai file Office prima della condivisione.",
 "cta-title":"Pronto a riprendere il controllo dei tuoi documenti?","cta-desc":"Scarica Docentra gratuitamente.",
-"cta-btn-download":"⬇️ Scarica per Windows","cta-meta":"Windows 10/11 · 60 MB · Prova gratuita inclusa",
+"cta-btn-download":"⬇️ Scarica per Windows","cta-meta":"Windows 10/11 · Suite Professionale · Prova Gratuita",
 "footer-product":"Prodotto","footer-support":"Supporto","footer-legal":"Legale","footer-help":"Centro assistenza","footer-license":"Accordo di licenza","footer-privacy-policy":"Informativa sulla privacy","footer-terms":"Termini di servizio","footer-desc":"Strumenti documentali sicuri e offline per professionisti."
 },
 zh: {
@@ -283,7 +283,7 @@ zh: {
 "feat-clean-title":"元数据清理","feat-clean-desc":"在共享前删除 Office 文件中隐藏的作者信息和编辑历史。",
 "feat-watermark-title":"水印和徽标","feat-watermark-desc":"批量在所有页面上添加公司徽标或文字水印。",
 "hiw-badge":"简单设置","hiw-title":"3 步即可运行","hiw-subtitle":"无需账户、注册或云配置。",
-"step1-title":"下载","step1-desc":"下载轻量级安装程序——不到 60 MB。",
+"step1-title":"下载","step1-desc":"下载完整的专业套件安装程序。","cta-meta":"Windows 10/11 · 专业套件 · 包含免费试用",
 "step2-title":"安装并启动","step2-desc":"一键安装。几秒钟即可就绪。",
 "step3-title":"开始工作","step3-desc":"12+ 工具即刻可用。始终私密，始终快速。",
 "privacy-title":"您的文档，您的规则。","privacy-desc":"Docentra 在您的本地硬件上处理每一个字节。",
@@ -304,7 +304,7 @@ zh: {
 "faq-q5":"本地 OCR 如何在没有互联网的情况下工作？","faq-a5":"Docentra 使用 Windows 内置的 OCR 引擎进行文字识别。",
 "faq-q6":"什么是元数据清理器？","faq-a6":"它在共享前从 Office 文件中删除隐藏信息。",
 "cta-title":"准备好掌控您的文档了吗？","cta-desc":"免费下载 Docentra。",
-"cta-btn-download":"⬇️ Windows 版下载","cta-meta":"Windows 10/11 · 60 MB · 包含免费试用",
+"cta-btn-download":"⬇️ Windows 版下载","cta-meta":"Windows 10/11 · 专业套件 · 包含免费试用",
 "footer-product":"产品","footer-support":"支持","footer-legal":"法律","footer-help":"帮助中心","footer-license":"许可协议","footer-privacy-policy":"隐私政策","footer-terms":"服务条款","footer-desc":"为专业人士提供安全的离线文档工具。"
 },
 ja: {
@@ -327,7 +327,7 @@ ja: {
 "feat-clean-title":"メタデータクリーナー","feat-clean-desc":"共有前にOfficeファイルの隠れた著者名と編集履歴を削除。",
 "feat-watermark-title":"透かしとロゴ","feat-watermark-desc":"全ページにロゴやテキスト透かしを一括追加。",
 "hiw-badge":"簡単セットアップ","hiw-title":"3ステップで開始","hiw-subtitle":"アカウント、サインアップ、クラウド設定不要。",
-"step1-title":"ダウンロード","step1-desc":"60MB未満の軽量インストーラーをダウンロード。",
+"step1-title":"ダウンロード","step1-desc":"完全なプロフェッショナルスイートをダウンロード。","cta-meta":"Windows 10/11 · プロスイート · 無料試用版付き",
 "step2-title":"インストール＆起動","step2-desc":"ワンクリックインストール。数秒で準備完了。",
 "step3-title":"作業開始","step3-desc":"12以上のツールが即座に利用可能。",
 "privacy-title":"あなたの文書、あなたのルール。","privacy-desc":"Docentraはローカルハードウェアですべてのバイトを処理します。",
@@ -348,7 +348,7 @@ ja: {
 "faq-q5":"ローカルOCRはインターネットなしでどう動きますか？","faq-a5":"Windows内蔵のOCRエンジンを使用します。",
 "faq-q6":"メタデータクリーナーとは？","faq-a6":"共有前にOfficeファイルの隠れた情報を削除します。",
 "cta-title":"文書を自分の手に取り戻す準備はできましたか？","cta-desc":"Docentraを無料でダウンロード。",
-"cta-btn-download":"⬇️ Windows版ダウンロード","cta-meta":"Windows 10/11 · 60 MB · 無料試用版付き",
+"cta-btn-download":"⬇️ Windows版ダウンロード","cta-meta":"Windows 10/11 · プロスイート · 無料試用版付き",
 "footer-product":"製品","footer-support":"サポート","footer-legal":"法的情報","footer-help":"ヘルプセンター","footer-license":"ライセンス契約","footer-privacy-policy":"プライバシーポリシー","footer-terms":"利用規約","footer-desc":"プロのための安全なオフラインドキュメントツール。"
 },
 ru: {
@@ -371,7 +371,7 @@ ru: {
 "feat-clean-title":"Очистка метаданных","feat-clean-desc":"Удалите скрытые имена авторов и историю редактирования перед отправкой.",
 "feat-watermark-title":"Водяной знак и логотип","feat-watermark-desc":"Добавляйте логотипы или текстовые водяные знаки на все страницы.",
 "hiw-badge":"Простая настройка","hiw-title":"Готов за 3 шага","hiw-subtitle":"Без аккаунта, регистрации и облачной настройки.",
-"step1-title":"Скачайте","step1-desc":"Скачайте лёгкий установщик — менее 60 МБ.",
+"step1-title":"Скачайте","step1-desc":"Скачайте полный профессиональный пакет.","cta-meta":"Windows 10/11 · Проф. пакет · Бесплатная пробная версия",
 "step2-title":"Установите","step2-desc":"Установка в один клик. Готово за секунды.",
 "step3-title":"Начните работу","step3-desc":"12+ инструментов доступны сразу.",
 "privacy-title":"Ваши документы, ваши правила.","privacy-desc":"Docentra обрабатывает каждый байт на вашем оборудовании.",
@@ -392,7 +392,7 @@ ru: {
 "faq-q5":"Как работает OCR без интернета?","faq-a5":"Docentra использует встроенный OCR-движок Windows.",
 "faq-q6":"Что такое очистка метаданных?","faq-a6":"Удаляет скрытую информацию из файлов Office перед отправкой.",
 "cta-title":"Готовы взять документы под контроль?","cta-desc":"Скачайте Docentra бесплатно.",
-"cta-btn-download":"⬇️ Скачать для Windows","cta-meta":"Windows 10/11 · 60 МБ · Бесплатная пробная версия",
+"cta-btn-download":"⬇️ Скачать для Windows","cta-meta":"Windows 10/11 · Проф. пакет · Бесплатная пробная версия",
 "footer-product":"Продукт","footer-support":"Поддержка","footer-legal":"Правовая инф.","footer-help":"Центр помощи","footer-license":"Лицензия","footer-privacy-policy":"Политика конфиденциальности","footer-terms":"Условия использования","footer-desc":"Безопасные офлайн-инструменты для профессионалов."
 },
 ar: {
@@ -415,7 +415,7 @@ ar: {
 "feat-clean-title":"منظف البيانات الوصفية","feat-clean-desc":"أزل أسماء المؤلفين المخفية وسجل التحرير قبل المشاركة.",
 "feat-watermark-title":"علامة مائية وشعار","feat-watermark-desc":"أضف شعارات أو علامات مائية نصية على جميع الصفحات.",
 "hiw-badge":"إعداد بسيط","hiw-title":"جاهز في 3 خطوات","hiw-subtitle":"لا حساب، لا تسجيل، لا إعداد سحابي.",
-"step1-title":"حمّل","step1-desc":"حمّل المثبت الخفيف — أقل من 60 ميجابايت.",
+"step1-title":"حمّل","step1-desc":"قم بتحميل المجموعة الاحترافية الكاملة.","cta-meta":"Windows 10/11 · المجموعة الاحترافية · نسخة تجريبية مجانية",
 "step2-title":"ثبّت وشغّل","step2-desc":"تثبيت بنقرة واحدة. جاهز في ثوانٍ.",
 "step3-title":"ابدأ العمل","step3-desc":"أكثر من 12 أداة متاحة فوراً.",
 "privacy-title":"مستنداتك، قواعدك.","privacy-desc":"يعالج Docentra كل بايت على جهازك المحلي.",
@@ -436,7 +436,7 @@ ar: {
 "faq-q5":"كيف يعمل OCR المحلي بدون إنترنت؟","faq-a5":"يستخدم Docentra محرك OCR المدمج في Windows.",
 "faq-q6":"ما هو منظف البيانات الوصفية؟","faq-a6":"يزيل المعلومات المخفية من ملفات Office قبل المشاركة.",
 "cta-title":"مستعد للتحكم في مستنداتك؟","cta-desc":"حمّل Docentra مجاناً.",
-"cta-btn-download":"⬇️ تحميل لـ Windows","cta-meta":"Windows 10/11 · 60 ميجابايت · نسخة تجريبية مجانية",
+"cta-btn-download":"⬇️ تحميل لـ Windows","cta-meta":"Windows 10/11 · المجموعة الاحترافية · نسخة تجريبية مجانية",
 "footer-product":"المنتج","footer-support":"الدعم","footer-legal":"قانوني","footer-help":"مركز المساعدة","footer-license":"اتفاقية الترخيص","footer-privacy-policy":"سياسة الخصوصية","footer-terms":"شروط الخدمة","footer-desc":"أدوات مستندات آمنة وبدون اتصال للمحترفين."
 }
 };
