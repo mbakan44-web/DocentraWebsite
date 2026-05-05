@@ -1,6 +1,6 @@
 const translations = {
 en: {
-"nav-features":"Features","nav-how":"How It Works","nav-privacy":"Privacy","nav-pricing":"Pricing","nav-faq":"FAQ","btn-download":"Download",
+"nav-features":"Features","nav-compare":"Why Offline?","nav-blog":"Blog","nav-pricing":"Pricing","nav-faq":"FAQ","btn-download":"Download",
 "hero-badge":"Privacy-Native Architecture","hero-title":'Professional PDF Editing, <span>Reimagined.</span>',
 "hero-desc":"Experience the power of local processing. Edit, convert, and OCR your documents with total privacy and high performance. No subscriptions, no cloud, no compromise.",
 "btn-get-started":"Get Started for Free","btn-pricing":"View Pricing",
@@ -42,10 +42,23 @@ en: {
 "faq-q6":"What is the Metadata Cleaner?","faq-a6":"It removes hidden info like author names and edit history from Office files before sharing.",
 "cta-title":"Ready to Take Control of Your Documents?","cta-desc":"Download Docentra for free and experience true local processing. No sign-up required.",
 "cta-btn-download":"⬇️ Download for Windows","cta-meta":"Windows 10/11 · Professional Suite · Free Trial Included",
-"footer-product":"Product","footer-support":"Support","footer-legal":"Legal","footer-help":"Help Center","footer-license":"License Agreement","footer-privacy-policy":"Privacy Policy","footer-terms":"Terms of Service","footer-desc":"Empowering professionals with secure, offline document tools."
+"footer-product":"Product","footer-support":"Support","footer-legal":"Legal","footer-help":"Help Center","footer-license":"License Agreement","footer-privacy-policy":"Privacy Policy","footer-terms":"Terms of Service","footer-desc":"Empowering professionals with secure, offline document tools.",
+"comp-badge-privacy":"Privacy Comparison","comp-h1":'Online vs. Offline PDF Tools: <br><span>Where is your data going?</span>',"comp-p1":"Every time you upload a document to an online converter, you lose control of your data. Here is the honest truth about the risks you are taking.","comp-th-feature":"Risk / Feature","comp-th-online":"Online Tools (Cloud)","comp-th-docentra":"Docentra (Offline)","comp-row1-title":"Data Storage","comp-row1-online":"Uploaded to remote servers","comp-row1-docentra":"Stays on your PC","comp-row2-title":"Privacy Risk","comp-row2-online":"High (Data leaks, AI training)","comp-row2-docentra":"Zero (Local only)","comp-row3-title":"Internet Required","comp-row3-online":"Yes (Always)","comp-row3-docentra":"No (100% Offline)","comp-row4-title":"Large File Speed","comp-row4-online":"Slow (Depends on upload speed)","comp-row4-docentra":"Instant (CPU speed)","comp-row5-title":"Cost","comp-row5-online":"Monthly Subscriptions","comp-row5-docentra":"One-Time Payment","comp-h2":"The Hidden Cost of 'Free' Online Tools","comp-p2":"Most online PDF services use your uploaded documents to train their AI models or store them for 'processing' on servers located in jurisdictions with weak privacy laws. For business contracts, legal papers, and personal IDs, this is a massive security risk.","comp-btn-cta":"Switch to Secure Offline PDF Suite",
+"merge-h1":"The Safest Way to Merge PDF Files","merge-p1":"Most online PDF mergers upload your sensitive documents to a cloud server. With Docentra, your files never leave your computer.","merge-h2":"Why Use an Offline PDF Merger?","merge-li1":"Total Privacy","merge-li1-desc":"No one else ever sees your documents.","merge-li2":"Blazing Fast","merge-li2-desc":"No upload or download time needed.","merge-li3":"No Limits","merge-li3-desc":"Merge hundreds of pages without restrictions.","merge-btn-cta":"Download Docentra Free Trial","merge-how-h2":"How it works:","merge-step1":"Open Docentra on your Windows PC.","merge-step2":"Select the 'Merge PDF' tool.","merge-step3":"Drag and drop your PDF files.","merge-step4":"Click 'Merge' and save your new document instantly.",
+"split-h1":"Secure Offline PDF Splitting","split-p1":"Need to extract pages from a confidential PDF? Stop uploading your data to online tools. Use Docentra for total local security.","split-h2":"Why Docentra is Better for Splitting PDFs","split-li1":"100% Private","split-li1-desc":"Your files stay on your hard drive.","split-li2":"Precise Extraction","split-li2-desc":"Split by range or extract every page.","split-li3":"Zero Latency","split-li3-desc":"No waiting for uploads or server processing.","split-btn-cta":"Download Free Trial",
+"split-how-h2":"How to Split your PDF:","split-step1":"Open Docentra PDF Suite.","split-step2":"Choose the 'Split PDF' tool from the dashboard.","split-step3":"Select your PDF file.","split-step4":"Define the page ranges you want to extract.","split-step5":"Click 'Split' and get your files instantly.",
+"footer-rights":"&copy; 2026 Docentra AI Team. All rights reserved.",
+"page-title":"DOCENTRA | Professional PDF & Document Editor (Offline & Private)",
+"page-meta-desc":"Docentra is a privacy-native PDF editor for Windows. Edit, merge, split, and OCR documents 100% offline. No subscriptions, one-time payment for lifetime access.",
+"comp-title-seo":"Online vs Offline PDF Tools: Why Privacy Matters in 2026 | DOCENTRA",
+"comp-meta-desc":"Compare online PDF converters with offline desktop software. Learn why local processing is safer for your sensitive documents and business data.",
+"merge-title-seo":"How to Merge PDF Files Offline (Fast & Private) | DOCENTRA",
+"merge-meta-desc":"Merge multiple PDF documents into one easily with Docentra. 100% offline processing for total privacy. No uploads, no limits.",
+"split-title-seo":"Secure Offline PDF Splitting & Extraction | DOCENTRA",
+"split-meta-desc":"Extract pages from confidential PDF files without uploading them to the web. 100% private, fast, and secure PDF splitting."
 },
 tr: {
-"nav-features":"Özellikler","nav-how":"Nasıl Çalışır","nav-privacy":"Gizlilik","nav-pricing":"Fiyatlandırma","nav-faq":"SSS","btn-download":"İndir",
+"nav-features":"Özellikler","nav-compare":"Neden Çevrimdışı?","nav-blog":"Blog","nav-pricing":"Fiyatlandırma","nav-faq":"SSS","btn-download":"İndir",
 "hero-badge":"Gizlilik Odaklı Mimari","hero-title":'Profesyonel PDF Düzenleme, <span>Yeniden Doğdu.</span>',
 "hero-desc":"Yerel işlemenin gücünü deneyimleyin. Belgelerinizi tam gizlilik ve yüksek performansla düzenleyin, dönüştürün ve OCR yapın.",
 "btn-get-started":"Ücretsiz Başla","btn-pricing":"Fiyatları Gör",
@@ -87,10 +100,22 @@ tr: {
 "faq-q6":"Meta-Veri Temizleyici nedir?","faq-a6":"Paylaşmadan önce Office dosyalarındaki gizli yazar adı ve düzenleme geçmişini temizler.",
 "cta-title":"Belgelerinizin Kontrolünü Almaya Hazır mısınız?","cta-desc":"Docentra'yı ücretsiz indirin ve gerçek yerel işlemenin farkını yaşayın.",
 "cta-btn-download":"⬇️ Windows İçin İndir","cta-meta":"Windows 10/11 · Profesyonel Paket · Ücretsiz Deneme Dahil",
-"footer-product":"Ürün","footer-support":"Destek","footer-legal":"Yasal","footer-help":"Yardım Merkezi","footer-license":"Lisans Sözleşmesi","footer-privacy-policy":"Gizlilik Politikası","footer-terms":"Kullanım Şartları","footer-desc":"Profesyonelleri güvenli, çevrimdışı belge araçlarıyla güçlendiriyoruz."
+"footer-product":"Ürün","footer-support":"Destek","footer-legal":"Yasal","footer-help":"Yardım Merkezi","footer-license":"Lisans Sözleşmesi","footer-privacy-policy":"Gizlilik Politikası","footer-terms":"Kullanım Şartları","footer-desc":"Profesyonelleri güvenli, çevrimdışı belge araçlarıyla güçlendiriyoruz.",
+"comp-badge-privacy":"Gizlilik Karşılaştırması","comp-h1":"Online vs. Çevrimdışı PDF Araçları: <br><span>Verileriniz nereye gidiyor?</span>","comp-p1":"Bir belgeyi çevrimiçi bir dönüştürücüye her yüklediğinizde, verilerinizin kontrolünü kaybedersiniz. İşte aldığınız risklerle ilgili dürüst gerçekler.","comp-th-feature":"Risk / Özellik","comp-th-online":"Çevrimiçi Araçlar (Bulut)","comp-th-docentra":"Docentra (Çevrimdışı)","comp-row1-title":"Veri Depolama","comp-row1-online":"Uzak sunuculara yüklenir","comp-row1-docentra":"Bilgisayarınızda kalır","comp-row2-title":"Gizlilik Riski","comp-row2-online":"Yüksek (Veri sızıntısı, AI eğitimi)","comp-row2-docentra":"Sıfır (Sadece yerel)","comp-row3-title":"İnternet Gerekli mi?","comp-row3-online":"Evet (Her zaman)","comp-row3-docentra":"Hayır (%100 Çevrimdışı)","comp-row4-title":"Büyük Dosya Hızı","comp-row4-online":"Yavaş (Yükleme hızına bağlı)","comp-row4-docentra":"Anında (İşlemci hızı)","comp-row5-title":"Maliyet","comp-row5-online":"Aylık Abonelikler","comp-row5-docentra":"Tek Seferlik Ödeme","comp-h2":"Ücretsiz Çevrimiçi Araçların Gizli Maliyeti","comp-p2":"Çoğu çevrimiçi PDF hizmeti, yüklediğiniz belgeleri yapay zeka modellerini eğitmek veya zayıf gizlilik yasalarına sahip sunucularda saklamak için kullanır. İş sözleşmeleri ve kişisel kimlikler için bu büyük bir güvenlik riskidir.","comp-btn-cta":"Güvenli Çevrimdışı PDF Paketine Geçin",
+"merge-h1":"PDF Dosyalarını Birleştirmenin En Güvenli Yolu","merge-p1":"Çoğu çevrimiçi PDF birleştirici, hassas belgelerinizi bir bulut sunucusuna yükler. Docentra ile dosyalarınız asla bilgisayarınızdan çıkmaz.","merge-h2":"Neden Çevrimdışı PDF Birleştirici Kullanmalı?","merge-li1":"Tam Gizlilik","merge-li1-desc":"Belgelerinizi sizden başka kimse görmez.","merge-li2":"Yıldırım Hızı","merge-li2-desc":"Yükleme veya indirme süresi gerekmez.","merge-li3":"Sınır Yok","merge-li3-desc":"Yüzlerce sayfayı kısıtlama olmadan birleştirin.","merge-btn-cta":"Ücretsiz Denemeyi İndir","merge-how-h2":"Nasıl Çalışır:","merge-step1":"Docentra'yı Windows bilgisayarınızda açın.","merge-step2":"'PDF Birleştir' aracını seçin.","merge-step3":"PDF dosyalarınızı sürükleyip bırakın.","merge-step4":"'Birleştir'e tıklayın ve yeni belgenizi anında kaydedin.",
+"split-h1":"Güvenli ve Çevrimdışı PDF Parçalama","split-p1":"Hassas bir PDF'den sayfalar mı çıkarmanız gerekiyor? Verilerinizi çevrimiçi araçlara yüklemeyi bırakın.","split-h2":"Docentra Neden Daha İyi?","split-li1":"%100 Özel","split-li1-desc":"Dosyalarınız sabit diskinizde kalır.","split-li2":"Hassas Çıkarım","split-li2-desc":"Sayfa aralığına göre bölün veya hepsini çıkarın.","split-li3":"Sıfır Gecikme","split-li3-desc":"Sunucu bekleme süresi yoktur.","split-btn-cta":"Ücretsiz Denemeyi İndir","split-how-h2":"PDF Nasıl Parçalanır?","split-step1":"Docentra'yı açın.","split-step2":"'PDF Parçala' aracını seçin.","split-step3":"PDF dosyanızı seçin.","split-step4":"Çıkarmak istediğiniz sayfaları belirleyin.","split-step5":"'Parçala'ya tıklayın ve anında alın.",
+"footer-rights":"&copy; 2026 Docentra AI Ekibi. Tüm hakları saklıdır.",
+"page-title":"DOCENTRA | Profesyonel PDF Düzenleyici (Çevrimdışı ve Güvenli)",
+"page-meta-desc":"Docentra, Windows için gizlilik odaklı bir PDF düzenleyicidir. Belgeleri %100 çevrimdışı düzenleyin, birleştirin ve parçalayın. Abonelik yok, ömür boyu erişim.",
+"comp-title-seo":"Online vs. Çevrimdışı PDF Araçları: Neden Gizlilik Önemli? | DOCENTRA",
+"comp-meta-desc":"Çevrimiçi PDF dönüştürücüleri masaüstü yazılımlarla karşılaştırın. Yerel işlemenin neden daha güvenli olduğunu keşfedin.",
+"merge-title-seo":"PDF Dosyaları Çevrimdışı Nasıl Birleştirilir? | DOCENTRA",
+"merge-meta-desc":"Docentra ile PDF belgelerini kolayca birleştirin. %100 çevrimdışı işleme ile tam gizlilik.",
+"split-title-seo":"Güvenli Çevrimdışı PDF Parçalama ve Sayfa Ayıklama | DOCENTRA",
+"split-meta-desc":"Gizli PDF dosyalarından sayfaları internete yüklemeden ayıklayın. %100 özel ve güvenli."
 },
 fr: {
-"nav-features":"Fonctionnalités","nav-how":"Comment ça marche","nav-privacy":"Confidentialité","nav-pricing":"Tarifs","nav-faq":"FAQ","btn-download":"Télécharger",
+"nav-features":"Fonctionnalités","nav-compare":"Pourquoi Offline?","nav-blog":"Blog","nav-pricing":"Tarifs","nav-faq":"FAQ","btn-download":"Télécharger",
 "hero-badge":"Architecture native pour la vie privée","hero-title":'Édition PDF professionnelle, <span>réinventée.</span>',
 "hero-desc":"Découvrez la puissance du traitement local. Modifiez, convertissez et numérisez vos documents en toute confidentialité.",
 "btn-get-started":"Commencer gratuitement","btn-pricing":"Voir les tarifs",
@@ -120,7 +145,7 @@ fr: {
 "cmp-r7-docentra":"49,90 € unique","cmp-r7-adobe":"239,88 €/an","cmp-r7-online":"72-108 €/an",
 "pricing-badge":"Paiement unique","pricing-title":"Tarification simple et transparente","pricing-subtitle":"Pas de frais cachés. Payez une fois, possédez pour toujours.",
 "pricing-ribbon":"MEILLEUR RAPPORT","pricing-card-title":"Professionnel à vie","price":"€49.90","pricing-card-subtitle":"Licence perpétuelle par PC",
-"price-feat1":"✅ Mises à jour à vie","price-feat2":"✅ OCR local haute précision","price-feat3":"✅ 12+ outils professionnels","price-feat4":"✅ Support prioritaire","price-feat5":"✅ Pas de frais mensuels","price-feat6":"✅ Nettoyeur de métadonnées inclus","price-feat7":"✅ Support 10 langues",
+"price-feat1":"✅ Mises à updates à vie","price-feat2":"✅ OCR local haute précision","price-feat3":"✅ 12+ outils professionnels","price-feat4":"✅ Support prioritaire","price-feat5":"✅ Pas de frais mensuels","price-feat6":"✅ Nettoyeur de métadonnées inclus","price-feat7":"✅ Support 10 langues",
 "btn-buy":"Acheter la licence",
 "tax-warning":"* ETSY peut appliquer des taxes supplémentaires selon votre région.",
 "faq-badge":"Des questions ?","faq-title":"Questions fréquentes","faq-subtitle":"Tout ce que vous devez savoir sur Docentra.",
@@ -132,10 +157,24 @@ fr: {
 "faq-q6":"Qu'est-ce que le nettoyeur de métadonnées ?","faq-a6":"Il supprime les informations cachées des fichiers Office avant le partage.",
 "cta-title":"Prêt à reprendre le contrôle de vos documents ?","cta-desc":"Téléchargez Docentra gratuitement.",
 "cta-btn-download":"⬇️ Télécharger pour Windows","cta-meta":"Windows 10/11 · Suite Professionnelle · Essai Gratuit",
-"footer-product":"Produit","footer-support":"Support","footer-legal":"Juridique","footer-help":"Centre d'aide","footer-license":"Contrat de licence","footer-privacy-policy":"Politique de confidentialité","footer-terms":"Conditions d'utilisation","footer-desc":"Des outils documentaires sécurisés et hors ligne pour les professionnels."
+"footer-product":"Produit","footer-support":"Support","footer-legal":"Juridique","footer-help":"Centre d'aide","footer-license":"Contrat de licence","footer-privacy-policy":"Politique de confidentialité","footer-terms":"Conditions d'utilisation","footer-desc":"Des outils documentaires sécurisés et hors ligne pour les professionnels.",
+"comp-badge-privacy":"Comparaison de confidentialité","comp-h1":'Outils PDF en ligne vs hors ligne: <br><span>Où vont vos données?</span>',"comp-p1":"Chaque fois que vous téléchargez un document, vous perdez le contrôle. Voici la vérité sur les risques.","comp-th-feature":"Risque / Fonctionnalité","comp-th-online":"Outils en ligne (Cloud)","comp-th-docentra":"Docentra (Hors ligne)","comp-row1-title":"Stockage des données","comp-row1-online":"Téléchargé sur des serveurs distants","comp-row1-docentra":"Reste sur votre PC","comp-row2-title":"Risque de confidentialité","comp-row2-online":"Élevé (Fuites, IA)","comp-row2-docentra":"Zéro (Local uniquement)","comp-row3-title":"Internet requis?","comp-row3-online":"Oui (Toujours)","comp-row3-docentra":"Non (100% hors ligne)","comp-row4-title":"Vitesse gros fichiers","comp-row4-online":"Lente (Dépend du débit)","comp-row4-docentra":"Instantanée (Vitesse CPU)","comp-row5-title":"Coût","comp-row5-online":"Abonnements mensuels","comp-row5-docentra":"Paiement unique","comp-h2":"Le coût caché des outils en ligne 'gratuit'","comp-p2":"La plupart des services utilisent vos documents pour entraîner l'IA. Pour les contrats, c'est un risque majeur.","comp-btn-cta":"Passer à la suite PDF hors ligne sécurisée",
+"merge-h1":"Le moyen le plus sûr de fusionner des PDF","merge-p1":"Docentra garde vos fichiers sur votre ordinateur pendant la fusion.","merge-h2":"Pourquoi fusionner hors ligne?","merge-li1":"Confidentialité totale","merge-li1-desc":"Personne d'autre ne voit vos documents.","merge-li2":"Ultra rapide","merge-li2-desc":"Pas de temps de transfert.","merge-li3":"Sans limites","merge-li3-desc":"Fusionnez des centaines de pages.","merge-btn-cta":"Télécharger l'essai gratuit",
+"merge-how-h2":"Comment ça marche:","merge-step1":"Ouvrez Docentra sur votre PC Windows.","merge-step2":"Sélectionnez l'outil 'Fusionner PDF'.","merge-step3":"Glissez et déposez vos fichiers PDF.","merge-step4":"Cliquez sur 'Fusionner' et enregistrez votre document instantanément.",
+"split-h1":"Découpage PDF hors ligne sécurisé","split-p1":"Extrayez des pages sans jamais les envoyer sur le web.","split-h2":"Pourquoi Docentra est meilleur?","split-li1":"100% privé","split-li1-desc":"Vos fichiers restent sur votre disque dur.","split-li2":"Extraction précise","split-li2-desc":"Divisez par plage ou extrayez tout.","split-li3":"Zéro latence","split-li3-desc":"Pas d'attente serveur.","split-btn-cta":"Télécharger l'essai gratuit",
+"split-how-h2":"Comment ça marche:","split-step1":"Ouvrez Docentra sur votre bureau.","split-step2":"Sélectionnez l'outil 'Découper PDF'.","split-step3":"Entrez les plages de pages à extraire.","split-step4":"Enregistrez les fichiers individuels dans votre dossier.",
+"footer-rights":"&copy; 2026 Docentra AI Team. Tous droits réservés.",
+"page-title":"DOCENTRA | Éditeur PDF professionnel (Hors ligne et Privé)",
+"page-meta-desc":"Docentra est un éditeur PDF natif pour Windows. Modifiez, fusionnez et divisez des documents 100% hors ligne. Pas d'abonnement.",
+"comp-title-seo":"Outils PDF en ligne vs hors ligne : pourquoi la confidentialité compte | DOCENTRA",
+"comp-meta-desc":"Comparez les convertisseurs PDF en ligne avec les logiciels de bureau. Apprenez pourquoi le traitement local est plus sûr.",
+"merge-title-seo":"Comment fusionner des fichiers PDF hors ligne | DOCENTRA",
+"merge-meta-desc":"Fusionnez plusieurs documents PDF en un seul facilement avec Docentra. Traitement 100% hors ligne.",
+"split-title-seo":"Découpage PDF hors ligne sécurisé | DOCENTRA",
+"split-meta-desc":"Extrayez des pages de fichiers PDF confidentiels sans les envoyer sur le web. 100% privé et sécurisé."
 },
 de: {
-"nav-features":"Funktionen","nav-how":"So funktioniert's","nav-privacy":"Datenschutz","nav-pricing":"Preise","nav-faq":"FAQ","btn-download":"Herunterladen",
+"nav-features":"Funktionen","nav-compare":"Warum Offline?","nav-blog":"Blog","nav-pricing":"Preise","nav-faq":"FAQ","btn-download":"Herunterladen",
 "hero-badge":"Privacy-Native Architektur","hero-title":'Professionelle PDF-Bearbeitung, <span>neu gedacht.</span>',
 "hero-desc":"Erleben Sie die Kraft der lokalen Verarbeitung. Bearbeiten, konvertieren und OCR mit totaler Privatsphäre.",
 "btn-get-started":"Kostenlos starten","btn-pricing":"Preise anzeigen",
@@ -177,10 +216,24 @@ de: {
 "faq-q6":"Was ist der Metadaten-Reiniger?","faq-a6":"Er entfernt versteckte Informationen aus Office-Dateien vor dem Teilen.",
 "cta-title":"Bereit, die Kontrolle über Ihre Dokumente zu übernehmen?","cta-desc":"Laden Sie Docentra kostenlos herunter.",
 "cta-btn-download":"⬇️ Für Windows herunterladen","cta-meta":"Windows 10/11 · Profi-Suite · Kostenlose Testversion",
-"footer-product":"Produkt","footer-support":"Support","footer-legal":"Rechtliches","footer-help":"Hilfezentrum","footer-license":"Lizenzvereinbarung","footer-privacy-policy":"Datenschutzrichtlinie","footer-terms":"Nutzungsbedingungen","footer-desc":"Sichere, offline Dokumentenwerkzeuge für Profis."
+"footer-product":"Produkt","footer-support":"Support","footer-legal":"Rechtliches","footer-help":"Hilfezentrum","footer-license":"Lizenzvereinbarung","footer-privacy-policy":"Datenschutzrichtlinie","footer-terms":"Nutzungsbedingungen","footer-desc":"Sichere, offline Dokumentenwerkzeuge für Profis.",
+"comp-badge-privacy":"Datenschutz-Vergleich","comp-h1":'Online vs. Offline PDF-Tools: <br><span>Wohin gehen Ihre Daten?</span>',"comp-p1":"Jedes Mal, wenn Sie ein Dokument hochladen, verlieren Sie die Kontrolle. Hier ist die Wahrheit über die Risiken.","comp-th-feature":"Risiko / Funktion","comp-th-online":"Online-Tools (Cloud)","comp-th-docentra":"Docentra (Offline)","comp-row1-title":"Datenspeicherung","comp-row1-online":"Auf entfernte Server hochgeladen","comp-row1-docentra":"Bleibt auf Ihrem PC","comp-row2-title":"Datenschutzrisiko","comp-row2-online":"Hoch (Datenlecks, KI)","comp-row2-docentra":"Null (Nur lokal)","comp-row3-title":"Internet erforderlich?","comp-row3-online":"Ja (Immer)","comp-row3-docentra":"Nein (100% offline)","comp-row4-title":"Geschwindigkeit","comp-row4-online":"Langsam (Abhängig vom Upload)","comp-row4-docentra":"Sofort (CPU-Geschwindigkeit)","comp-row5-title":"Kosten","comp-row5-online":"Monatliche Abos","comp-row5-docentra":"Einmalzahlung","comp-h2":"Die versteckten Kosten von 'kostenlosen' Online-Tools","comp-p2":"Die meisten Dienste nutzen Ihre Dokumente zum KI-Training. Bei Verträgen ist das ein großes Risiko.","comp-btn-cta":"Zu sicherer Offline-PDF-Suite wechseln",
+"merge-h1":"Der sicherste Weg, PDFs zusammenzufügen","merge-p1":"Docentra behält Ihre Dateien während des Zusammenfügens auf Ihrem PC.","merge-h2":"Warum offline zusammenfügen?","merge-li1":"Volle Privatsphäre","merge-li1-desc":"Niemand sonst sieht Ihre Dokumente.","merge-li2":"Blitzschnell","merge-li2-desc":"Keine Wartezeit für Up/Downloads.","merge-li3":"Keine Limits","merge-li3-desc":"Hunderte Seiten ohne Einschränkungen.","merge-btn-cta":"Kostenlose Testversion laden",
+"merge-how-h2":"So funktioniert es:","merge-step1":"Öffnen Sie Docentra auf Ihrem Windows-PC.","merge-step2":"Wählen Sie das Werkzeug 'PDF zusammenfügen'.","merge-step3":"Ziehen Sie Ihre PDF-Dateien hinein.","merge-step4":"Klicken Sie auf 'Zusammenfügen' und speichern Sie Ihr Dokument sofort.",
+"split-h1":"Sicheres Offline-PDF-Teilen","split-p1":"Seiten extrahieren, ohne sie jemals ins Web hochzuladen.","split-h2":"Warum Docentra besser ist?","split-li1":"100% privat","split-li1-desc":"Ihre Dateien bleiben auf Ihrer Festplatte.","split-li2":"Präzise Extraktion","split-li2-desc":"Nach Bereich teilen oder alles extrahieren.","split-li3":"Keine Latenz","split-li3-desc":"Warten auf Server entfällt.","split-btn-cta":"Kostenlose Testversion laden",
+"split-how-h2":"So funktioniert es:","split-step1":"Öffnen Sie Docentra auf Ihrem Desktop.","split-step2":"Wählen Sie das Werkzeug 'PDF teilen'.","split-step3":"Geben Sie die zu extrahierenden Seitenbereiche ein.","split-step4":"Speichern Sie die einzelnen Dateien in Ihrem Ordner.",
+"footer-rights":"&copy; 2026 Docentra AI Team. Alle Rechte vorbehalten.",
+"page-title":"DOCENTRA | Professioneller PDF-Editor (Offline & Privat)",
+"page-meta-desc":"Docentra ist ein privatsphären-nativer PDF-Editor für Windows. Bearbeiten, zusammenfügen und teilen Sie Dokumente 100% offline.",
+"comp-title-seo":"Online- vs. Offline-PDF-Tools: Warum Datenschutz wichtig ist | DOCENTRA",
+"comp-meta-desc":"Vergleichen Sie Online-PDF-Konverter mit Desktop-Software. Erfahren Sie, warum lokale Verarbeitung sicherer ist.",
+"merge-title-seo":"PDF-Dateien offline zusammenfügen | DOCENTRA",
+"merge-meta-desc":"Mehrere PDF-Dokumente einfach mit Docentra zusammenfügen. 100% lokale Verarbeitung für totale Privatsphäre.",
+"split-title-seo":"Sicheres Offline-PDF-Teilen und Extrahieren | DOCENTRA",
+"split-meta-desc":"Seiten aus vertraulichen PDF-Dateien extrahieren, ohne sie hochzuladen. 100% privat und sicher."
 },
 es: {
-"nav-features":"Características","nav-how":"Cómo funciona","nav-privacy":"Privacidad","nav-pricing":"Precios","nav-faq":"FAQ","btn-download":"Descargar",
+"nav-features":"Características","nav-compare":"¿Por qué offline?","nav-blog":"Blog","nav-pricing":"Precios","nav-faq":"FAQ","btn-download":"Descargar",
 "hero-badge":"Arquitectura nativa de privacidad","hero-title":'Edición PDF profesional, <span>reimaginada.</span>',
 "hero-desc":"Experimente el poder del procesamiento local. Edite, convierta y OCR con total privacidad.",
 "btn-get-started":"Empezar gratis","btn-pricing":"Ver precios",
@@ -222,10 +275,24 @@ es: {
 "faq-q6":"¿Qué es el limpiador de metadatos?","faq-a6":"Elimina información oculta de archivos Office antes de compartir.",
 "cta-title":"¿Listo para tomar el control de sus documentos?","cta-desc":"Descargue Docentra gratis.",
 "cta-btn-download":"⬇️ Descargar para Windows","cta-meta":"Windows 10/11 · Suite Profesional · Prueba Gratuita",
-"footer-product":"Producto","footer-support":"Soporte","footer-legal":"Legal","footer-help":"Centro de ayuda","footer-license":"Acuerdo de licencia","footer-privacy-policy":"Política de privacidad","footer-terms":"Términos de servicio","footer-desc":"Herramientas documentales seguras y offline para profesionales."
+"footer-product":"Producto","footer-support":"Soporte","footer-legal":"Legal","footer-help":"Centro de ayuda","footer-license":"Acuerdo de licencia","footer-privacy-policy":"Política de privacidad","footer-terms":"Términos de servicio","footer-desc":"Herramientas documentales seguras y offline para profesionales.",
+"comp-badge-privacy":"Comparación de privacidad","comp-h1":'Herramientas PDF en línea vs. fuera de línea: <br><span>¿A dónde van sus datos?</span>',"comp-p1":"Cada vez que sube un documento, pierde el control. Aquí está la verdad sobre los riesgos.","comp-th-feature":"Riesgo / Característica","comp-th-online":"Herramientas en línea (Nube)","comp-th-docentra":"Docentra (Fuera de línea)","comp-row1-title":"Almacenamiento de datos","comp-row1-online":"Subido a servidores remotos","comp-row1-docentra":"Permanece en su PC","comp-row2-title":"Riesgo de privacidad","comp-row2-online":"Alto (Fugas, IA)","comp-row2-docentra":"Cero (Solo local)","comp-row3-title":"¿Internet necesario?","comp-row3-online":"Sí (Siempre)","comp-row3-docentra":"No (100% fuera de línea)","comp-row4-title":"Velocidad archivos grandes","comp-row4-online":"Lento (Depende de subida)","comp-row4-docentra":"Instantáneo (Velocidad CPU)","comp-row5-title":"Costo","comp-row5-online":"Suscripciones mensuales","comp-row5-docentra":"Pago único","comp-h2":"El costo oculto de las herramientas en línea 'gratuitas'","comp-p2":"La mayoría de los servicios usan sus documentos para entrenar IA. Para contratos legales, es un gran riesgo.","comp-btn-cta":"Cambie a la suite PDF segura fuera de línea",
+"merge-h1":"La forma más segura de unir archivos PDF","merge-p1":"Docentra mantiene sus archivos en su computadora durante la unión.","merge-h2":"¿Por qué unir fuera de línea?","merge-li1":"Privacidad total","merge-li1-desc":"Nadie más ve sus documentos.","merge-li2":"Súper rápido","merge-li2-desc":"Sin tiempo de subida o bajada.","merge-li3":"Sin límites","merge-li3-desc":"Una cientos de páginas sin restricciones.","merge-btn-cta":"Descargar prueba gratuita",
+"merge-how-h2":"Cómo funciona:","merge-step1":"Abra Docentra en su PC Windows.","merge-step2":"Seleccione la herramienta 'Fusionar PDF'.","merge-step3":"Arrastre y suelte sus archivos PDF.","merge-step4":"Haga clic en 'Fusionar' y guarde su nuevo documento al instante.",
+"split-h1":"División de PDF segura fuera de línea","split-p1":"Extraiga páginas sin enviarlas nunca a la web.","split-h2":"¿Por qué Docentra es mejor?","split-li1":"100% privado","split-li1-desc":"Sus archivos se quedan en su disco duro.","split-li2":"Extracción precisa","split-li2-desc":"Divida por rango o extraiga todo.","split-li3":"Cero latencia","split-li3-desc":"Sin esperas de servidor.","split-btn-cta":"Descargar prueba gratuita",
+"split-how-h2":"Cómo funciona:","split-step1":"Abra Docentra en su escritorio.","split-step2":"Seleccione la herramienta 'Dividir PDF'.","split-step3":"Ingrese los rangos de páginas que desea extraer.","split-step4":"Guarde los archivos individuales en su carpeta.",
+"footer-rights":"&copy; 2026 Docentra AI Team. Todos los derechos reservados.",
+"page-title":"DOCENTRA | Editor de PDF profesional (Offline y Privado)",
+"page-meta-desc":"Docentra es un editor de PDF nativo de Windows. Edite, fusione y divida documentos 100% offline. Sin suscripciones.",
+"comp-title-seo":"Herramientas PDF online vs offline: por qué importa la privacidad | DOCENTRA",
+"comp-meta-desc":"Compare convertidores PDF online con software de escritorio. Aprenda por qué el procesamiento local es más seguro.",
+"merge-title-seo":"Cómo fusionar archivos PDF offline | DOCENTRA",
+"merge-meta-desc":"Combine múltiples documentos PDF en uno fácilmente con Docentra. Procesamiento 100% offline.",
+"split-title-seo":"División segura de PDF offline | DOCENTRA",
+"split-meta-desc":"Extraiga páginas de archivos PDF confidenciales sin subirlos a la web. 100% privado y seguro."
 },
 it: {
-"nav-features":"Caratteristiche","nav-how":"Come funziona","nav-privacy":"Privacy","nav-pricing":"Prezzi","nav-faq":"FAQ","btn-download":"Scarica",
+"nav-features":"Caratteristiche","nav-compare":"Perché offline?","nav-blog":"Blog","nav-pricing":"Prezzi","nav-faq":"FAQ","btn-download":"Scarica",
 "hero-badge":"Architettura nativa per la privacy","hero-title":'Editing PDF professionale, <span>reinventato.</span>',
 "hero-desc":"Sperimenta la potenza dell'elaborazione locale. Modifica, converti e OCR con totale privacy.",
 "btn-get-started":"Inizia gratuitamente","btn-pricing":"Vedi prezzi",
@@ -267,10 +334,24 @@ it: {
 "faq-q6":"Cos'è il pulitore di metadati?","faq-a6":"Rimuove informazioni nascoste dai file Office prima della condivisione.",
 "cta-title":"Pronto a riprendere il controllo dei tuoi documenti?","cta-desc":"Scarica Docentra gratuitamente.",
 "cta-btn-download":"⬇️ Scarica per Windows","cta-meta":"Windows 10/11 · Suite Professionale · Prova Gratuita",
-"footer-product":"Prodotto","footer-support":"Supporto","footer-legal":"Legale","footer-help":"Centro assistenza","footer-license":"Accordo di licenza","footer-privacy-policy":"Informativa sulla privacy","footer-terms":"Termini di servizio","footer-desc":"Strumenti documentali sicuri e offline per professionisti."
+"footer-product":"Prodotto","footer-support":"Supporto","footer-legal":"Legale","footer-help":"Centro assistenza","footer-license":"Accordo di licenza","footer-privacy-policy":"Informativa sulla privacy","footer-terms":"Termini di servizio","footer-desc":"Strumenti documentali sicuri e offline per professionisti.",
+"comp-badge-privacy":"Confronto privacy","comp-h1":'Strumenti PDF online vs offline: <br><span>Dove vanno i tuoi dati?</span>',"comp-p1":"Ogni volta che carichi un documento, ne perdi il controllo. Ecco la verità sui rischi.","comp-th-feature":"Rischio / Funzionalità","comp-th-online":"Strumenti online (Cloud)","comp-th-docentra":"Docentra (Offline)","comp-row1-title":"Archiviazione dati","comp-row1-online":"Caricato su server remoti","comp-row1-docentra":"Rimane sul tuo PC","comp-row2-title":"Rischio privacy","comp-row2-online":"Alto (Perdite, IA)","comp-row2-docentra":"Zero (Solo locale)","comp-row3-title":"Internet richiesto?","comp-row3-online":"Sì (Sempre)","comp-row3-docentra":"No (100% offline)","comp-row4-title":"Velocità file grandi","comp-row4-online":"Lento (Dipende dall'upload)","comp-row4-docentra":"Istantanea (Velocità CPU)","comp-row5-title":"Costo","comp-row5-online":"Abbonamenti mensili","comp-row5-docentra":"Pagamento unico","comp-h2":"Il costo nascosto degli strumenti online 'gratuiti'","comp-p2":"La maggior parte dei servizi usa i tuoi documenti per addestrare l'IA. Per documenti legali, è un rischio enorme.","comp-btn-cta":"Passa alla suite PDF offline sicura",
+"merge-h1":"Il modo più sicuro per unire file PDF","merge-p1":"Docentra mantiene i tuoi file sul tuo computer durante l'unione.","merge-h2":"Perché unire offline?","merge-li1":"Privacy totale","merge-li1-desc":"Nessun altro vede i tuoi documenti.","merge-li2":"Velocissimo","merge-li2-desc":"Nessun tempo di trasferimento.","merge-li3":"Senza limiti","merge-li3-desc":"Unisci centinaia di pagine senza restrizioni.","merge-btn-cta":"Scarica la prova gratuita",
+"merge-how-h2":"Come funziona:","merge-step1":"Apri Docentra sul tuo PC Windows.","merge-step2":"Seleziona lo strumento 'Unisci PDF'.","merge-step3":"Trascina e rilascia i tuoi file PDF.","merge-step4":"Clicca su 'Unisci' e salva istantaneamente il nuovo documento.",
+"split-h1":"Divisione PDF offline sicura","split-p1":"Estrai pagine senza mai inviarle sul web.","split-h2":"Perché Docentra è migliore?","split-li1":"100% privato","split-li1-desc":"I tuoi file restano sul tuo disco rigido.","split-li2":"Estrazione precisa","split-li2-desc":"Dividi per intervallo o estrai tutto.","split-li3":"Zero latenza","split-li3-desc":"Nessuna attesa del server.","split-btn-cta":"Scarica la prova gratuita",
+"split-how-h2":"Come funziona:","split-step1":"Apri Docentra sul tuo desktop.","split-step2":"Seleziona lo strumento 'Dividi PDF'.","split-step3":"Inserisci gli intervalli di pagine che desideri estrarre.","split-step4":"Salva i singoli file nella tua cartella.",
+"footer-rights":"&copy; 2026 Docentra AI Team. Tutti i diritti riservati.",
+"page-title":"DOCENTRA | Editor PDF professionale (Offline e Privato)",
+"page-meta-desc":"Docentra è un editor PDF nativo per Windows. Modifica, unisci e dividi documenti 100% offline. Senza abbonamento.",
+"comp-title-seo":"Strumenti PDF online vs offline: perché la privacy è importante | DOCENTRA",
+"comp-meta-desc":"Confronta i convertitori PDF online con il software desktop. Scopri perché l'elaborazione locale è più sicura.",
+"merge-title-seo":"Come unire file PDF offline | DOCENTRA",
+"merge-meta-desc":"Unisci più documenti PDF in uno facilmente con Docentra. Elaborazione 100% offline per la privacy.",
+"split-title-seo":"Divisione sicura di PDF offline | DOCENTRA",
+"split-meta-desc":"Estrai pagine da file PDF riservati senza caricarli sul web. 100% privato e sicuro."
 },
 zh: {
-"nav-features":"功能","nav-how":"使用方法","nav-privacy":"隐私","nav-pricing":"价格","nav-faq":"常见问题","btn-download":"下载",
+"nav-features":"功能","nav-compare":"为何选择离线？","nav-blog":"博客","nav-pricing":"价格","nav-faq":"常见问题","btn-download":"下载",
 "hero-badge":"隐私原生架构","hero-title":'专业 PDF 编辑，<span>重塑。</span>',
 "hero-desc":"体验本地处理的力量。在完全隐私和高性能下编辑、转换和 OCR 您的文档。",
 "btn-get-started":"免费开始","btn-pricing":"查看价格",
@@ -312,10 +393,22 @@ zh: {
 "faq-q6":"什么是元数据清理器？","faq-a6":"它在共享前从 Office 文件中删除隐藏信息。",
 "cta-title":"准备好掌控您的文档了吗？","cta-desc":"免费下载 Docentra。",
 "cta-btn-download":"⬇️ Windows 版下载","cta-meta":"Windows 10/11 · 专业套件 · 包含免费试用",
-"footer-product":"产品","footer-support":"支持","footer-legal":"法律","footer-help":"帮助中心","footer-license":"许可协议","footer-privacy-policy":"隐私政策","footer-terms":"服务条款","footer-desc":"为专业人士提供安全的离线文档工具。"
+"footer-product":"产品","footer-support":"支持","footer-legal":"法律","footer-help":"帮助中心","footer-license":"许可协议","footer-privacy-policy":"隐私政策","footer-terms":"服务条款","footer-desc":"为专业人士提供安全的离线文档工具。",
+"comp-badge-privacy":"隐私比较","comp-h1":'在线 vs. 离线 PDF 工具: <br><span>您的数据去哪了？</span>',"comp-p1":"每当您上传文档时，您都会失去控制。这是关于风险的真实情况。","comp-th-feature":"风险 / 功能","comp-th-online":"在线工具 (云端)","comp-th-docentra":"Docentra (离线)","comp-row1-title":"数据存储","comp-row1-online":"上传到远程服务器","comp-row1-docentra":"留在您的电脑上","comp-row2-title":"隐私风险","comp-row2-online":"高 (泄露、AI 训练)","comp-row2-docentra":"零 (仅限本地)","comp-row3-title":"需要互联网？","comp-row3-online":"是 (始终)","comp-row3-docentra":"否 (100% 离线)","comp-row4-title":"大文件速度","comp-row4-online":"慢 (取决于上传速度)","comp-row4-docentra":"即时 (CPU 速度)","comp-row5-title":"成本","comp-row5-online":"按月订阅","comp-row5-docentra":"一次性付款","comp-h2":"“免费”在线工具的隐藏成本","comp-p2":"大多数服务使用您的文档来训练 AI。对于法律合同，这是一个巨大的风险。","comp-btn-cta":"切换到安全的离线 PDF 套件",
+"merge-h1":"合并 PDF 文件最安全的方法","merge-p1":"Docentra 在合并过程中将文件保存在您的计算机上。","merge-h2":"为什么要离线合并？","merge-li1":"完全隐私","merge-li1-desc":"没有其他人能看到您的文档。","merge-li2":"极速体验","merge-li2-desc":"无需上传或下载。","merge-li3":"无限制","merge-li3-desc":"无限制地合并数百页。","merge-btn-cta":"下载免费试用版","merge-how-h2":"操作步骤：","merge-step1":"在 Windows 电脑上打开 Docentra。","merge-step2":"选择“合并 PDF”工具。","merge-step3":"拖放您的 PDF 文件。","merge-step4":"点击“合并”并立即保存您的新文档。",
+"split-h1":"安全的离线 PDF 拆分","split-p1":"提取页面而无需将其发送到网络。","split-h2":"为什么 Docentra 更好？","split-li1":"100% 私密","split-li1-desc":"您的文件保留在您的硬盘上。","split-li2":"精准提取","split-li2-desc":"按范围拆分或提取全部。","split-li3":"零延迟","split-li3-desc":"无需等待服务器响应。","split-btn-cta":"下载免费试用版","split-how-h2":"操作步骤：","split-step1":"在桌面上打开 Docentra。","split-step2":"选择“拆分 PDF”工具。","split-step3":"输入您要提取的页面范围。","split-step4":"将单个文件保存到您的文件夹中。",
+"footer-rights":"&copy; 2026 Docentra AI 团队。保留所有权利。",
+"page-title":"DOCENTRA | 专业 PDF 编辑器 (离线和私密)",
+"page-meta-desc":"Docentra 是适用于 Windows 的隐私原生 PDF 编辑器。100% 离线编辑、合并和拆分文档。无订阅。",
+"comp-title-seo":"在线 vs 离线 PDF 工具：为什么隐私很重要 | DOCENTRA",
+"comp-meta-desc":"将在线 PDF 转换器与桌面软件进行比较。了解为什么本地处理更安全。",
+"merge-title-seo":"如何离线合并 PDF 文件 | DOCENTRA",
+"merge-meta-desc":"使用 Docentra 轻松将多个 PDF 文档合并为一个。100% 离线处理，完全隐私。",
+"split-title-seo":"安全离线 PDF 拆分 | DOCENTRA",
+"split-meta-desc":"从机密 PDF 文件中提取页面，无需将其上传到网络。100% 私密且安全。"
 },
 ja: {
-"nav-features":"機能","nav-how":"使い方","nav-privacy":"プライバシー","nav-pricing":"価格","nav-faq":"FAQ","btn-download":"ダウンロード",
+"nav-features":"機能","nav-compare":"オフラインの理由","nav-blog":"ブログ","nav-pricing":"価格","nav-faq":"FAQ","btn-download":"ダウンロード",
 "hero-badge":"プライバシーネイティブ","hero-title":'プロフェッショナルなPDF編集、<span>再考。</span>',
 "hero-desc":"ローカル処理のパワーを体験。完全なプライバシーで編集、変換、OCRを実行。",
 "btn-get-started":"無料で開始","btn-pricing":"価格を見る",
@@ -357,10 +450,22 @@ ja: {
 "faq-q6":"メタデータクリーナーとは？","faq-a6":"共有前にOfficeファイルの隠れた情報を削除します。",
 "cta-title":"文書を自分の手に取り戻す準備はできましたか？","cta-desc":"Docentraを無料でダウンロード。",
 "cta-btn-download":"⬇️ Windows版ダウンロード","cta-meta":"Windows 10/11 · プロスイート · 無料試用版付き",
-"footer-product":"製品","footer-support":"サポート","footer-legal":"法的情報","footer-help":"ヘルプセンター","footer-license":"ライセンス契約","footer-privacy-policy":"プライバシーポリシー","footer-terms":"利用規約","footer-desc":"プロのための安全なオフラインドキュメントツール。"
+"footer-product":"製品","footer-support":"サポート","footer-legal":"法的情報","footer-help":"ヘルプセンター","footer-license":"ライセンス契約","footer-privacy-policy":"プライバシーポリシー","footer-terms":"利用規約","footer-desc":"プロのための安全なオフラインドキュメントツール。",
+"comp-badge-privacy":"プライバシー比較","comp-h1":'オンライン vs. オフライン PDF ツール: <br><span>あなたのデータはどこへ？</span>',"comp-p1":"ドキュメントをアップロードするたびに、コントロールを失います。リスクに関する真実がここにあります。","comp-th-feature":"リスク / 機能","comp-th-online":"オンラインツール (クラウド)","comp-th-docentra":"Docentra (オフライン)","comp-row1-title":"データ保存","comp-row1-online":"リモートサーバーにアップロード","comp-row1-docentra":"PC内に留まる","comp-row2-title":"プライバシーリスク","comp-row2-online":"高 (流出、AI学習)","comp-row2-docentra":"ゼロ (ローカルのみ)","comp-row3-title":"インターネットが必要？","comp-row3-online":"はい (常に)","comp-row3-docentra":"いいえ (100% オフライン)","comp-row4-title":"大ファイル速度","comp-row4-online":"遅い (アップロードに依存)","comp-row4-docentra":"即座 (CPU 速度)","comp-row5-title":"コスト","comp-row5-online":"月額サブスクリプション","comp-row5-docentra":"一回払い","comp-h2":"「無料」オンラインツールの隠れたコスト","comp-p2":"ほとんどのサービスは、あなたの文書を AI 学習に使用します。法的な契約書にとって、これは大きなリスクです。","comp-btn-cta":"安全なオフライン PDF スイートに切り替える",
+"merge-h1":"PDF ファイルを結合する最も安全な方法","merge-p1":"Docentra は結合中、ファイルをコンピューター内に保持します。","merge-h2":"なぜオフラインで結合するのか？","merge-li1":"完全なプライバシー","merge-li1-desc":"他の誰もあなたの文書を見ることはできません。","merge-li2":"超高速","merge-li2-desc":"アップロードやダウンロードの時間は不要。","merge-li3":"制限なし","merge-li3-desc":"何百ページでも制限なく結合可能。","merge-btn-cta":"無料試用版をダウンロード","merge-how-h2":"操作手順：","merge-step1":"Windows PCでDocentraを開きます。","merge-step2":"「PDF結合」ツールを選択します。","merge-step3":"PDFファイルをドラッグ＆ドロップします。","merge-step4":"「結合」をクリックして、新しいドキュメントを即座に保存します。",
+"split-h1":"安全なオフライン PDF 分割","split-p1":"Web に送信することなくページを抽出。","split-h2":"Docentra が優れている理由","split-li1":"100% プライベート","split-li1-desc":"ファイルはハードディスクに残ります。","split-li2":"正確な抽出","split-li2-desc":"範囲指定で分割、またはすべて抽出。","split-li3":"ゼロ遅延","split-li3-desc":"サーバーの待機時間なし。","split-btn-cta":"無料試用版をダウンロード","split-how-h2":"操作手順：","split-step1":"デスクトップでDocentraを開きます。","split-step2":"「PDF分割」ツールを選択します。","split-step3":"抽出したいページ範囲を入力します。","split-step4":"個別のファイルをフォルダーに保存します。",
+"footer-rights":"&copy; 2026 Docentra AI Team. All rights reserved.",
+"page-title":"DOCENTRA | プロフェッショナルPDFエディタ (オフライン＆プライベート)",
+"page-meta-desc":"DocentraはWindows用のプライバシーネイティブPDFエディタです。100%オフラインで文書を編集、結合、分割。サブスクなし。",
+"comp-title-seo":"オンライン vs オフライン PDF ツール：プライバシーが重要な理由 | DOCENTRA",
+"comp-meta-desc":"オンラインPDFコンバーターとデスクトップソフトウェアを比較。なぜローカル処理が安全なのかを解説。",
+"merge-title-seo":"オフラインでPDFファイルを結合する方法 | DOCENTRA",
+"merge-meta-desc":"Docentraで複数のPDF文書を簡単に1つに結合。100%オフライン処理で完全なプライバシーを。",
+"split-title-seo":"安全なオフラインPDF分割＆抽出 | DOCENTRA",
+"split-meta-desc":"機密PDFファイルからページをWebにアップロードせずに抽出。100%プライベートで安全。"
 },
 ru: {
-"nav-features":"Функции","nav-how":"Как это работает","nav-privacy":"Конфиденциальность","nav-pricing":"Цены","nav-faq":"FAQ","btn-download":"Скачать",
+"nav-features":"Функции","nav-compare":"Почему офлайн?","nav-blog":"Блог","nav-pricing":"Цены","nav-faq":"FAQ","btn-download":"Скачать",
 "hero-badge":"Приватная архитектура","hero-title":'Профессиональное PDF, <span>переосмыслено.</span>',
 "hero-desc":"Испытайте мощь локальной обработки. Редактируйте, конвертируйте и OCR с полной конфиденциальностью.",
 "btn-get-started":"Начать бесплатно","btn-pricing":"Посмотреть цены",
@@ -402,7 +507,19 @@ ru: {
 "faq-q6":"Что такое очистка метаданных?","faq-a6":"Удаляет скрытую информацию из файлов Office перед отправкой.",
 "cta-title":"Готовы взять документы под контроль?","cta-desc":"Скачайте Docentra бесплатно.",
 "cta-btn-download":"⬇️ Скачать для Windows","cta-meta":"Windows 10/11 · Проф. пакет · Бесплатная пробная версия",
-"footer-product":"Продукт","footer-support":"Поддержка","footer-legal":"Правовая инф.","footer-help":"Центр помощи","footer-license":"Лицензия","footer-privacy-policy":"Политика конфиденциальности","footer-terms":"Условия использования","footer-desc":"Безопасные офлайн-инструменты для профессионалов."
+"footer-product":"Продукт","footer-support":"Поддержка","footer-legal":"Правовая инф.","footer-help":"Центр помощи","footer-license":"Лицензия","footer-privacy-policy":"Политика конфиденциальности","footer-terms":"Условия использования","footer-desc":"Безопасные офлайн-инструменты для профессионалов.",
+"comp-badge-privacy":"Сравнение приватности","comp-h1":'Онлайн против Офлайн PDF инструментов: <br><span>Куда уходят ваши данные?</span>',"comp-p1":"Каждый раз, когда вы загружаете документ, вы теряете контроль. Вот правда о рисках.","comp-th-feature":"Риск / Функция","comp-th-online":"Онлайн-инструменты (Облако)","comp-th-docentra":"Docentra (Офлайн)","comp-row1-title":"Хранение данных","comp-row1-online":"Загружается на удаленные серверы","comp-row1-docentra":"Остается на вашем ПК","comp-row2-title":"Риск приватности","comp-row2-online":"Высокий (Утечки, обучение ИИ)","comp-row2-docentra":"Нулевой (Только локально)","comp-row3-title":"Нужен интернет?","comp-row3-online":"Да (Всегда)","comp-row3-docentra":"Нет (100% офлайн)","comp-row4-title":"Скорость больших файлов","comp-row4-online":"Медленно (Зависит от интернета)","comp-row4-docentra":"Мгновенно (Скорость процессора)","comp-row5-title":"Стоимость","comp-row5-online":"Ежемесячные подписки","comp-row5-docentra":"Разовый платеж","comp-h2":"Скрытая цена «бесплатных» онлайн-инструментов","comp-p2":"Большинство сервисов используют ваши документы для обучения ИИ. Для юридических контрактов это огромный риск.","comp-btn-cta":"Перейти на безопасный офлайн PDF-пакет",
+"merge-h1":"Самый безопасный способ объединения PDF-файлов","merge-p1":"Docentra сохраняет ваши файлы на вашем компьютере во время объединения.","merge-h2":"Почему стоит объединять офлайн?","merge-li1":"Полная конфиденциальность","merge-li1-desc":"Никто другой не видит ваши документы.","merge-li2":"Молниеносно","merge-li2-desc":"Нет времени на загрузку или скачивание.","merge-li3":"Без ограничений","merge-li3-desc":"Объединяйте сотни страниц без ограничений.","merge-btn-cta":"Скачать пробную версию","merge-how-h2":"Как это работает:","merge-step1":"Откройте Docentra на своем ПК с Windows.","merge-step2":"Выберите инструмент 'Объединить PDF'.","merge-step3":"Перетащите файлы PDF.","merge-step4":"Нажмите 'Объединить' и мгновенно сохраните новый документ.",
+"split-h1":"Безопасное офлайн разделение PDF","split-p1":"Извлекайте страницы, не отправляя их в интернет.","split-h2":"Почему Docentra лучше?","split-li1":"100% приватно","split-li1-desc":"Ваши файлы остаются на жестком диске.","split-li2":"Точное извлечение","split-li2-desc":"Разделяйте по диапазону или извлекайте всё.","split-li3":"Нулевая задержка","split-li3-desc":"Никакого ожидания ответа сервера.","split-btn-cta":"Скачать пробную версию","split-how-h2":"Как это работает:","split-step1":"Откройте Docentra на рабочем столе.","split-step2":"Выберите инструмент 'Разделить PDF'.","split-step3":"Введите диапазоны страниц для извлечения.","split-step4":"Сохраните файлы в свою папку.",
+"footer-rights":"&copy; 2026 Docentra AI Team. Все права защищены.",
+"page-title":"DOCENTRA | Профессиональный PDF-редактор (Офлайн и Приватно)",
+"page-meta-desc":"Docentra — это приватный PDF-редактор для Windows. Редактируйте, объединяйте и разделяйте документы 100% офлайн.",
+"comp-title-seo":"Онлайн против Офлайн PDF инструментов: почему важна приватность | DOCENTRA",
+"comp-meta-desc":"Сравните онлайн PDF-конвертеры с десктопным ПО. Узнайте, почему локальная обработка безопаснее.",
+"merge-title-seo":"Как объединить PDF файлы офлайн | DOCENTRA",
+"merge-meta-desc":"Легко объединяйте несколько PDF документов в один с помощью Docentra. 100% офлайн обработка.",
+"split-title-seo":"Безопасное офлайн разделение PDF | DOCENTRA",
+"split-meta-desc":"Извлекайте страницы из конфиденциальных PDF без загрузки в интернет. 100% приватно и безопасно."
 },
 ar: {
 "nav-features":"الميزات","nav-how":"كيف يعمل","nav-privacy":"الخصوصية","nav-pricing":"الأسعار","nav-faq":"الأسئلة","btn-download":"تحميل",
@@ -447,8 +564,22 @@ ar: {
 "faq-q6":"ما هو منظف البيانات الوصفية؟","faq-a6":"يزيل المعلومات المخفية من ملفات Office قبل المشاركة.",
 "cta-title":"مستعد للتحكم في مستنداتك؟","cta-desc":"حمّل Docentra مجاناً.",
 "cta-btn-download":"⬇️ تحميل لـ Windows","cta-meta":"Windows 10/11 · المجموعة الاحترافية · نسخة تجريبية مجانية",
-"footer-product":"المنتج","footer-support":"الدعم","footer-legal":"قانوني","footer-help":"مركز المساعدة","footer-license":"اتفاقية الترخيص","footer-privacy-policy":"سياسة الخصوصية","footer-terms":"شروط الخدمة","footer-desc":"أدوات مستندات آمنة وبدون اتصال للمحترفين."
-}
+"footer-product":"المنتج","footer-support":"الدعم","footer-legal":"قانوني","footer-help":"مركز المساعدة","footer-license":"اتفاقية الترخيص","footer-privacy-policy":"سياسة الخصوصية","footer-terms":"شروط الخدمة","footer-desc":"أدوات مستندات آمنة وبدون اتصال للمحترفين.",
+"comp-badge-privacy":"مقارنة الخصوصية","comp-h1":'أدوات PDF عبر الإنترنت مقابل أدوات عدم الاتصال: <br><span>أين تذهب بياناتك؟</span>',"comp-p1":"في كل مرة تقوم فيها بتحميل مستند، تفقد السيطرة عليه. إليك الحقيقة حول المخاطر.","comp-th-feature":"المخاطر / الميزة","comp-th-online":"أدوات عبر الإنترنت (سحابية)","comp-th-docentra":"Docentra (بدون اتصال)","comp-row1-title":"تخزين البيانات","comp-row1-online":"يتم تحميلها على خوادم بعيدة","comp-row1-docentra":"تبقى على جهاز الكمبيوتر الخاص بك","comp-row2-title":"مخاطر الخصوصية","comp-row2-online":"عالية (تسريبات، تدريب الذكاء الاصطناعي)","comp-row2-docentra":"صفر (محلي فقط)","comp-row3-title":"هل الإنترنت مطلوب؟","comp-row3-online":"نعم (دائماً)","comp-row3-docentra":"لا (100% بدون اتصال)","comp-row4-title":"سرعة الملفات الكبيرة","comp-row4-online":"بطيئة (تعتمد على سرعة الرفع)","comp-row4-docentra":"فورية (سرعة المعالج)","comp-row5-title":"التكلفة","comp-row5-online":"اشتراكات شهرية","comp-row5-docentra":"دفع لمرة واحدة","comp-h2":"التكلفة الخفية للأدوات المجانية عبر الإنترنت","comp-p2":"تستخدم معظم الخدمات مستنداتك لتدريب الذكاء الاصطناعي. بالنسبة للعقود القانونية، هذا خطر كبير.","comp-btn-cta":"انتقل إلى مجموعة PDF الآمنة بدون اتصال",
+"merge-h1":"الطريقة الأكثر أماناً لدمج ملفات PDF","merge-p1":"يحافظ Docentra على ملفاتك على جهازك أثناء الدمج.","merge-h2":"لماذا تدمج بدون اتصال؟","merge-li1":"خصوصية تامة","merge-li1-desc":"لا أحد غيرك يرى مستنداتك.","merge-li2":"سرعة فائقة","merge-li2-desc":"لا وقت للرفع أو التحميل.","merge-li3":"بلا حدود","merge-li3-desc":"ادمج مئات الصفحات بلا قيود.","merge-btn-cta":"تحميل النسخة التجريبية",
+"merge-how-h2":"كيف يعمل:","merge-step1":"افتح Docentra على جهازك.","merge-step2":"اختر أداة 'دمج PDF'.","merge-step3":"اسحب وأفلت ملفاتك.","merge-step4":"اضغط 'دمج' واحفظ مستندك فوراً.",
+"split-h1":"تقسيم PDF آمن بدون اتصال","split-p1":"استخرج الصفحات دون إرسالها إلى الويب.","split-h2":"لماذا Docentra أفضل؟","split-li1":"100% خصوصية","split-li1-desc":"ملفاتك تبقى على قرصك الصلب.","split-li2":"استخراج دقيق","split-li2-desc":"قسّم حسب النطاق أو استخرج الكل.","split-li3":"صفر تأخير","split-li3-desc":"لا انتظار للخوادم.","split-btn-cta":"تحميل النسخة التجريبية",
+"split-how-h2":"كيف يعمل:","split-step1":"افتح Docentra على سطح المكتب.","split-step2":"اختر أداة 'تقسيم PDF'.","split-step3":"أدخل نطاقات الصفحات المراد استخراجها.","split-step4":"احفظ الملفات في مجلدك.",
+"footer-rights":"&copy; 2026 فريق Docentra AI. جميع الحقوق محفوظة.",
+"page-title":"DOCENTRA | محرر PDF احترافي (بدون اتصال وخاص)",
+"page-meta-desc":"Docentra هو محرر PDF محلي لوندوز. قم بتحرير ودمج وتقسيم المستندات 100% بدون اتصال. لا اشتراكات.",
+"comp-title-seo":"أدوات PDF أونلاين مقابل أوفلاين: لماذا الخصوصية مهمة | DOCENTRA",
+"comp-meta-desc":"قارن محولات PDF عبر الإنترنت ببرامج سطح المكتب. تعرف على سبب أمان المعالجة المحلية.",
+"merge-title-seo":"كيفية دمج ملفات PDF بدون اتصال | DOCENTRA",
+"merge-meta-desc":"ادمج عدة ملفات PDF بسهولة مع Docentra. معالجة 100% بدون اتصال لخصوصية تامة.",
+"split-title-seo":"تقسيم PDF آمن بدون اتصال | DOCENTRA",
+"split-meta-desc":"استخرج الصفحات من ملفات PDF السرية دون رفعها. خصوصية 100% وأمان تام."
+},
 };
 
 // ===== LANGUAGE SYSTEM =====
@@ -458,17 +589,29 @@ function updateContent(lang) {
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
         const t = (translations[lang] && translations[lang][key]) || translations['en'][key];
-        if (t) el.innerHTML = t;
+        if (t) {
+            if (el.tagName === 'META') {
+                el.setAttribute('content', t);
+            } else if (el.tagName === 'TITLE') {
+                document.title = t;
+            } else {
+                el.innerHTML = t;
+            }
+        }
     });
     document.body.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    localStorage.setItem('docentra-lang', lang);
 }
 
 langSelector.addEventListener('change', (e) => updateContent(e.target.value));
 
 function detectLanguage() {
+    const savedLang = localStorage.getItem('docentra-lang');
+    if (savedLang && Object.keys(translations).includes(savedLang)) return savedLang;
     const bl = navigator.language.split('-')[0];
     return Object.keys(translations).includes(bl) ? bl : 'en';
 }
+
 const initialLang = detectLanguage();
 langSelector.value = initialLang;
 updateContent(initialLang);
