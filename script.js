@@ -73,7 +73,48 @@ en: {
 "img-step1":"Launch Docentra on your computer.",
 "img-step2":"Choose the 'Image to PDF' module.",
 "img-step3":"Select or drag-and-drop your image files (JPG, PNG, etc.).",
-"img-step4":"Adjust the order if needed and click 'Generate PDF'."
+"img-step4":"Adjust the order if needed and click 'Generate PDF'.",
+"footer-os-notices": "Open Source Notices",
+"os-title-seo": "Open Source Notices | DOCENTRA",
+"os-meta-desc": "Open source software licenses and notices for libraries used by Docentra PDF Suite on Windows and macOS.",
+"os-badge": "FOSS Appreciation",
+"os-h1": "Open Source <span>Notices</span>",
+"os-subtitle": "Docentra includes software distributed under open source licenses. We are deeply grateful to the authors and maintainers of these amazing projects.",
+"os-summary-title": "License Summary",
+"os-summary-text": "Most bundled application dependencies are distributed under permissive open-source licenses such as MIT, Apache-2.0, or the SIL Open Font License.",
+"os-libraries-title": "Libraries & Components",
+"os-lib-pdfsharp-desc": "High-performance .NET library for creating and modifying PDF files locally. Licensed under the MIT License.",
+"os-lib-wpfui-desc": "Modern Windows Presentation Foundation UI control library. Licensed under the MIT License.",
+"os-lib-avalonia-desc": "Cross-platform XAML GUI framework used for our macOS port. Licensed under the MIT License.",
+"os-lib-pdfium-desc": "High-performance PDF viewing control based on the Chromium Pdfium engine. Licensed under the Apache-2.0 License.",
+"os-lib-newtonsoft-desc": "High-performance JSON serialization and parsing library for .NET. Licensed under the MIT License.",
+"os-lib-obfuscar-desc": "MSIL obfuscation tool used to protect application binaries locally. Licensed under the MIT License.",
+"os-lib-webview2-desc": "Chromium-based embedded browser control for loading local resources. Licensed under the Microsoft Software License.",
+"os-lib-outfit-desc": "Sleek, modern geometric sans-serif typeface from Google Fonts. Licensed under the SIL Open Font License 1.1.",
+"tool-badge": "Secure Local Tool",
+"tool-li1-title": "Total Privacy",
+"tool-li1-desc": "100% processed locally on your computer. Your sensitive files never touch the cloud or remote servers.",
+"tool-li2-title": "Maximum Speed",
+"tool-li2-desc": "Runs instantly using your device's CPU/GPU. No upload wait times, zero network lag.",
+"tool-li3-title": "No Restrictions",
+"tool-li3-desc": "Process, convert, or clean files of any size without page limits, advertisements, or subscriptions.",
+"tool-btn-cta": "Download Docentra Free Trial",
+"tool-how-title": "How it works:",
+"tool-step1": "Launch Docentra PDF Suite on your Windows or macOS device.",
+"tool-step2": "Select this module from our secure, local dashboard.",
+"tool-step3": "Select or drag-and-drop the files you wish to process.",
+"tool-step4": "Configure settings and save your output files instantly to your local directory.",
+"trust-sha": "SHA256 Signed Installer",
+"trust-virustotal": "VirusTotal Clean Check",
+"trust-offline": "Zero Telemetry & 100% Offline",
+"trust-native": "Native Desktop Application",
+"sim-title": "Experience Real Local Speed",
+"sim-desc": "Don't let slow internet upload/download limits throttle your PDF workspace.",
+"sim-dropzone": "Simulated local drop zone: drag & drop files here",
+"sim-btn": "Simulate Local Process",
+"sim-status-idle": "Ready to execute locally...",
+"sim-status-processing": "Executing offline on local CPU...",
+"sim-status-success": "Completed locally in 0.8s! 0KB uploaded. Secure & Private."
 },
 tr: {
 "nav-features":"Özellikler","nav-compare":"Neden Çevrimdışı?","nav-blog":"Blog","nav-pricing":"Fiyatlandırma","nav-faq":"SSS","btn-download":"İndir",
@@ -148,7 +189,48 @@ tr: {
 "img-step1":"Bilgisayarınızda Docentra'yı açın.",
 "img-step2":"'Görselden PDF'e' (Image to PDF) modülünü seçin.",
 "img-step3":"Görsel dosyalarınızı (JPG, PNG vb.) seçin veya sürükleyip bırakın.",
-"img-step4":"Gerekirse sırayı düzenleyin ve 'PDF Oluştur' butonuna tıklayın."
+"img-step4":"Gerekirse sırayı düzenleyin ve 'PDF Oluştur' butonuna tıklayın.",
+"footer-os-notices": "Açık Kaynak Bildirimleri",
+"os-title-seo": "Açık Kaynak Kod Bildirimleri | DOCENTRA",
+"os-meta-desc": "Docentra PDF Suite tarafından Windows ve macOS üzerinde kullanılan açık kaynak kodlu kütüphanelerin lisans bildirimleri.",
+"os-badge": "Açık Kaynak Minnettarlığı",
+"os-h1": "Açık Kaynak <span>Bildirimleri</span>",
+"os-subtitle": "Docentra, açık kaynak lisansları altında dağıtılan yazılımlar içerir. Bu harika projelerin geliştiricilerine ve sürdürücülerine minnettarız.",
+"os-summary-title": "Lisans Özeti",
+"os-summary-text": "Uygulama bileşenlerimizin büyük çoğunluğu MIT, Apache-2.0 ve SIL Açık Yazı Tipi Lisansı gibi esnek açık kaynak kodlu lisanslar altında sunulmaktadır.",
+"os-libraries-title": "Kütüphaneler ve Bileşenler",
+"os-lib-pdfsharp-desc": "Belgeleri yerel olarak oluşturmak ve değiştirmek için yüksek performanslı .NET kütüphanesi. MIT Lisansı ile lisanslanmıştır.",
+"os-lib-wpfui-desc": "Fluent Design ilkelerine uygun, modern Windows Presentation Foundation arayüz kütüphanesi. MIT Lisansı ile lisanslanmıştır.",
+"os-lib-avalonia-desc": "macOS sürümümüzde yerel arayüz sunmak için kullanılan çapraz platform XAML GUI kütüphanesi. MIT Lisansı ile lisanslanmıştır.",
+"os-lib-pdfium-desc": "Google Pdfium motorunu temel alan yüksek performanslı PDF görüntüleme bileşeni. Apache-2.0 Lisansı ile lisanslanmıştır.",
+"os-lib-newtonsoft-desc": ".NET için yüksek performanslı JSON serileştirme ve dönüştürme kütüphanesi. MIT Lisansı ile lisanslanmıştır.",
+"os-lib-obfuscar-desc": "Uygulama güvenliğini yerel olarak artırmak için kullanılan açık kaynak kodlu MSIL kod karıştırma aracı. MIT Lisansı.",
+"os-lib-webview2-desc": "Yerel panelleri yüklemek için kullanılan Chromium tabanlı gömülü tarayıcı bileşeni. Microsoft Yazılım Lisansı kapsamındadır.",
+"os-lib-outfit-desc": "Premium web sitemiz ve uygulama arayüzümüzde kullandığımız şık ve modern geometrik yazı tipi. SIL Açık Yazı Tipi Lisansı 1.1.",
+"tool-badge": "Güvenli Yerel Araç",
+"tool-li1-title": "Tam Gizlilik",
+"tool-li1-desc": "İşlemler %100 yerel olarak kendi bilgisayarınızda yapılır. Hassas verileriniz asla internete veya buluta gönderilmez.",
+"tool-li2-title": "Maksimum Hız",
+"tool-li2-desc": "Kendi cihazınızın işlemci gücünü kullanır. Dosya yükleme/indirme bekleme süresi ve internet gecikmesi yoktur.",
+"tool-li3-title": "Sınır Yok",
+"tool-li3-desc": "Sayfa sınırı, reklamlar veya üyelik gereksinimi olmadan her boyuttaki dosyayı serbestçe işleyin.",
+"tool-btn-cta": "Docentra Ücretsiz Denemeyi İndir",
+"tool-how-title": "Nasıl Çalışır:",
+"tool-step1": "Docentra PDF Suite uygulamasını Windows veya macOS cihazınızda başlatın.",
+"tool-step2": "Güvenli ve çevrimdışı kontrol panelimizden ilgili modülü seçin.",
+"tool-step3": "İşlemek istediğiniz dosyaları seçin veya sürükleyip bırakın.",
+"tool-step4": "Ayarları yapılandırın ve sonuç belgelerinizi anında yerel klasörünüze kaydedin.",
+"trust-sha": "SHA256 İmzalı Yükleyici",
+"trust-virustotal": "VirusTotal Temiz Raporu",
+"trust-offline": "Sıfır Telemetri ve %100 Çevrimdışı",
+"trust-native": "Native Masaüstü Uygulaması",
+"sim-title": "Gerçek Yerel İşlem Hızını Deneyimleyin",
+"sim-desc": "Yavaş internet yükleme/indirme sınırlarının işinizi yavaşlatmasına izin vermeyin.",
+"sim-dropzone": "Simüle edilmiş yerel sürükleme alanı: dosyaları buraya bırakın",
+"sim-btn": "Yerel İşlemi Simüle Et",
+"sim-status-idle": "Yerel işlem yürütülmeye hazır...",
+"sim-status-processing": "Çevrimdışı işlemcide yerel olarak yürütülüyor...",
+"sim-status-success": "Yerel olarak 0.8 saniyede tamamlandı! 0KB yüklendi. Güvenli ve Gizli."
 },
 fr: {
 "nav-features":"Fonctionnalités","nav-compare":"Pourquoi Offline?","nav-blog":"Blog","nav-pricing":"Tarifs","nav-faq":"FAQ","btn-download":"Télécharger",
@@ -225,7 +307,48 @@ fr: {
 "img-step1":"Lancez Docentra sur votre ordinateur.",
 "img-step2":"Choisissez le module 'Image en PDF'.",
 "img-step3":"Sélectionnez ou glissez-déposez vos fichiers image (JPG, PNG, etc.).",
-"img-step4":"Ajustez l'ordre si besoin et cliquez sur 'Générer le PDF'."
+"img-step4":"Ajustez l'ordre si besoin et cliquez sur 'Générer le PDF'.",
+"footer-os-notices": "Mentions Open Source",
+"os-title-seo": "Mentions Open Source | DOCENTRA",
+"os-meta-desc": "Licences et mentions de logiciels open source pour les bibliothèques utilisées par Docentra PDF Suite sous Windows et macOS.",
+"os-badge": "Remerciements FOSS",
+"os-h1": "Mentions <span>Open Source</span>",
+"os-subtitle": "Docentra intègre des logiciels distribués sous licence open source. Nous sommes profondément reconnaissants envers les auteurs et les mainteneurs de ces projets formidables.",
+"os-summary-title": "Résumé des licences",
+"os-summary-text": "La plupart des dépendances applicatives fournies sont distribuées sous des licences open source permissives telles que MIT, Apache-2.0 ou SIL Open Font License.",
+"os-libraries-title": "Bibliothèques et composants",
+"os-lib-pdfsharp-desc": "Bibliothèque .NET haute performance pour créer et modifier des fichiers PDF localement. Sous licence MIT.",
+"os-lib-wpfui-desc": "Bibliothèque de contrôles d'interface utilisateur WPF moderne inspirée de Fluent Design. Sous licence MIT.",
+"os-lib-avalonia-desc": "Framework GUI XAML multiplateforme utilisé pour notre portage macOS. Sous licence MIT.",
+"os-lib-pdfium-desc": "Contrôle d'affichage PDF haute performance basé sur le moteur Pdfium de Google. Sous licence Apache-2.0.",
+"os-lib-newtonsoft-desc": "Bibliothèque de sérialisation et d'analyse JSON haute performance pour .NET. Sous licence MIT.",
+"os-lib-obfuscar-desc": "Outil d'obfuscation MSIL utilisé pour protéger les fichiers binaires localement. Sous licence MIT.",
+"os-lib-webview2-desc": "Contrôle de navigateur Chromium intégré pour le chargement d'éléments locaux. Sous licence Microsoft.",
+"os-lib-outfit-desc": "Police géométrique sans-serif élégante et moderne de Google Fonts. Sous licence SIL Open Font License 1.1.",
+"tool-badge": "Outil local sécurisé",
+"tool-li1-title": "Confidentialité totale",
+"tool-li1-desc": "100% traité localement sur votre ordinateur. Vos fichiers sensibles ne touchent jamais le cloud.",
+"tool-li2-title": "Vitesse maximale",
+"tool-li2-desc": "S'exécute instantanément sur votre processeur. Pas de temps d'attente de téléchargement.",
+"tool-li3-title": "Sans restriction",
+"tool-li3-desc": "Traitez des fichiers de toute taille sans limites de pages, publicités ou abonnements.",
+"tool-btn-cta": "Télécharger l'essai gratuit de Docentra",
+"tool-how-title": "Comment ça marche :",
+"tool-step1": "Lancez Docentra PDF Suite sur votre appareil Windows ou macOS.",
+"tool-step2": "Sélectionnez ce module depuis notre tableau de bord local sécurisé.",
+"tool-step3": "Sélectionnez ou glissez-déposez les fichiers à traiter.",
+"tool-step4": "Configurez les paramètres et enregistrez vos fichiers instantanément en local.",
+"trust-sha": "Installateur signé SHA256",
+"trust-virustotal": "Rapport VirusTotal 100% Propre",
+"trust-offline": "Zéro Télémétrie & 100% Hors Ligne",
+"trust-native": "Application Bureau Native",
+"sim-title": "Découvrez la Vitesse Réelle du Traitement Local",
+"sim-desc": "Ne laissez pas les limites de vitesse de transfert brider votre productivité PDF.",
+"sim-dropzone": "Zone de dépôt locale simulée : glissez-déposez vos fichiers ici",
+"sim-btn": "Simuler le Traitement Local",
+"sim-status-idle": "Prêt pour l'exécution locale...",
+"sim-status-processing": "Exécution hors ligne en cours via votre processeur...",
+"sim-status-success": "Terminé localement en 0.8s ! 0 Ko transférés. Sécurisé & Privé."
 },
 de: {
 "nav-features":"Funktionen","nav-compare":"Warum Offline?","nav-blog":"Blog","nav-pricing":"Preise","nav-faq":"FAQ","btn-download":"Herunterladen",
@@ -302,7 +425,48 @@ de: {
 "img-step1":"Starten Sie Docentra auf Ihrem Computer.",
 "img-step2":"Wählen Sie das Modul 'Bild zu PDF'.",
 "img-step3":"Wählen Sie Bilddateien aus (JPG, PNG usw.) oder ziehen Sie sie per Drag-and-Drop hinein.",
-"img-step4":"Passen Sie bei Bedarf die Reihenfolge an und klicken Sie auf 'PDF erstellen'."
+"img-step4":"Passen Sie bei Bedarf die Reihenfolge an und klicken Sie auf 'PDF erstellen'.",
+"footer-os-notices": "Open-Source-Hinweise",
+"os-title-seo": "Open-Source-Hinweise | DOCENTRA",
+"os-meta-desc": "Open-Source-Software-Lizenzen und Hinweise für Bibliotheken, die von der Docentra PDF Suite unter Windows und macOS verwendet werden.",
+"os-badge": "FOSS-Anerkennung",
+"os-h1": "Open-Source-<span>Hinweise</span>",
+"os-subtitle": "Docentra enthält Software, die unter Open-Source-Lizenzen verbreitet wird. Geliert den Autoren und Betreuern dieser großartigen Projekte unser tiefer Dank.",
+"os-summary-title": "Lizenzübersicht",
+"os-summary-text": "Die meisten gebündelten Anwendungsabhängigkeiten werden unter permissiven Open-Source-Lizenzen wie MIT, Apache-2.0 oder SIL Open Font License bereitgestellt.",
+"os-libraries-title": "Bibliotheken & Komponenten",
+"os-lib-pdfsharp-desc": "Leistungsstarke .NET-Bibliothek zur lokalen Erstellung und Änderung von PDF-Dateien. Lizenziert unter der MIT-Lizenz.",
+"os-lib-wpfui-desc": "Moderne Windows Presentation Foundation UI-Bibliothek. Lizenziert unter der MIT-Lizenz.",
+"os-lib-avalonia-desc": "Plattformübergreifendes XAML-GUI-Framework, das für die macOS-Portierung verwendet wird. Lizenziert unter der MIT-Lizenz.",
+"os-lib-pdfium-desc": "Leistungsstarke PDF-Anzeigekomponente basierend auf der Google Pdfium-Engine. Lizenziert unter der Apache-2.0-Lizenz.",
+"os-lib-newtonsoft-desc": "Leistungsstarke JSON-Serialisierungsbibliothek für .NET. Lizenziert unter der MIT-Lizenz.",
+"os-lib-obfuscar-desc": "Open-Source-MSIL-Obfuskator zum Schutz von Anwendungsdateien auf dem lokalen PC. Lizenziert unter der MIT-Lizenz.",
+"os-lib-webview2-desc": "Chromium-basiertes eingebettetes Browser-Steuerelement für lokale Ressourcen. Lizenziert unter der Microsoft-Softwarelizenz.",
+"os-lib-outfit-desc": "Elegante, moderne geometrische serifenlose Schriftart von Google Fonts. Lizenziert unter der SIL Open Font License 1.1.",
+"tool-badge": "Sicheres lokales Tool",
+"tool-li1-title": "Absolute Privatsphäre",
+"tool-li1-desc": "100% lokale Verarbeitung auf Ihrem Computer. Ihre sensiblen Dateien gelangen nie in die Cloud.",
+"tool-li2-title": "Maximale Geschwindigkeit",
+"tool-li2-desc": "Läuft blitzschnell über Ihre Geräte-CPU. Keine Wartezeiten für Up- oder Downloads.",
+"tool-li3-title": "Keine Einschränkungen",
+"tool-li3-desc": "Verarbeiten Sie Dateien jeder Größe ohne Seitenbegrenzung, Werbung oder Abonnements.",
+"tool-btn-cta": "Docentra kostenlose Testversion herunterladen",
+"tool-how-title": "So funktioniert es:",
+"tool-step1": "Starten Sie Docentra PDF Suite auf Ihrem Windows- oder macOS-Gerät.",
+"tool-step2": "Wählen Sie dieses Modul aus unserem sicheren, lokalen Dashboard.",
+"tool-step3": "Wählen Sie die zu verarbeitenden Dateien aus oder ziehen Sie sie hinein.",
+"tool-step4": "Konfigurieren Sie die Einstellungen und speichern Sie die Ausgabedateien sofort lokal ab.",
+"trust-sha": "SHA256-signiertes Installationsprogramm",
+"trust-virustotal": "VirusTotal Clean geprüft",
+"trust-offline": "Null Telemetrie & 100 % offline",
+"trust-native": "Native Desktop-Anwendung",
+"sim-title": "Erleben Sie echte lokale Geschwindigkeit",
+"sim-desc": "Lassen Sie sich nicht durch langsame Internetverbindungen ausbremsen.",
+"sim-dropzone": "Simulierter lokaler Ablagebereich: Dateien hier ablegen",
+"sim-btn": "Lokalen Prozess simulieren",
+"sim-status-idle": "Bereit zur lokalen Ausführung...",
+"sim-status-processing": "Führe offline auf dem Prozessor aus...",
+"sim-status-success": "Lokal in 0,8 s abgeschlossen! 0 KB hochgeladen. Sicher & Privat."
 },
 es: {
 "nav-features":"Características","nav-compare":"¿Por qué offline?","nav-blog":"Blog","nav-pricing":"Precios","nav-faq":"FAQ","btn-download":"Descargar",
@@ -379,7 +543,48 @@ es: {
 "img-step1":"Inicie Docentra en su computadora.",
 "img-step2":"Elija el módulo 'Imagen a PDF'.",
 "img-step3":"Seleccione o arrastre y suelte sus archivos de imagen (JPG, PNG, etc.).",
-"img-step4":"Ajuste el orden si es necesario y haga clic en 'Generar PDF'."
+"img-step4":"Ajuste el orden si es necesario y haga clic en 'Generar PDF'.",
+"footer-os-notices": "Avisos de Código Abierto",
+"os-title-seo": "Avisos de Código Abierto | DOCENTRA",
+"os-meta-desc": "Licencias y avisos de software de código abierto para las bibliotecas utilizadas por Docentra PDF Suite en Windows y macOS.",
+"os-badge": "Agradecimiento FOSS",
+"os-h1": "Avisos de <span>Código Abierto</span>",
+"os-subtitle": "Docentra incluye software distribuido bajo licencias de código abierto. Agradecemos profundamente a los autores y mantenedores de estos maravillosos proyectos.",
+"os-summary-title": "Resumen de Licencias",
+"os-summary-text": "La mayoría de las dependencias de la aplicación se distribuyen bajo licencias permisivas de código abierto como MIT, Apache-2.0 o SIL Open Font License.",
+"os-libraries-title": "Bibliotecas y Componentes",
+"os-lib-pdfsharp-desc": "Biblioteca .NET de alto rendimiento para crear y modificar archivos PDF localmente. Licencia MIT.",
+"os-lib-wpfui-desc": "Biblioteca moderna de controles de interfaz de usuario para WPF. Licencia MIT.",
+"os-lib-avalonia-desc": "Framework GUI XAML multiplataforma utilizado para nuestra versión de macOS. Licencia MIT.",
+"os-lib-pdfium-desc": "Componente de visualización de PDF de alto rendimiento basado en el motor Pdfium de Google. Licencia Apache-2.0.",
+"os-lib-newtonsoft-desc": "Biblioteca de serialización y análisis JSON de alto rendimiento para .NET. Licencia MIT.",
+"os-lib-obfuscar-desc": "Herramienta de ofuscación MSIL de código abierto para proteger archivos binarios de forma local. Licencia MIT.",
+"os-lib-webview2-desc": "Control de navegador Chromium incrustado para cargar recursos locales. Licencia de Software Microsoft.",
+"os-lib-outfit-desc": "Tipografía elegante y moderna geométrica sin serifa de Google Fonts. Licencia SIL Open Font License 1.1.",
+"tool-badge": "Herramienta local segura",
+"tool-li1-title": "Privacidad total",
+"tool-li1-desc": "Procesamiento 100% local en su equipo. Sus archivos sensibles nunca tocan la nube.",
+"tool-li2-title": "Velocidad máxima",
+"tool-li2-desc": "Se ejecuta al instante usando la CPU de su dispositivo. Sin tiempos de espera por subida.",
+"tool-li3-title": "Sin restricciones",
+"tool-li3-desc": "Procese archivos de cualquier tamaño sin límites de páginas, publicidad ni suscripciones.",
+"tool-btn-cta": "Descargar prueba gratuita de Docentra",
+"tool-how-title": "Cómo funciona:",
+"tool-step1": "Inicie Docentra PDF Suite en su dispositivo Windows o macOS.",
+"tool-step2": "Seleccione este módulo desde nuestro panel de control local seguro.",
+"tool-step3": "Seleccione o arrastre y suelte los archivos que desea procesar.",
+"tool-step4": "Configure los ajustes y guarde sus archivos de salida al instante en su directorio local.",
+"trust-sha": "Instalador firmado con SHA256",
+"trust-virustotal": "Verificado VirusTotal 100% Limpio",
+"trust-offline": "Cero Telemetría y 100% Offline",
+"trust-native": "Aplicación de Escritorio Nativa",
+"sim-title": "Experimente la Velocidad Local Real",
+"sim-desc": "No permita que los límites de subida o descarga de internet frenen su flujo PDF.",
+"sim-dropzone": "Zona de soltar local simulada: arrastre archivos aquí",
+"sim-btn": "Simular Proceso Local",
+"sim-status-idle": "Listo para procesar localmente...",
+"sim-status-processing": "Procesando offline en la CPU local...",
+"sim-status-success": "¡Completado localmente en 0.8s! 0KB subidos. Seguro y Privado."
 },
 it: {
 "nav-features":"Caratteristiche","nav-compare":"Perché offline?","nav-blog":"Blog","nav-pricing":"Prezzi","nav-faq":"FAQ","btn-download":"Scarica",
@@ -456,7 +661,48 @@ it: {
 "img-step1":"Avvia Docentra sul tuo computer.",
 "img-step2":"Scegli il modulo 'Immagine in PDF'.",
 "img-step3":"Seleziona o trascina i tuoi file immagine (JPG, PNG, ecc.).",
-"img-step4":"Regola l'ordine se necessario e clicca su 'Generera PDF'."
+"img-step4":"Regola l'ordine se necessario e clicca su 'Generera PDF'.",
+"footer-os-notices": "Notifiche Open Source",
+"os-title-seo": "Notifiche Open Source | DOCENTRA",
+"os-meta-desc": "Licenze e notifiche di software open source per le librerie utilizzate da Docentra PDF Suite su Windows e macOS.",
+"os-badge": "Riconoscimento FOSS",
+"os-h1": "Notifiche <span>Open Source</span>",
+"os-subtitle": "Docentra include software distribuito con licenze open source. Siamo profondamente grati agli autori e ai manutentori di questi incredibili progetti.",
+"os-summary-title": "Riepilogo Licenze",
+"os-summary-text": "La maggior parte delle dipendenze dell'applicazione incluse viene distribuita con licenze open-source permissive come MIT, Apache-2.0 o la SIL Open Font License.",
+"os-libraries-title": "Librerie e Componenti",
+"os-lib-pdfsharp-desc": "Libreria .NET ad alte prestazioni per la creazione e la modifica di file PDF localmente. Con licenza MIT.",
+"os-lib-wpfui-desc": "Libreria di controlli dell'interfaccia utente moderna per Windows Presentation Foundation. Con licenza MIT.",
+"os-lib-avalonia-desc": "Framework GUI XAML multipiattaforma utilizzato per il porting macOS. Con licenza MIT.",
+"os-lib-pdfium-desc": "Componente di visualizzazione PDF ad alte prestazioni basato sul motore Google Pdfium. Con licenza Apache-2.0.",
+"os-lib-newtonsoft-desc": "Libreria ad alte prestazioni per la serializzazione e la deserializzazione JSON in .NET. Con licenza MIT.",
+"os-lib-obfuscar-desc": "Strumento di offuscamento MSIL open source per proteggere i file binari a livello locale. Con licenza MIT.",
+"os-lib-webview2-desc": "Controllo browser integrato basato su Chromium per il caricamento di risorse locali. Con licenza Microsoft.",
+"os-lib-outfit-desc": "Carattere geometrico sans-serif elegante e moderno da Google Fonts. Con licenza SIL Open Font License 1.1.",
+"tool-badge": "Strumento locale sicuro",
+"tool-li1-title": "Privacy totale",
+"tool-li1-desc": "Elaborazione al 100% in locale sul computer. I file sensibili non toccano mai il cloud.",
+"tool-li2-title": "Massima velocità",
+"tool-li2-desc": "Funziona istantaneamente tramite la CPU del dispositivo. Nessun tempo di attesa per caricamento.",
+"tool-li3-title": "Nessun limite",
+"tool-li3-desc": "Elabora file di qualsiasi dimensione senza limiti di pagine, pubblicità o abbonamenti.",
+"tool-btn-cta": "Scarica la prova gratuita di Docentra",
+"tool-how-title": "Come funziona:",
+"tool-step1": "Avvia Docentra PDF Suite sul tuo dispositivo Windows o macOS.",
+"tool-step2": "Seleziona questo modulo dalla nostra dashboard locale e sicura.",
+"tool-step3": "Seleziona o trascina i file che desideri elaborare.",
+"tool-step4": "Configura le impostazioni e salva istantaneamente i file di output nella cartella locale.",
+"trust-sha": "Installer firmato SHA256",
+"trust-virustotal": "Verificato VirusTotal 100% Pulito",
+"trust-offline": "Zero Telemetria & 100% Offline",
+"trust-native": "Applicazione Desktop Nativa",
+"sim-title": "Prova la Vera Velocità Locale",
+"sim-desc": "Non lasciare che la lentezza del trasferimento internet rallenti la gestione dei PDF.",
+"sim-dropzone": "Zona di rilascio locale simulata: trascina i file qui",
+"sim-btn": "Simula Processo Locale",
+"sim-status-idle": "Pronto per l'elaborazione locale...",
+"sim-status-processing": "Elaborazione offline in corso sulla CPU locale...",
+"sim-status-success": "Completato locale in 0.8s! 0KB caricati. Sicuro e Privato."
 },
 zh: {
 "nav-features":"功能","nav-compare":"为何选择离线？","nav-blog":"博客","nav-pricing":"价格","nav-faq":"常见问题","btn-download":"下载",
@@ -531,7 +777,48 @@ zh: {
 "img-step1":"在您的计算机上启动 Docentra。",
 "img-step2":"选择“图像转 PDF”模块。",
 "img-step3":"选择或拖放您的图像文件（JPG、PNG 等）。",
-"img-step4":"如果需要，调整顺序并点击“生成 PDF”。"
+"img-step4":"如果需要，调整顺序并点击“生成 PDF”。",
+"footer-os-notices": "开源许可说明",
+"os-title-seo": "开源许可说明 | DOCENTRA",
+"os-meta-desc": "Docentra PDF Suite 在 Windows 和 macOS 系统上所使用的开源软件库许可和说明。",
+"os-badge": "开源致谢",
+"os-h1": "开源软件<span>许可说明</span>",
+"os-subtitle": "Docentra 包含在开源许可下分发的软件。我们对这些优秀项目的创作者和维护者深表感激。",
+"os-summary-title": "许可摘要",
+"os-summary-text": "应用打包的大多数依赖项均采用宽松的开源许可证分发，例如 MIT、Apache-2.0 或 SIL 开源字体许可证 (OFL)。",
+"os-libraries-title": "第三方库与组件",
+"os-lib-pdfsharp-desc": "用于在本地创建和修改 PDF 文件的高性能 .NET 库。采用 MIT 许可证授权。",
+"os-lib-wpfui-desc": "现代 Fluent Design 风格的 Windows Presentation Foundation UI 控件库。采用 MIT 许可证授权。",
+"os-lib-avalonia-desc": "用于 macOS 版本的跨平台 XAML GUI 框架。采用 MIT 许可证授权。",
+"os-lib-pdfium-desc": "基于谷歌 Pdfium 引擎的高性能 PDF 查看控件。采用 Apache-2.0 许可证授权。",
+"os-lib-newtonsoft-desc": "适用于 .NET 的高性能 JSON 序列化与解析库。采用 MIT 许可证授权。",
+"os-lib-obfuscar-desc": "用于保护本地应用二进制文件的开源 MSIL 代码混淆工具。采用 MIT 许可证授权。",
+"os-lib-webview2-desc": "基于 Chromium 架构的嵌入式浏览器控件，用于加载本地资源。采用微软软件许可证授权。",
+"os-lib-outfit-desc": "来自 Google Fonts 的优雅、现代的几何无衬线字体。采用 SIL 开源字体许可证 1.1 授权。",
+"tool-badge": "安全本地工具",
+"tool-li1-title": "完全隐私",
+"tool-li1-desc": "100% 在您的电脑本地处理。您的敏感文件绝不会触及云端或远程服务器。",
+"tool-li2-title": "极速响应",
+"tool-li2-desc": "利用设备的 CPU 算力瞬时运行。无需等待上传或下载时间，零延迟。",
+"tool-li3-title": "无任何限制",
+"tool-li3-desc": "自由处理任何大小的文件，无页面限制、无广告、无订阅费用。",
+"tool-btn-cta": "下载 Docentra 免费试用版",
+"tool-how-title": "操作步骤：",
+"tool-step1": "在 Windows 或 macOS 设备上启动 Docentra PDF Suite。",
+"tool-step2": "从安全的本地控制面板中选择此功能模块。",
+"tool-step3": "选择或拖放您想要处理的目标文件。",
+"tool-step4": "配置相关设置并立即将输出文件保存到您的本地目录中。",
+"trust-sha": "SHA256 签名安装包",
+"trust-virustotal": "VirusTotal 100% 无毒检测",
+"trust-offline": "零遥测与 100% 离线运行",
+"trust-native": "原生桌面应用程序",
+"sim-title": "体验真正的本地疾速",
+"sim-desc": "告别缓慢的网络上传与下载限制，让本地处理器为您高效工作。",
+"sim-dropzone": "模拟本地拖拽区域：将文件拖放到此处",
+"sim-btn": "模拟本地极速处理",
+"sim-status-idle": "准备在本地执行...",
+"sim-status-processing": "正在利用本地处理器离线运行...",
+"sim-status-success": "本地仅用 0.8 秒完成！0KB 上传。安全且极度私密。"
 },
 ja: {
 "nav-features":"機能","nav-compare":"オフラインの理由","nav-blog":"ブログ","nav-pricing":"価格","nav-faq":"FAQ","btn-download":"ダウンロード",
@@ -606,7 +893,48 @@ ja: {
 "img-step1":"コンピューターでDocentraを起動します。",
 "img-step2":"「画像からPDF」モジュールを選択します。",
 "img-step3":"画像ファイル（JPG、PNGなど）を選択またはドラッグ＆ドロップします。",
-"img-step4":"必要に応じて順序を調整し、「PDFを生成」をクリックします。"
+"img-step4":"必要に応じて順序を調整し、「PDFを生成」をクリックします。",
+"footer-os-notices": "オープンソース通知",
+"os-title-seo": "オープンソース通知 | DOCENTRA",
+"os-meta-desc": "WindowsおよびmacOSでDocentra PDF Suiteが使用するオープンソースライブラリのライセンス通知と免責事項。",
+"os-badge": "OSSへの感謝",
+"os-h1": "オープンソース<span>通知</span>",
+"os-subtitle": "Docentraには、オープンソースライセンスの下で配布されるソフトウェアが含まれています。これらの素晴らしいプロジェクトの開発者およびメンテナーに深く感謝いたします。",
+"os-summary-title": "ライセンスの概要",
+"os-summary-text": "バンドルされているアプリケーション依存関係のほとんどは、MIT、Apache-2.0、またはSIL Open Font Licenseなどの寛容なオープンソースライセンスの下で配布されています。",
+"os-libraries-title": "ライブラリとコンポーネント",
+"os-lib-pdfsharp-desc": "PDFファイルをデバイス内でローカルに作成および編集するための高性能な.NETライブラリ。MITライセンスの下で提供されます。",
+"os-lib-wpfui-desc": "Fluent Designにインスパイアされた、モダンなWPF用のUIコントロールライブラリ。MITライセンスの下で提供されます。",
+"os-lib-avalonia-desc": "macOS版で使用されているクロスプラットフォームのXAML GUIフレームワーク。MITライセンスの下で提供されます。",
+"os-lib-pdfium-desc": "GoogleのPdfiumエンジンに基づく高性能なPDF表示コンポーネント。Apache-2.0ライセンスの下で提供されます。",
+"os-lib-newtonsoft-desc": ".NET用の高性能なJSONシリアル化および解析ライブラリ。MITライセンスの下で提供されます。",
+"os-lib-obfuscar-desc": "ローカルアプリケーションバイナリを保護するために使用されるオープンソースのMSIL難読化ツール。MITライセンス。",
+"os-lib-webview2-desc": "ローカルダッシュボードの読み込みに使用されるChromiumベースの組み込みブラウザコントロール。Microsoftライセンスの下で提供されます。",
+"os-lib-outfit-desc": "Google Fontsからの洗練されたモダンな幾何学的サンセリフ書体。SIL Open Font License 1.1の下で提供されます。",
+"tool-badge": "安全なローカルツール",
+"tool-li1-title": "完全なプライバシー",
+"tool-li1-desc": "100%コンピューター上でローカルに処理されます。機密ファイルがクラウドに送信されることはありません。",
+"tool-li2-title": "最高の処理速度",
+"tool-li2-desc": "デバイスのCPUを使用して瞬時に動作。アップロードやダウンロードの待ち時間なし。",
+"tool-li3-title": "無制限に使用可能",
+"tool-li3-desc": "ページ数の制限や広告、サブスク登録なしで、あらゆるサイズのファイルを自由に処理できます。",
+"tool-btn-cta": "Docentra無料試用版をダウンロード",
+"tool-how-title": "操作手順：",
+"tool-step1": "WindowsまたはmacOSデバイスでDocentra PDF Suiteを起動します。",
+"tool-step2": "安全なローカルダッシュボードから該当モジュールを選択します。",
+"tool-step3": "処理したいファイルを選択するか、ドラッグ＆ドロップします。",
+"tool-step4": "設定を調整し、出力ファイルをローカルフォルダーに即座に保存します。",
+"trust-sha": "SHA256署名付きインストーラー",
+"trust-virustotal": "VirusTotalクリーン検証済み",
+"trust-offline": "テレメトリ・ゼロ＆100%オフライン",
+"trust-native": "ネイティブデスクトップアプリ",
+"sim-title": "本物のローカル処理速度を体験",
+"sim-desc": "インターネット接続の低速なアップロード／ダウンロード制限に悩まされる必要はありません。",
+"sim-dropzone": "模擬ローカルドロップ領域：ここにファイルをドロップ",
+"sim-btn": "ローカル処理をシミュレート",
+"sim-status-idle": "ローカルでの実行準備完了...",
+"sim-status-processing": "ローカルCPUでオフライン実行中...",
+"sim-status-success": "ローカルでわずか0.8秒で完了！送信データ0KB。安全かつプライベート。"
 },
 ru: {
 "nav-features":"Функции","nav-compare":"Почему офлайн?","nav-blog":"Блог","nav-pricing":"Цены","nav-faq":"FAQ","btn-download":"Скачать",
@@ -681,7 +1009,48 @@ ru: {
 "img-step1":"Запустите Docentra на своем компьютере.",
 "img-step2":"Выберите модуль 'Изображения в PDF'.",
 "img-step3":"Выберите или перетащите файлы изображений (JPG, PNG и т. д.).",
-"img-step4":"Настройте порядок при необходимости и нажмите 'Создать PDF'."
+"img-step4":"Настройте порядок при необходимости и нажмите 'Создать PDF'.",
+"footer-os-notices": "Открытое ПО",
+"os-title-seo": "Уведомления об открытом ПО | DOCENTRA",
+"os-meta-desc": "Лицензии и уведомления об открытом программном обеспечении для библиотек, используемых Docentra PDF Suite на Windows и macOS.",
+"os-badge": "Благодарность FOSS",
+"os-h1": "Лицензии <span>открытого ПО</span>",
+"os-subtitle": "Docentra включает программное обеспечение, распространяемое по открытым лицензиям. Мы искренне благодарны авторам и создателям этих замечательных проектов.",
+"os-summary-title": "Сводка лицензий",
+"os-summary-text": "Большинство встроенных зависимостей приложения распространяются по разрешительным лицензиям, таким как MIT, Apache-2.0 или SIL Open Font License.",
+"os-libraries-title": "Библиотеки и компоненты",
+"os-lib-pdfsharp-desc": "Высокопроизводительная библиотека .NET для локального создания и изменения файлов PDF. Лицензия MIT.",
+"os-lib-wpfui-desc": "Современная библиотека элементов управления интерфейсом WPF на базе Fluent Design. Лицензия MIT.",
+"os-lib-avalonia-desc": "Кроссплатформенный GUI-фреймворк XAML, используемый для сборки под macOS. Лицензия MIT.",
+"os-lib-pdfium-desc": "Высокопроизводительный компонент просмотра PDF на базе движка Google Pdfium. Лицензия Apache-2.0.",
+"os-lib-newtonsoft-desc": "Высокопроизводительная библиотека сериализации и парсинга JSON для .NET. Лицензия MIT.",
+"os-lib-obfuscar-desc": "Открытый инструмент обфускации MSIL для защиты бинарных файлов приложения локально. Лицензия MIT.",
+"os-lib-webview2-desc": "Встроенный элемент управления браузером на базе Chromium для загрузки локальных ресурсов. Лицензия Microsoft.",
+"os-lib-outfit-desc": "Стильный, современный геометрический шрифт без засечек от Google Fonts. Лицензия SIL Open Font License 1.1.",
+"tool-badge": "Безопасный локальный инструмент",
+"tool-li1-title": "Полная конфиденциальность",
+"tool-li1-desc": "100% обработка локально на вашем ПК. Ваши конфиденциальные файлы никогда не передаются в облако.",
+"tool-li2-title": "Максимальная скорость",
+"tool-li2-desc": "Мгновенная работа за счет ресурсов процессора вашего устройства. Без ожидания загрузки.",
+"tool-li3-title": "Без ограничений",
+"tool-li3-desc": "Обрабатывайте файлы любого размера без лимитов на количество страниц, рекламы и подписок.",
+"tool-btn-cta": "Скачать бесплатную версию Docentra",
+"tool-how-title": "Как это работает:",
+"tool-step1": "Запустите Docentra PDF Suite на своем устройстве Windows или macOS.",
+"tool-step2": "Выберите этот модуль в нашей безопасной локальной панели управления.",
+"tool-step3": "Выберите или перетащите файлы, которые необходимо обработать.",
+"tool-step4": "Настройте параметры и мгновенно сохраните файлы результатов в свою локальную папку.",
+"trust-sha": "Установщик с подписью SHA256",
+"trust-virustotal": "100% Чистый отчет VirusTotal",
+"trust-offline": "Нулевая телеметрия и 100% оффлайн",
+"trust-native": "Нативное настольное приложение",
+"sim-title": "Оцените настоящую локальную скорость",
+"sim-desc": "Не позволяйте медленной загрузке файлов в интернет ограничивать вашу работу с PDF.",
+"sim-dropzone": "Имитация локальной зоны перетаскивания: перетащите файлы сюда",
+"sim-btn": "Симулировать локальный процесс",
+"sim-status-idle": "Готово к локальному выполнению...",
+"sim-status-processing": "Выполняется оффлайн на локальном процессоре...",
+"sim-status-success": "Завершено локально за 0.8 сек! Отправлено 0 КБ. Безопасно и конфиденциально."
 },
 ar: {
 "nav-features":"الميزات","nav-how":"كيف يعمل","nav-privacy":"الخصوصية","nav-pricing":"الأسعار","nav-faq":"الأسئلة","btn-download":"تحميل",
@@ -758,7 +1127,48 @@ ar: {
 "img-step1":"شغل Docentra على جهازك.",
 "img-step2":"اختر وحدة 'صورة إلى PDF'.",
 "img-step3":"حدد أو اسحب وأفلت ملفات الصور (JPG، PNG، إلخ).",
-"img-step4":"اضبط الترتيب إذا لزم الأمر واضغط على 'إنشاء PDF'."
+"img-step4":"اضبط الترتيب إذا لزم الأمر واضغط على 'إنشاء PDF'.",
+"footer-os-notices": "إشعارات البرمجيات الحرة",
+"os-title-seo": "إشعارات البرمجيات مفتوحة المصدر | DOCENTRA",
+"os-meta-desc": "تراخيص وإشعارات البرمجيات مفتوحة المصدر للمكتبات المستخدمة بواسطة Docentra PDF Suite على نظامي التشغيل Windows و macOS.",
+"os-badge": "تقدير البرمجيات الحرة",
+"os-h1": "إشعارات <span>مفتوحة المصدر</span>",
+"os-subtitle": "يتضمن Docentra برمجيات موزعّة بموجب تراخيص مفتوحة المصدر. نحن ممتنون بشدة للمؤلفين والمشرفين على هذه المشاريع الرائعة.",
+"os-summary-title": "ملخص التراخيص",
+"os-summary-text": "توزع معظم تبعيات التطبيقات المضمنة بموجب تراخيص مفتوحة المصدر مرنة مثل MIT أو Apache-2.0 أو SIL Open Font License.",
+"os-libraries-title": "المكتبات والمكونات",
+"os-lib-pdfsharp-desc": "مكتبة .NET عالية الأداء لإنشاء وتعديل ملفات PDF محلياً على جهازك. مرخصة بموجب ترخيص MIT.",
+"os-lib-wpfui-desc": "مكتبة تحكم واجهة مستخدم حديثة لـ Windows Presentation Foundation. مرخصة بموجب ترخيص MIT.",
+"os-lib-avalonia-desc": "إطار عمل واجهة مستخدم XAML عابر للمنصات مستخدم في إصدار macOS. مرخص بموجب ترخيص MIT.",
+"os-lib-pdfium-desc": "مكون عرض ملفات PDF عالي الأداء يعتمد على محرك Pdfium من Google. مرخص بموجب ترخيص Apache-2.0.",
+"os-lib-newtonsoft-desc": "مكتبة عالية الأداء لتسلسل وتحليل JSON لـ .NET. مرخصة بموجب ترخيص MIT.",
+"os-lib-obfuscar-desc": "أداة مفتوحة المصدر لتعتيم أكواد MSIL لحماية ملفات التطبيق الثنائية محلياً. مرخصة بموجب ترخيص MIT.",
+"os-lib-webview2-desc": "عنصر تحكم متصفح ويب مدمج يعتمد على Chromium لتحميل الموارد المحلية. مرخص بموجب ترخيص برمجيات Microsoft.",
+"os-lib-outfit-desc": "خط هندسي أنيق وحديث بدون زوائد من Google Fonts. مرخص بموجب ترخيص SIL Open Font License 1.1.",
+"tool-badge": "أداة محلية آمنة",
+"tool-li1-title": "خصوصية تامة",
+"tool-li1-desc": "تتم المعالجة محلياً بنسبة 100% على حاسوبك. لا تصل ملفاتك الحساسة إلى السحابة مطلقاً.",
+"tool-li2-title": "سرعة قصوى",
+"tool-li2-desc": "تعمل الأداة فوراً باستخدام معالج جهازك. لا يوجد وقت انتظار للرفع أو التحميل.",
+"tool-li3-title": "بدون قيود",
+"tool-li3-desc": "عالج ملفاتك بأي حجم وبدون حدود لعدد الصفحات، وبدون إعلانات أو اشتراكات مدفوعة.",
+"tool-btn-cta": "تحميل نسخة Docentra التجريبية مجاناً",
+"tool-how-title": "كيف تعمل الأداة:",
+"tool-step1": "شغّل تطبيق Docentra PDF Suite على جهاز Windows أو macOS الخاص بك.",
+"tool-step2": "اختر هذه الوحدة من لوحة التحكم المحلية والآمنة الخاصة بنا.",
+"tool-step3": "حدد أو اسحب وأفلت الملفات التي ترغب في معالجتها.",
+"tool-step4": "اضبط الإعدادات واحفظ ملفاتك الناتجة فوراً في مجلدك المحلي.",
+"trust-sha": "ملف تثبيت موقع بـ SHA256",
+"trust-virustotal": "تقرير فحص VirusTotal سليم 100%",
+"trust-offline": "صفر تيليمتري واشتغال كامل بدون إنترنت",
+"trust-native": "تطبيق ديسكتوب أصلي ونظيف",
+"sim-title": "جرب السرعة المحلية الحقيقية",
+"sim-desc": "لا تجعل حدود الرفع والتنزيل البطيئة للإنترنت تعيق مساحة عمل PDF الخاصة بك.",
+"sim-dropzone": "منطقة سحب وإسقاط محلية محاكاة: اسحب وأسقط الملفات هنا",
+"sim-btn": "محاكاة معالجة سريعة محلية",
+"sim-status-idle": "جاهز للتنفيذ محلياً...",
+"sim-status-processing": "يتم المعالجة محلياً باستخدام قوة المعالج في وضع الأوفلاين...",
+"sim-status-success": "تم الإنجاز محلياً في 0.8 ثانية! 0 كيلوبايت مرفوعة. آمن وخاص تماماً."
 },
 };
 
@@ -915,3 +1325,81 @@ if (canvas) {
     }
     animate();
 }
+
+// ===== DESKTOP MOCKUP TAB SWITCHER =====
+window.switchMockupTab = function(tabName) {
+    const dashView = document.getElementById('mockup-dashboard-view');
+    const readerView = document.getElementById('mockup-reader-view');
+    const tabs = document.querySelectorAll('.mockup-tab');
+    if (!dashView || !readerView) return;
+    
+    if (tabName === 'dashboard') {
+        dashView.style.display = 'flex';
+        readerView.style.display = 'none';
+        tabs[0].classList.add('active');
+        tabs[1].classList.remove('active');
+    } else {
+        dashView.style.display = 'none';
+        readerView.style.display = 'flex';
+        tabs[0].classList.remove('active');
+        tabs[1].classList.add('active');
+    }
+};
+
+// ===== LOCAL PROCESSING SIMULATOR =====
+let isSimulating = false;
+window.triggerSimulation = function() {
+    if (isSimulating) return;
+    isSimulating = true;
+    
+    const dropzone = document.getElementById('sim-dropzone');
+    const icon = document.getElementById('sim-icon');
+    const fill = document.getElementById('sim-progress-fill');
+    const statusText = document.getElementById('sim-status-text');
+    const percentage = document.getElementById('sim-percentage');
+    const btn = document.getElementById('sim-action-btn');
+    if (!dropzone || !icon || !fill || !statusText || !percentage || !btn) return;
+    
+    // Set active UI states
+    dropzone.style.borderColor = '#d4af37';
+    dropzone.style.background = 'rgba(212, 175, 55, 0.05)';
+    icon.innerHTML = '⚡';
+    icon.style.transform = 'scale(1.2) rotate(15deg)';
+    percentage.style.display = 'inline';
+    btn.disabled = true;
+    
+    // Get localized processing status
+    const currentLang = localStorage.getItem('docentra-lang') || 'en';
+    const procText = (translations[currentLang] && translations[currentLang]['sim-status-processing']) || translations['en']['sim-status-processing'];
+    statusText.setAttribute('data-i18n', 'sim-status-processing');
+    statusText.innerHTML = procText;
+    
+    let progress = 0;
+    fill.style.width = '0%';
+    
+    const interval = setInterval(() => {
+        progress += 5;
+        if (progress > 100) progress = 100;
+        fill.style.width = progress + '%';
+        percentage.innerHTML = progress + '%';
+        
+        if (progress === 100) {
+            clearInterval(interval);
+            
+            // Set success UI states
+            icon.innerHTML = '✅';
+            icon.style.transform = 'scale(1)';
+            dropzone.style.borderColor = 'rgba(212, 175, 55, 0.2)';
+            dropzone.style.background = 'rgba(212, 175, 55, 0.01)';
+            
+            const successText = (translations[currentLang] && translations[currentLang]['sim-status-success']) || translations['en']['sim-status-success'];
+            statusText.setAttribute('data-i18n', 'sim-status-success');
+            statusText.innerHTML = successText;
+            
+            setTimeout(() => {
+                btn.disabled = false;
+                isSimulating = false;
+            }, 1000);
+        }
+    }, 40);
+};

@@ -94,6 +94,9 @@
                 <div class="hero-content reveal">
                     <span class="badge" data-i18n="hero-badge">Privacy-Native Architecture</span>
                     <h1 data-i18n="hero-title">Professional PDF Editing, <span>Reimagined.</span></h1>
+                    <div style="margin-top: 15px; margin-bottom: 20px;">
+                        <span class="badge" data-i18n="trust-native" style="background: rgba(212,175,55,0.15); border: 1px solid rgba(212,175,55,0.4); color: var(--primary-color); padding: 8px 16px; font-weight: 700; font-size: 0.88rem; border-radius: 20px; display: inline-block; box-shadow: 0 0 15px rgba(212,175,55,0.1);">💻 Native Desktop Application</span>
+                    </div>
                     <p data-i18n="hero-desc">Experience the power of local processing. Edit, convert, and OCR your documents with total privacy and high performance. No subscriptions, no cloud, no compromise.</p>
                     <div class="hero-btns">
                         <a href="#download-cta" class="btn btn-primary" data-i18n="btn-get-started">Get Started for Free</a>
@@ -101,7 +104,61 @@
                     </div>
                 </div>
                 <div class="hero-image reveal reveal-right">
-                    <img src="hero-mockup.png" alt="Docentra App Mockup" class="floating">
+                    <div class="desktop-mockup-frame" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); border-radius: 12px; overflow: hidden; backdrop-filter: blur(10px); box-shadow: 0 30px 60px rgba(0,0,0,0.5);">
+                        <div class="mockup-header" style="background: rgba(0,0,0,0.3); padding: 12px 18px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <div class="mockup-dots" style="display: flex; gap: 8px;">
+                                <span class="dot" style="width: 12px; height: 12px; border-radius: 50%; display: inline-block; background: #ff5f56;"></span>
+                                <span class="dot" style="width: 12px; height: 12px; border-radius: 50%; display: inline-block; background: #ffbd2e;"></span>
+                                <span class="dot" style="width: 12px; height: 12px; border-radius: 50%; display: inline-block; background: #27c93f;"></span>
+                            </div>
+                            <div class="mockup-tabs" style="display: flex; gap: 5px;">
+                                <button class="mockup-tab active" onclick="switchMockupTab('dashboard')" style="background: rgba(212,175,55,0.1); border: 1px solid rgba(212,175,55,0.2); color: var(--primary-color); padding: 6px 14px; border-radius: 6px; font-size: 0.85rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">🎛️ Dashboard</button>
+                                <button class="mockup-tab" onclick="switchMockupTab('reader')" style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); color: #fff; padding: 6px 14px; border-radius: 6px; font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.3s ease; opacity: 0.7;">📖 PDF Reader</button>
+                            </div>
+                        </div>
+                        <div class="mockup-body" style="position: relative; aspect-ratio: 16/10; overflow: hidden; background: rgba(0,0,0,0.4);">
+                            <div id="mockup-dashboard-view" class="mockup-view active" style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+                                <img src="assets/screenshots/dashboard.png" alt="Docentra Dashboard" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.display='none'; document.getElementById('dashboard-placeholder').style.display='flex';">
+                                <div id="dashboard-placeholder" class="mockup-placeholder" style="display: none; width: 100%; height: 100%; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px; color: #fff;">
+                                    <div style="font-size: 3.5rem; margin-bottom: 15px;">🎛️</div>
+                                    <h3 style="font-size: 1.4rem; font-weight: 700; color: var(--primary-color); margin-bottom: 8px;">Docentra Dashboard</h3>
+                                    <p style="font-size: 0.95rem; opacity: 0.7; max-width: 320px; line-height: 1.5; margin-bottom: 12px;">Your genuine offline dashboard screenshot will load here.</p>
+                                    <span style="font-size: 0.75rem; background: rgba(255,255,255,0.05); padding: 4px 10px; border-radius: 4px; opacity: 0.5;">Please place dashboard.png in assets/screenshots/</span>
+                                </div>
+                            </div>
+                            <div id="mockup-reader-view" class="mockup-view" style="width: 100%; height: 100%; display: none; align-items: center; justify-content: center;">
+                                <img src="assets/screenshots/pdf_reader.png" alt="Docentra PDF Reader" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.style.display='none'; document.getElementById('reader-placeholder').style.display='flex';">
+                                <div id="reader-placeholder" class="mockup-placeholder" style="display: none; width: 100%; height: 100%; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px; color: #fff;">
+                                    <div style="font-size: 3.5rem; margin-bottom: 15px;">📖</div>
+                                    <h3 style="font-size: 1.4rem; font-weight: 700; color: var(--primary-color); margin-bottom: 8px;">Multi-Tabbed PDF Reader</h3>
+                                    <p style="font-size: 0.95rem; opacity: 0.7; max-width: 320px; line-height: 1.5; margin-bottom: 12px;">Your genuine multi-tabbed reader screenshot will load here.</p>
+                                    <span style="font-size: 0.75rem; background: rgba(255,255,255,0.05); padding: 4px 10px; border-radius: 4px; opacity: 0.5;">Please place pdf_reader.png in assets/screenshots/</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== TRUST BAR ===================== -->
+        <section class="trust-bar" style="padding: 20px 0; background: rgba(0, 0, 0, 0.2); border-top: 1px solid rgba(255,255,255,0.03); border-bottom: 1px solid rgba(255,255,255,0.03); backdrop-filter: blur(10px);">
+            <div class="container trust-flex" style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; gap: 20px; text-align: center;">
+                <div class="trust-item" style="display: flex; align-items: center; gap: 10px;">
+                    <span style="font-size: 1.5rem; filter: drop-shadow(0 0 5px rgba(212,175,55,0.4));">🛡️</span>
+                    <span data-i18n="trust-sha" style="font-weight: 600; font-size: 0.92rem; opacity: 0.9; letter-spacing: 0.5px;">SHA256 Signed Installer</span>
+                </div>
+                <div class="trust-item" style="display: flex; align-items: center; gap: 10px;">
+                    <span style="font-size: 1.5rem; filter: drop-shadow(0 0 5px rgba(39,201,63,0.4));">🟢</span>
+                    <span data-i18n="trust-virustotal" style="font-weight: 600; font-size: 0.92rem; opacity: 0.9; letter-spacing: 0.5px;">VirusTotal Clean Check</span>
+                </div>
+                <div class="trust-item" style="display: flex; align-items: center; gap: 10px;">
+                    <span style="font-size: 1.5rem; filter: drop-shadow(0 0 5px rgba(212,175,55,0.4));">📡</span>
+                    <span data-i18n="trust-offline" style="font-weight: 600; font-size: 0.92rem; opacity: 0.9; letter-spacing: 0.5px;">Zero Telemetry & 100% Offline</span>
+                </div>
+                <div class="trust-item" style="display: flex; align-items: center; gap: 10px;">
+                    <span style="font-size: 1.5rem; filter: drop-shadow(0 0 5px rgba(212,175,55,0.4));">💻</span>
+                    <span data-i18n="trust-native" style="font-weight: 600; font-size: 0.92rem; opacity: 0.9; letter-spacing: 0.5px;">Native Desktop Application</span>
                 </div>
             </div>
         </section>
@@ -160,60 +217,116 @@
                             <p data-i18n="feat-img-desc">Convert photos, scans, and graphics (JPG, PNG) into high-resolution PDF documents instantly.</p>
                         </div>
                     </a>
-                    <div class="feature-card reveal">
-                        <div class="icon">🔄</div>
-                        <h3 data-i18n="feat-office-title">Office Converter</h3>
-                        <p data-i18n="feat-office-desc">Convert Word, Excel, and PowerPoint files to PDF and back. Preserves styles, tables, and formatting.</p>
+                    <a href="tools/office-converter.html" style="text-decoration: none; color: inherit;">
+                        <div class="feature-card reveal">
+                            <div class="icon">🔄</div>
+                            <h3 data-i18n="feat-office-title">Office Converter</h3>
+                            <p data-i18n="feat-office-desc">Convert Word, Excel, and PowerPoint files to PDF and back. Preserves styles, tables, and formatting.</p>
+                        </div>
+                    </a>
+                    <a href="tools/password-security.html" style="text-decoration: none; color: inherit;">
+                        <div class="feature-card reveal">
+                            <div class="icon">🔐</div>
+                            <h3 data-i18n="feat-security-title">Password Security</h3>
+                            <p data-i18n="feat-security-desc">Encrypt sensitive documents with military-grade passwords. Remove existing passwords when authorized.</p>
+                        </div>
+                    </a>
+                    <a href="tools/pdf-signing.html" style="text-decoration: none; color: inherit;">
+                        <div class="feature-card reveal">
+                            <div class="icon">✍️</div>
+                            <h3 data-i18n="feat-sign-title">PDF Signing</h3>
+                            <p data-i18n="feat-sign-desc">Draw signatures, upload scanned images, and apply them precisely across single or all pages.</p>
+                        </div>
+                    </a>
+                    <a href="tools/local-ocr.html" style="text-decoration: none; color: inherit;">
+                        <div class="feature-card reveal">
+                            <div class="icon">🔍</div>
+                            <h3 data-i18n="feat-ocr-title">Local OCR</h3>
+                            <p data-i18n="feat-ocr-desc">Turn scanned documents into editable, searchable text using high-accuracy local recognition — no internet needed.</p>
+                        </div>
+                    </a>
+                    <a href="tools/pdf-crop.html" style="text-decoration: none; color: inherit;">
+                        <div class="feature-card reveal">
+                            <div class="icon">📐</div>
+                            <h3 data-i18n="feat-crop-title">PDF Crop</h3>
+                            <p data-i18n="feat-crop-desc">Remove unwanted margins and whitespace to focus on the content that matters. Ideal for mobile reading.</p>
+                        </div>
+                    </a>
+                    <a href="tools/page-numbering.html" style="text-decoration: none; color: inherit;">
+                        <div class="feature-card reveal">
+                            <div class="icon">🔢</div>
+                            <h3 data-i18n="feat-number-title">Page Numbering</h3>
+                            <p data-i18n="feat-number-desc">Add automatic page numbers as headers or footers. Full control over format, position, and style.</p>
+                        </div>
+                    </a>
+                    <a href="tools/delete-pages.html" style="text-decoration: none; color: inherit;">
+                        <div class="feature-card reveal">
+                            <div class="icon">🗑️</div>
+                            <h3 data-i18n="feat-delete-title">Delete Pages</h3>
+                            <p data-i18n="feat-delete-desc">Remove unwanted or mistakenly scanned pages with a single click. Clean up documents instantly.</p>
+                        </div>
+                    </a>
+                    <a href="tools/metadata-cleaner.html" style="text-decoration: none; color: inherit;">
+                        <div class="feature-card reveal">
+                            <div class="icon">🧼</div>
+                            <h3 data-i18n="feat-clean-title">Metadata Cleaner</h3>
+                            <p data-i18n="feat-clean-desc">Strip hidden author names, computer info, and edit history from Office files before sharing. Prevent data leaks.</p>
+                        </div>
+                    </a>
+                    <a href="tools/watermark-logo.html" style="text-decoration: none; color: inherit;">
+                        <div class="feature-card reveal">
+                            <div class="icon">🏷️</div>
+                            <h3 data-i18n="feat-watermark-title">Watermark & Logo</h3>
+                            <p data-i18n="feat-watermark-desc">Add company logos or text watermarks like "Confidential" or "Draft" across all pages in batch.</p>
+                        </div>
+                    </a>
+                    <a href="tools/pdf-viewer.html" style="text-decoration: none; color: inherit;">
+                        <div class="feature-card reveal">
+                            <div class="icon">📑</div>
+                            <h3 data-i18n="feat-viewer-title">Multi-Tabbed PDF Viewer</h3>
+                            <p data-i18n="feat-viewer-desc">Open and manage multiple PDF documents simultaneously in a clean, tabbed interface with lightning-fast local performance.</p>
+                        </div>
+                    </a>
+                    <a href="tools/metadata-editor.html" style="text-decoration: none; color: inherit;">
+                        <div class="feature-card reveal">
+                            <div class="icon">📝</div>
+                            <h3 data-i18n="feat-metaedit-title">Metadata Editor</h3>
+                            <p data-i18n="feat-metaedit-desc">View and edit document properties including Title, Author, Subject, Keywords, Creator, and Producer tags directly on your device.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== INTERACTIVE SIMULATOR ===================== -->
+        <section id="local-simulator" class="local-simulator" style="padding: 80px 0; background: rgba(0, 0, 0, 0.25); position: relative; border-top: 1px solid rgba(212, 175, 55, 0.05); border-bottom: 1px solid rgba(212, 175, 55, 0.05); backdrop-filter: blur(10px);">
+            <div class="container" style="max-width: 900px; text-align: center;">
+                <div class="section-header reveal" style="margin-bottom: 45px;">
+                    <span class="badge" data-i18n="feat-badge" style="background: rgba(212,175,55,0.1); color: var(--primary-color); padding: 6px 14px; font-weight: 700; letter-spacing: 1px;">INTERACTIVE DEMO</span>
+                    <h2 data-i18n="sim-title" style="font-size: 2.5rem; margin-top: 12px; font-weight: 800;">Experience Real Local Speed</h2>
+                    <p data-i18n="sim-desc" style="opacity: 0.8; margin-top: 10px; font-size: 1.15rem; max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.6;">Don't let slow internet upload/download limits throttle your PDF workspace.</p>
+                </div>
+                
+                <div class="simulator-card reveal" style="background: rgba(255,255,255,0.01); border: 1px solid rgba(255,255,255,0.05); padding: 40px; border-radius: 16px; position: relative; overflow: hidden; box-shadow: 0 30px 60px rgba(0,0,0,0.4);">
+                    <div style="position: absolute; left: 0; top: 0; height: 100%; width: 4px; background: linear-gradient(180deg, #d4af37, #f3e5ab);"></div>
+                    
+                    <div class="sim-dropzone-ui" id="sim-dropzone" onclick="triggerSimulation()" style="border: 2px dashed rgba(212,175,55,0.25); border-radius: 12px; padding: 45px 20px; text-align: center; background: rgba(212,175,55,0.01); cursor: pointer; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); margin-bottom: 30px;">
+                        <div id="sim-icon" style="font-size: 3.5rem; margin-bottom: 15px; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); display: inline-block;">📦</div>
+                        <h4 data-i18n="sim-dropzone" style="font-size: 1.25rem; font-weight: 700; opacity: 0.95; margin-bottom: 8px; letter-spacing: 0.5px;">Simulated local drop zone: drag & drop files here</h4>
+                        <span style="font-size: 0.9rem; opacity: 0.5; font-weight: 500;">(150MB PDF Document - Local Processing)</span>
                     </div>
-                    <div class="feature-card reveal">
-                        <div class="icon">🔐</div>
-                        <h3 data-i18n="feat-security-title">Password Security</h3>
-                        <p data-i18n="feat-security-desc">Encrypt sensitive documents with military-grade passwords. Remove existing passwords when authorized.</p>
-                    </div>
-                    <div class="feature-card reveal">
-                        <div class="icon">✍️</div>
-                        <h3 data-i18n="feat-sign-title">PDF Signing</h3>
-                        <p data-i18n="feat-sign-desc">Draw signatures, upload scanned images, and apply them precisely across single or all pages.</p>
-                    </div>
-                    <div class="feature-card reveal">
-                        <div class="icon">🔍</div>
-                        <h3 data-i18n="feat-ocr-title">Local OCR</h3>
-                        <p data-i18n="feat-ocr-desc">Turn scanned documents into editable, searchable text using high-accuracy local recognition — no internet needed.</p>
-                    </div>
-                    <div class="feature-card reveal">
-                        <div class="icon">📐</div>
-                        <h3 data-i18n="feat-crop-title">PDF Crop</h3>
-                        <p data-i18n="feat-crop-desc">Remove unwanted margins and whitespace to focus on the content that matters. Ideal for mobile reading.</p>
-                    </div>
-                    <div class="feature-card reveal">
-                        <div class="icon">🔢</div>
-                        <h3 data-i18n="feat-number-title">Page Numbering</h3>
-                        <p data-i18n="feat-number-desc">Add automatic page numbers as headers or footers. Full control over format, position, and style.</p>
-                    </div>
-                    <div class="feature-card reveal">
-                        <div class="icon">🗑️</div>
-                        <h3 data-i18n="feat-delete-title">Delete Pages</h3>
-                        <p data-i18n="feat-delete-desc">Remove unwanted or mistakenly scanned pages with a single click. Clean up documents instantly.</p>
-                    </div>
-                    <div class="feature-card reveal">
-                        <div class="icon">🧼</div>
-                        <h3 data-i18n="feat-clean-title">Metadata Cleaner</h3>
-                        <p data-i18n="feat-clean-desc">Strip hidden author names, computer info, and edit history from Office files before sharing. Prevent data leaks.</p>
-                    </div>
-                    <div class="feature-card reveal">
-                        <div class="icon">🏷️</div>
-                        <h3 data-i18n="feat-watermark-title">Watermark & Logo</h3>
-                        <p data-i18n="feat-watermark-desc">Add company logos or text watermarks like "Confidential" or "Draft" across all pages in batch.</p>
-                    </div>
-                    <div class="feature-card reveal">
-                        <div class="icon">📑</div>
-                        <h3 data-i18n="feat-viewer-title">Multi-Tabbed PDF Viewer</h3>
-                        <p data-i18n="feat-viewer-desc">Open and manage multiple PDF documents simultaneously in a clean, tabbed interface with lightning-fast local performance.</p>
-                    </div>
-                    <div class="feature-card reveal">
-                        <div class="icon">📝</div>
-                        <h3 data-i18n="feat-metaedit-title">Metadata Editor</h3>
-                        <p data-i18n="feat-metaedit-desc">View and edit document properties including Title, Author, Subject, Keywords, Creator, and Producer tags directly on your device.</p>
+
+                    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+                        <div style="flex: 1; min-width: 250px;">
+                            <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                                <span id="sim-status-text" data-i18n="sim-status-idle" style="font-size: 0.95rem; font-weight: 600; opacity: 0.7; transition: all 0.3s ease;">Ready to execute locally...</span>
+                                <span id="sim-percentage" style="font-size: 0.95rem; font-weight: 800; color: var(--primary-color); display: none;">0%</span>
+                            </div>
+                            <div class="progress-bar-container" style="background: rgba(255,255,255,0.05); height: 8px; border-radius: 4px; overflow: hidden; width: 100%;">
+                                <div id="sim-progress-fill" style="width: 0%; height: 100%; background: linear-gradient(90deg, #d4af37, #f3e5ab); transition: width 0.05s linear; border-radius: 4px; box-shadow: 0 0 10px rgba(212,175,55,0.5);"></div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" id="sim-action-btn" onclick="triggerSimulation()" data-i18n="sim-btn" style="min-width: 180px; padding: 14px 28px; font-weight: 700; letter-spacing: 0.5px; border-radius: 8px;">Simulate Local Process</button>
                     </div>
                 </div>
             </div>
@@ -472,6 +585,7 @@
                     <ul>
                         <li><a href="#" data-i18n="footer-privacy-policy">Privacy Policy</a></li>
                         <li><a href="#" data-i18n="footer-terms">Terms of Service</a></li>
+                        <li><a href="open-source-notices.html" data-i18n="footer-os-notices">Open Source Notices</a></li>
                     </ul>
                 </div>
             </div>
@@ -481,7 +595,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=2"></script>
     <script>
         /**
          * Akıllı Dinamik Fiyatlandırma Sistemi - Psikolojik Fiyatlandırma (V4)
