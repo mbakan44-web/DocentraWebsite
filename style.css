@@ -616,74 +616,206 @@ nav { display: flex; justify-content: space-between; align-items: center; }
     gap: 6px;
 }
 
-/* Corporate Callout Box */
-.enterprise-cta-box {
-    margin-top: 3.5rem;
-    background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
-    border: 2px solid #bfdbfe;
-    border-radius: 24px;
-    padding: 2.5rem 3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-    box-shadow: 0 10px 30px rgba(37, 99, 235, 0.07);
-}
-.ent-cta-left {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    max-width: 600px;
-}
-.ent-cta-icon {
-    font-size: 3rem;
-    line-height: 1;
-}
-.ent-cta-left h4 {
-    font-size: 1.3rem;
-    color: #1e3a8a;
-    font-weight: 800;
-    margin-bottom: 0.4rem;
-}
-.ent-cta-left p {
-    font-size: 0.95rem;
-    color: #334155;
-    margin: 0;
-    line-height: 1.5;
-}
-.ent-cta-actions {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-}
-@media (max-width: 900px) {
-    .enterprise-cta-box {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 2rem;
-    }
-    .ent-cta-actions {
-        width: 100%;
-    }
-    .ent-cta-actions .btn {
-        width: 100%;
-        text-align: center;
-    }
-}
-
 /* ========== PRICING ========== */
 .pricing { padding: 7.5rem 0; background: #f8fafc; }
-.pricing-card {
-    max-width: 520px;
+.pricing-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.05fr;
+    gap: 2.2rem;
+    max-width: 1140px;
     margin: 0 auto;
+    align-items: stretch;
+}
+@media (max-width: 992px) {
+    .pricing-grid {
+        grid-template-columns: 1fr;
+        max-width: 560px;
+    }
+}
+.pricing-card {
     background: #ffffff;
     border-radius: 28px;
-    padding: 3.5rem 3rem;
+    padding: 3.2rem 2.6rem;
     border: 2px solid #2563eb;
-    box-shadow: 0 20px 50px rgba(37, 99, 235, 0.12);
+    box-shadow: 0 20px 50px rgba(37, 99, 235, 0.1);
     position: relative;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.pricing-card-corporate {
+    background: #ffffff;
+    border-radius: 28px;
+    padding: 3rem 2.6rem;
+    border: 2px solid #0284c7;
+    box-shadow: 0 20px 50px rgba(2, 132, 199, 0.08);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.pricing-badge-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+.pricing-badge-top {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #ef4444, #dc2626);
+    color: #ffffff !important;
+    font-size: 0.82rem;
+    font-weight: 800;
+    padding: 8px 18px;
+    border-radius: 9999px;
+    letter-spacing: 0.5px;
+    line-height: 1.35;
+    text-align: center;
+    max-width: 100%;
+    box-shadow: 0 4px 16px rgba(239, 68, 68, 0.35);
+    text-transform: uppercase;
+    animation: badgePulse 2.8s infinite;
+}
+.corp-badge-top {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #0284c7, #0369a1);
+    color: #ffffff !important;
+    font-size: 0.8rem;
+    font-weight: 800;
+    padding: 8px 18px;
+    border-radius: 9999px;
+    letter-spacing: 0.5px;
+    line-height: 1.35;
+    text-align: center;
+    max-width: 100%;
+    box-shadow: 0 4px 16px rgba(2, 132, 199, 0.3);
+    text-transform: uppercase;
+}
+.corp-header {
+    text-align: center;
+    margin-bottom: 1.4rem;
+}
+.corp-header h3 {
+    color: #0f172a;
+    font-size: 1.35rem;
+    font-weight: 800;
+    margin-bottom: 0.4rem;
+    line-height: 1.3;
+}
+.corp-header p {
+    color: #475569;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 0;
+}
+/* Corporate Quote Form */
+.corporate-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+.corporate-form .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.9rem;
+}
+@media (max-width: 580px) {
+    .corporate-form .form-row {
+        grid-template-columns: 1fr;
+    }
+}
+.corporate-form .form-group {
+    margin-bottom: 0.85rem;
+    text-align: left;
+}
+.corporate-form label {
+    display: block;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #334155;
+    margin-bottom: 4px;
+}
+.corporate-form input,
+.corporate-form select,
+.corporate-form textarea {
+    width: 100%;
+    padding: 0.72rem 0.9rem;
+    border: 1.5px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: #0f172a;
+    background: #f8fafc;
+    font-family: inherit;
+    transition: all 0.2s ease;
+}
+.corporate-form input:focus,
+.corporate-form select:focus,
+.corporate-form textarea:focus {
+    border-color: #0284c7;
+    background: #ffffff;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+}
+.corporate-form textarea {
+    resize: vertical;
+    min-height: 55px;
+}
+.btn-corp-submit {
+    margin-top: 0.4rem;
+    background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%) !important;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.98rem;
+    padding: 0.85rem 1.4rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(2, 132, 199, 0.25);
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+.btn-corp-submit:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(2, 132, 199, 0.4);
+}
+.btn-corp-submit:disabled {
+    opacity: 0.75;
+    cursor: not-allowed;
+    transform: none;
+}
+.corp-form-status {
+    margin-top: 0.9rem;
+    padding: 0.85rem 1.2rem;
+    border-radius: 10px;
+    font-size: 0.88rem;
+    line-height: 1.45;
+    text-align: center;
+}
+.corp-form-status.success {
+    background: #f0fdf4;
+    border: 1px solid #86efac;
+    color: #166534;
+}
+.corp-form-status.error {
+    background: #fef2f2;
+    border: 1px solid #fca5a5;
+    color: #991b1b;
+}
+.corp-micro-note {
+    margin-top: 0.9rem;
+    font-size: 0.8rem;
+    color: #64748b;
+    text-align: center;
+}
+.corp-micro-note a {
+    color: #0284c7;
+    font-weight: 600;
+    text-decoration: underline;
 }
 .pricing-badge-wrapper {
     display: flex;
