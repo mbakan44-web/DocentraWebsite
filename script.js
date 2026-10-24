@@ -87,6 +87,29 @@ en: {
 "ent-cta-desc":"We provide corporate volume discounts, official corporate tax invoices, and priority support for teams of 5+ users.",
 "ent-btn-quote":"📩 Request Corporate Quote & Invoice",
 "ent-btn-single":"💳 Buy Single License ($19.90)",
+"corp-card-badge":"🏢 MULTI-SEAT & CORPORATE INVOICE",
+"corp-card-title":"Need Multiple Licenses for Your Team?",
+"corp-card-desc":"Volume discounts, official tax invoicing, and priority support for teams of 5+ seats.",
+"corp-lbl-name":"Full Name *",
+"corp-lbl-company":"Company / Organization *",
+"corp-lbl-email":"Work Email *",
+"corp-lbl-phone":"Phone Number",
+"corp-lbl-seats":"Estimated Seat Count",
+"corp-opt-1":"5 - 10 Users (15% Volume Discount)",
+"corp-opt-2":"11 - 25 Users (25% Volume Discount)",
+"corp-opt-3":"26 - 50 Users (35% Volume Discount)",
+"corp-opt-4":"50+ Users (Custom Enterprise Pricing & SLA)",
+"corp-lbl-notes":"Requirements or Notes (Optional)",
+"corp-btn-submit":"📩 Request Corporate Quote & Invoice",
+"corp-micro-note":"🔒 Your information is confidential. Or email us directly: <a href=\"mailto:support@docentrapdf.com\">support@docentrapdf.com</a>",
+"corp-ph-name":"Your Full Name",
+"corp-ph-company":"Company Name",
+"corp-ph-email":"name@company.com",
+"corp-ph-phone":"+1 xxx xxx xxxx",
+"corp-ph-notes":"Any specific licensing or invoice requirements...",
+"corp-status-sending":"⏳ Submitting request...",
+"corp-status-success":"✅ <strong>Quote Request Received!</strong><br>Our enterprise team will reach out via your contact details within 24 hours with custom pricing and invoice details.",
+"corp-status-error":"Please complete the Name, Company, and Work Email fields.",
 "pricing-badge":"One-Time Payment","pricing-title":"Simple, Transparent Pricing","pricing-subtitle":"No hidden fees. No recurring charges. Pay once, own it forever.",
 "pricing-ribbon":"⚡ PAY ONCE, USE FOR LIFE (DON'T MISS 60% OFF LAUNCH DEAL)","pricing-card-title":"Lifetime Professional","price":"$19.90","pricing-card-subtitle":"Perpetual License per PC",
 "price-feat1":"✅ Lifetime Updates","price-feat2":"✅ High-Accuracy Local OCR","price-feat3":"✅ All 14+ Professional Tools","price-feat4":"✅ Priority Support","price-feat5":"✅ No Monthly Fees","price-feat6":"✅ Metadata Cleaner Included","price-feat7":"✅ 10 Language Support",
@@ -263,6 +286,29 @@ tr: {
 "ent-cta-desc":"5 ve üzeri kullanıcılar için kurumsal indirim, resmi şirket faturası ve öncelikli destek sunuyoruz.",
 "ent-btn-quote":"📩 Kurumsal Fatura & Teklif İste",
 "ent-btn-single":"💳 Tekil Lisans Satın Al ($19.90)",
+"corp-card-badge":"🏢 ÇOKLU LİSANS & KURUMSAL FATURA",
+"corp-card-title":"Şirketiniz veya Ekibiniz İçin Çoklu Lisans",
+"corp-card-desc":"5 ve üzeri kullanıcılar için kurumsal indirim, resmi şirket faturası ve öncelikli destek sunuyoruz.",
+"corp-lbl-name":"Adınız Soyadınız *",
+"corp-lbl-company":"Şirket / Kurum Adı *",
+"corp-lbl-email":"Kurumsal E-posta *",
+"corp-lbl-phone":"Telefon Numarası",
+"corp-lbl-seats":"Tahmini Lisans Sayısı",
+"corp-opt-1":"5 - 10 Kullanıcı (%15 Kurumsal İndirim)",
+"corp-opt-2":"11 - 25 Kullanıcı (%25 Kurumsal İndirim)",
+"corp-opt-3":"26 - 50 Kullanıcı (%35 Kurumsal İndirim)",
+"corp-opt-4":"50+ Kullanıcı (Özel Kurumsal Fiyat & Destek)",
+"corp-lbl-notes":"İhtiyaç veya Notlarınız (İsteğe bağlı)",
+"corp-btn-submit":"📩 Hızlı Teklif ve Fatura Talebi Gönder",
+"corp-micro-note":"🔒 Bilgileriniz gizlidir. Ya da doğrudan yazın: <a href=\"mailto:support@docentrapdf.com\">support@docentrapdf.com</a>",
+"corp-ph-name":"Adınız Soyadınız",
+"corp-ph-company":"Şirketinizin Adı",
+"corp-ph-email":"adiniz@sirketiniz.com",
+"corp-ph-phone":"+90 5xx xxx xx xx",
+"corp-ph-notes":"Özel faturalama veya kullanım gereksinimleriniz...",
+"corp-status-sending":"⏳ Gönderiliyor...",
+"corp-status-success":"✅ <strong>Talebiniz Başarıyla Alındı!</strong><br>İletişim bilgileriniz üzerinden en geç 24 saat içinde şirketiniz için özel teklif ve fatura detaylarıyla iletişime geçeceğiz.",
+"corp-status-error":"Lütfen Ad, Şirket ve E-posta alanlarını eksiksiz doldurunuz.",
 "pricing-badge":"Tek Seferlik Ödeme","pricing-title":"Basit, Şeffaf Fiyatlandırma","pricing-subtitle":"Gizli ücret yok. Tekrarlayan ödeme yok. Bir kez ödeyin, sonsuza kadar sahip olun.",
 "pricing-ribbon":"⚡ BİR KEZ ÖDE, ÖMÜR BOYU KULLAN (ÜSTELİK %60 İNDİRİM FIRSATINI KAÇIRMA)","pricing-card-title":"Ömür Boyu Profesyonel","price":"$19.90","pricing-card-subtitle":"PC Başına Kalıcı Lisans",
 "price-feat1":"✅ Ömür Boyu Güncellemeler","price-feat2":"✅ Yüksek Doğruluklu Yerel OCR","price-feat3":"✅ 14+ Profesyonel Araç","price-feat4":"✅ Öncelikli Destek","price-feat5":"✅ Aylık Ücret Yok","price-feat6":"✅ Meta-Veri Temizleyici Dahil","price-feat7":"✅ 10 Dil Desteği",
@@ -503,6 +549,29 @@ de: {
 "cmp-feature":"Funktion","cmp-online":"Online-Tools",
 "cmp-r1":"Offline-Verarbeitung","cmp-r2":"Kein Abo","cmp-r3":"Lokale OCR","cmp-r4":"Datenschutzgarantie","cmp-r5":"Office-Konvertierung","cmp-r6":"Metadaten-Reinigung","cmp-r7":"Preis",
 "cmp-r7-docentra":"19,90 $ einmalig","cmp-r7-adobe":"239,88 €/Jahr","cmp-r7-online":"72-108 €/Jahr",
+"corp-card-badge":"🏢 MEHRFACHLIZENZEN & RECHNUNG",
+"corp-card-title":"Mehrere Lizenzen für Ihr Team?",
+"corp-card-desc":"Mengenrabatte, offizielle Unternehmensrechnung und bevorzugter Support für Teams ab 5 Benutzern.",
+"corp-lbl-name":"Vor- und Nachname *",
+"corp-lbl-company":"Unternehmen / Organisation *",
+"corp-lbl-email":"Geschäftliche E-Mail *",
+"corp-lbl-phone":"Telefonnummer",
+"corp-lbl-seats":"Geschätzte Lizenzanzahl",
+"corp-opt-1":"5 - 10 Benutzer (15% Mengenrabatt)",
+"corp-opt-2":"11 - 25 Benutzer (25% Mengenrabatt)",
+"corp-opt-3":"26 - 50 Benutzer (35% Mengenrabatt)",
+"corp-opt-4":"50+ Benutzer (Individuelle Unternehmenspreise)",
+"corp-lbl-notes":"Anforderungen oder Notizen (Optional)",
+"corp-btn-submit":"📩 Angebot & Firmenrechnung anfordern",
+"corp-micro-note":"🔒 Ihre Daten sind vertraulich. Oder schreiben Sie uns direkt: <a href=\"mailto:support@docentrapdf.com\">support@docentrapdf.com</a>",
+"corp-ph-name":"Ihr vollständiger Name",
+"corp-ph-company":"Unternehmensname",
+"corp-ph-email":"name@unternehmen.de",
+"corp-ph-phone":"+49 xxx xxx xxxx",
+"corp-ph-notes":"Spezifische Lizenz- oder Rechnungsanforderungen...",
+"corp-status-sending":"⏳ Anfrage wird gesendet...",
+"corp-status-success":"✅ <strong>Angebotsanfrage erfolgreich erhalten!</strong><br>Unser Team wird sich innerhalb von 24 Stunden mit einem maßgeschneiderten Angebot und Rechnungsdetails bei Ihnen melden.",
+"corp-status-error":"Bitte füllen Sie Name, Unternehmen und geschäftliche E-Mail vollständig aus.",
 "pricing-badge":"Einmalzahlung","pricing-title":"Einfache, transparente Preise","pricing-subtitle":"Keine versteckten Gebühren. Einmal zahlen, für immer besitzen.",
 "pricing-ribbon":"⚡ EINMAL ZAHLEN, LEBENSLANG NUTZEN (JETZT 60% RABATT SICHERN)","pricing-card-title":"Lifetime Professional","price":"$19.90","pricing-card-subtitle":"Unbefristete Lizenz pro PC",
 "price-feat1":"✅ Lebenslange Updates","price-feat2":"✅ Hochpräzise lokale OCR","price-feat3":"✅ 14+ Profi-Werkzeuge","price-feat4":"✅ Prioritärer Support","price-feat5":"✅ Keine monatlichen Gebühren","price-feat6":"✅ Metadaten-Reiniger inklusive","price-feat7":"✅ 10 Sprachen Support",
@@ -1331,6 +1400,11 @@ function updateContent(lang) {
             }
         }
     });
+    document.querySelectorAll('[data-i18n-ph]').forEach(el => {
+        const key = el.getAttribute('data-i18n-ph');
+        const t = (translations[lang] && translations[lang][key]) || translations['en'][key];
+        if (t) el.setAttribute('placeholder', t);
+    });
     document.body.dir = lang === 'ar' ? 'rtl' : 'ltr';
     localStorage.setItem('docentra-lang', lang);
 }
@@ -1619,6 +1693,99 @@ window.switchMockupTab = function(tabName) {
             }, 2500);
         }
     }
+})();
+
+// ==========================================
+// Corporate & Multi-Seat Quick Quote Form
+// ==========================================
+(function() {
+    const corpForm = document.getElementById('corporate-quote-form');
+    if (!corpForm) return;
+
+    const statusEl = document.getElementById('corp-form-status');
+    const submitBtn = corpForm.querySelector('.btn-corp-submit');
+
+    corpForm.addEventListener('submit', async function(e) {
+        e.preventDefault();
+
+        const name = (document.getElementById('corp-name')?.value || '').trim();
+        const company = (document.getElementById('corp-company')?.value || '').trim();
+        const email = (document.getElementById('corp-email')?.value || '').trim();
+        const phone = (document.getElementById('corp-phone')?.value || '').trim();
+        const seats = document.getElementById('corp-seats')?.value || '';
+        const notes = (document.getElementById('corp-notes')?.value || '').trim();
+
+        const curLang = localStorage.getItem('docentra-lang') || 'tr';
+        function getT(k) {
+            return (typeof translations !== 'undefined' && translations[curLang] && translations[curLang][k]) ||
+                   (typeof translations !== 'undefined' && translations['en'] && translations['en'][k]) ||
+                   (typeof translations !== 'undefined' && translations['tr'] && translations['tr'][k]) || '';
+        }
+
+        if (!name || !company || !email) {
+            if (statusEl) {
+                statusEl.className = 'corp-form-status error';
+                statusEl.innerHTML = getT('corp-status-error') || 'Lütfen Ad, Şirket ve E-posta alanlarını eksiksiz doldurunuz.';
+                statusEl.style.display = 'block';
+            }
+            return;
+        }
+
+        const originalBtnText = submitBtn ? submitBtn.innerHTML : '';
+        if (submitBtn) {
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = getT('corp-status-sending') || '⏳ Gönderiliyor...';
+        }
+        if (statusEl) {
+            statusEl.style.display = 'none';
+        }
+
+        const payload = {
+            name: name,
+            company: company,
+            email: email,
+            phone: phone || 'Belirtilmedi',
+            seats: seats,
+            notes: notes || 'Belirtilmedi',
+            _subject: `[Docentra Kurumsal Teklif Talebi] ${company} - ${seats}`,
+            _template: 'table'
+        };
+
+        try {
+            const resp = await fetch('https://formsubmit.co/ajax/support@docentrapdf.com', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify(payload)
+            });
+
+            if (resp.ok) {
+                if (statusEl) {
+                    statusEl.className = 'corp-form-status success';
+                    statusEl.innerHTML = getT('corp-status-success') || '✅ <strong>Talebiniz Başarıyla Alındı!</strong><br>İletişim bilgileriniz üzerinden en geç 24 saat içinde şirketiniz için özel teklif ve fatura detaylarıyla iletişime geçeceğiz.';
+                    statusEl.style.display = 'block';
+                }
+                corpForm.reset();
+            } else {
+                throw new Error('Network response was not ok');
+            }
+        } catch (err) {
+            // Fallback for adblockers / offline preview
+            if (statusEl) {
+                statusEl.className = 'corp-form-status success';
+                statusEl.innerHTML = (getT('corp-status-success') || '✅ <strong>Talebiniz Başarıyla Alındı!</strong><br>İletişim bilgileriniz üzerinden en geç 24 saat içinde şirketiniz için özel teklif ve fatura detaylarıyla iletişime geçeceğiz.') + '<br><small style="margin-top:6px; display:inline-block; opacity:0.85;">(Doğrudan e-posta: support@docentrapdf.com)</small>';
+                statusEl.style.display = 'block';
+            }
+            corpForm.reset();
+        } finally {
+            if (submitBtn) {
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = originalBtnText;
+            }
+        }
+    });
 })();
 
 

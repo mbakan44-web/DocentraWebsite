@@ -695,24 +695,6 @@
                     </div>
                 </div>
 
-                <!-- Corporate Licensing Callout Box -->
-                <div class="enterprise-cta-box reveal">
-                    <div class="ent-cta-left">
-                        <span class="ent-cta-icon">🏢</span>
-                        <div>
-                            <h4 data-i18n="ent-cta-title">Şirketiniz veya Ekibiniz İçin Çoklu Lisans mı Gerekiyor?</h4>
-                            <p data-i18n="ent-cta-desc">5 ve üzeri kullanıcılar için kurumsal indirim, resmi şirket faturası ve öncelikli destek sunuyoruz.</p>
-                        </div>
-                    </div>
-                    <div class="ent-cta-actions">
-                        <a href="mailto:support@docentrapdf.com?subject=Docentra%20Kurumsal%20Lisans%20Talebi&body=Merhaba%2C%0A%0A%C5%9Eirketimiz%20i%C3%A7in%20Docentra%20toplu%20lisans%20teklifi%20almak%20istiyoruz.%0A%0A%C5%9Eirket%20Unvan%C4%B1%3A%20%0ATahmini%20Kullan%C4%B1c%C4%B1%20Say%C4%B1s%C4%B1%3A%20%0AYetkili%20Ad%20Soyad%20%2F%20Unvan%3A%20%0ATelefon%20%2F%20E-posta%3A%20" class="btn btn-primary" data-i18n="ent-btn-quote">
-                            📩 Kurumsal Fatura & Teklif İste
-                        </a>
-                        <a href="#pricing" class="btn btn-outline" data-i18n="ent-btn-single">
-                            💳 Tekil Lisans Satın Al ($19.90)
-                        </a>
-                    </div>
-                </div>
             </div>
         </section>
 
@@ -724,32 +706,89 @@
                     <h2 data-i18n="pricing-title">Simple, Transparent Pricing</h2>
                     <p data-i18n="pricing-subtitle">No hidden fees. No recurring charges. Pay once, own it forever.</p>
                 </div>
-                <div class="pricing-card reveal">
-                    <div class="pricing-badge-wrapper">
-                        <div class="pricing-badge-top" data-i18n="pricing-ribbon">⚡ BİR KEZ ÖDE, ÖMÜR BOYU KULLAN (ÜSTELİK %60 İNDİRİM FIRSATINI KAÇIRMA)</div>
-                    </div>
-                    <div class="pricing-header">
-                        <h3 data-i18n="pricing-card-title">Lifetime Professional</h3>
-                        <div class="price-container">
-                            <div class="price-was-row">
-                                <span class="price-original">$49.90</span>
-                                <span class="discount-pill" data-i18n="discount-badge">-60%</span>
-                            </div>
-                            <div class="price dynamic-price" data-i18n="price">$19.90</div>
+                <div class="pricing-grid">
+                    <!-- Left: Individual Lifetime Card -->
+                    <div class="pricing-card reveal">
+                        <div class="pricing-badge-wrapper">
+                            <div class="pricing-badge-top" data-i18n="pricing-ribbon">⚡ BİR KEZ ÖDE, ÖMÜR BOYU KULLAN (ÜSTELİK %60 İNDİRİM FIRSATINI KAÇIRMA)</div>
                         </div>
-                        <p data-i18n="pricing-card-subtitle">Perpetual License per PC</p>
+                        <div class="pricing-header">
+                            <h3 data-i18n="pricing-card-title">Lifetime Professional</h3>
+                            <div class="price-container">
+                                <div class="price-was-row">
+                                    <span class="price-original">$49.90</span>
+                                    <span class="discount-pill" data-i18n="discount-badge">-60%</span>
+                                </div>
+                                <div class="price dynamic-price" data-i18n="price">$19.90</div>
+                            </div>
+                            <p data-i18n="pricing-card-subtitle">Perpetual License per PC</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li data-i18n="price-feat1">✅ Lifetime Updates</li>
+                            <li data-i18n="price-feat2">✅ High-Accuracy Local OCR</li>
+                            <li data-i18n="price-feat3">✅ All 14+ Professional Tools</li>
+                            <li data-i18n="price-feat4">✅ Priority Support</li>
+                            <li data-i18n="price-feat5">✅ No Monthly Fees</li>
+                            <li data-i18n="price-feat6">✅ Metadata Cleaner Included</li>
+                            <li data-i18n="price-feat7">✅ 10 Language Support</li>
+                        </ul>
+                        <a href="https://docentra.gumroad.com/l/docentra" class="btn btn-primary btn-block" data-i18n="btn-buy" target="_blank" rel="noopener noreferrer">Buy License Now</a>
+                        <p class="tax-notice" data-i18n="tax-warning">* Applicable VAT/sales tax may be calculated by Gumroad depending on your country.</p>
                     </div>
-                    <ul class="pricing-features">
-                        <li data-i18n="price-feat1">✅ Lifetime Updates</li>
-                        <li data-i18n="price-feat2">✅ High-Accuracy Local OCR</li>
-                        <li data-i18n="price-feat3">✅ All 14+ Professional Tools</li>
-                        <li data-i18n="price-feat4">✅ Priority Support</li>
-                        <li data-i18n="price-feat5">✅ No Monthly Fees</li>
-                        <li data-i18n="price-feat6">✅ Metadata Cleaner Included</li>
-                        <li data-i18n="price-feat7">✅ 10 Language Support</li>
-                    </ul>
-                    <a href="https://docentra.gumroad.com/l/docentra" class="btn btn-primary btn-block" data-i18n="btn-buy" target="_blank" rel="noopener noreferrer">Buy License Now</a>
-                    <p class="tax-notice" data-i18n="tax-warning">* Applicable VAT/sales tax may be calculated by Gumroad depending on your country.</p>
+
+                    <!-- Right: Corporate & Multi-Seat Quote Card -->
+                    <div class="pricing-card-corporate reveal">
+                        <div class="pricing-badge-wrapper">
+                            <div class="corp-badge-top" data-i18n="corp-card-badge">🏢 ÇOKLU LİSANS & KURUMSAL FATURA</div>
+                        </div>
+                        <div class="corp-header">
+                            <h3 data-i18n="corp-card-title">Şirketiniz veya Ekibiniz İçin Çoklu Lisans</h3>
+                            <p data-i18n="corp-card-desc">5 ve üzeri kullanıcılar için kurumsal indirim, resmi şirket faturası ve öncelikli destek sunuyoruz.</p>
+                        </div>
+
+                        <form id="corporate-quote-form" class="corporate-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="corp-name" data-i18n="corp-lbl-name">Adınız Soyadınız *</label>
+                                    <input type="text" id="corp-name" name="full_name" required placeholder="Adınız Soyadınız" data-i18n-ph="corp-ph-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="corp-company" data-i18n="corp-lbl-company">Şirket / Kurum Adı *</label>
+                                    <input type="text" id="corp-company" name="company" required placeholder="Şirketinizin Adı" data-i18n-ph="corp-ph-company">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="corp-email" data-i18n="corp-lbl-email">Kurumsal E-posta *</label>
+                                    <input type="email" id="corp-email" name="email" required placeholder="adiniz@sirketiniz.com" data-i18n-ph="corp-ph-email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="corp-phone" data-i18n="corp-lbl-phone">Telefon Numarası</label>
+                                    <input type="tel" id="corp-phone" name="phone" placeholder="+90 5xx xxx xx xx" data-i18n-ph="corp-ph-phone">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="corp-seats" data-i18n="corp-lbl-seats">Tahmini Lisans Sayısı</label>
+                                <select id="corp-seats" name="seats" class="form-select">
+                                    <option value="5 - 10 Lisans" data-i18n="corp-opt-1">5 - 10 Kullanıcı (%15 Kurumsal İndirim)</option>
+                                    <option value="11 - 25 Lisans" data-i18n="corp-opt-2">11 - 25 Kullanıcı (%25 Kurumsal İndirim)</option>
+                                    <option value="26 - 50 Lisans" data-i18n="corp-opt-3">26 - 50 Kullanıcı (%35 Kurumsal İndirim)</option>
+                                    <option value="50+ Lisans" data-i18n="corp-opt-4">50+ Kullanıcı (Özel Kurumsal Fiyat & Destek)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="corp-notes" data-i18n="corp-lbl-notes">İhtiyaç veya Notlarınız (İsteğe bağlı)</label>
+                                <textarea id="corp-notes" name="notes" rows="2" placeholder="Özel faturalama veya kullanım gereksinimleriniz..." data-i18n-ph="corp-ph-notes"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block btn-corp-submit" data-i18n="corp-btn-submit">
+                                📩 Hızlı Teklif ve Fatura Talebi Gönder
+                            </button>
+                            <div id="corp-form-status" class="corp-form-status" style="display: none;"></div>
+                            <p class="corp-micro-note" data-i18n="corp-micro-note">
+                                🔒 Bilgileriniz gizlidir. Ya da doğrudan yazın: <a href="mailto:support@docentrapdf.com">support@docentrapdf.com</a>
+                            </p>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
@@ -1003,6 +1042,6 @@
         </div>
     </div>
 
-    <script src="script.js?v=5"></script>
+    <script src="script.js?v=6"></script>
 </body>
 </html>
