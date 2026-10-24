@@ -131,7 +131,8 @@
             <a href="index.html" class="logo">DOCENTRA</a>
             <ul class="nav-links">
                 <li><a href="#features" data-i18n="nav-features">Features</a></li>
-                <li><a href="online-vs-offline.html" data-i18n="nav-compare">Why Offline?</a></li>
+                <li><a href="#comparison" data-i18n="nav-compare">Why Offline?</a></li>
+                <li><a href="#enterprise" data-i18n="nav-enterprise">Enterprise</a></li>
                 <li><a href="blog/index.html" data-i18n="nav-blog">Blog</a></li>
                 <li><a href="#pricing" data-i18n="nav-pricing">Pricing</a></li>
                 <li><a href="#roadmap" data-i18n="nav-roadmap">Roadmap</a></li>
@@ -454,63 +455,263 @@
                 <div class="section-header reveal">
                     <span class="badge" data-i18n="cmp-badge">Why Docentra?</span>
                     <h2 data-i18n="cmp-title">See How We Compare</h2>
-                    <p data-i18n="cmp-subtitle">The honest comparison you won't find on their websites.</p>
+                    <p data-i18n="cmp-subtitle">The honest, verifiable comparison you won't find on subscription websites.</p>
                 </div>
+                <div class="table-scroll-hint" data-i18n="cmp-scroll-hint">👉 Tabloyu kaydırarak inceleyebilirsiniz</div>
                 <div class="table-wrapper reveal">
                     <table class="comparison-table">
                         <thead>
                             <tr>
-                                <th data-i18n="cmp-feature">Feature</th>
-                                <th class="highlight-col">Docentra</th>
-                                <th>Adobe Acrobat</th>
-                                <th data-i18n="cmp-online">Online Tools</th>
+                                <th class="cmp-col-feature" data-i18n="cmp-th-feature">Özellik / Kriter</th>
+                                <th class="highlight-col cmp-col-docentra">
+                                    <div class="cmp-brand-box">
+                                        <span class="cmp-brand-pill" data-i18n="cmp-badge-best">★ EN İYİ DEĞER</span>
+                                        <div class="cmp-brand-title">DOCENTRA</div>
+                                        <span class="cmp-brand-sub" data-i18n="cmp-brand-sub">%100 Çevrimdışı & Güvenli</span>
+                                    </div>
+                                </th>
+                                <th class="cmp-col-adobe">
+                                    <div class="cmp-competitor-title">Adobe Acrobat Pro</div>
+                                    <span class="cmp-competitor-sub" data-i18n="cmp-adobe-sub">Abonelikli Masaüstü/Bulut</span>
+                                </th>
+                                <th class="cmp-col-online">
+                                    <div class="cmp-competitor-title" data-i18n="cmp-online-title">Çevrimiçi Siteler</div>
+                                    <span class="cmp-competitor-sub" data-i18n="cmp-online-sub">iLovePDF, Smallpdf vb.</span>
+                                </th>
                             </tr>
                         </thead>
                         <tbody>
+                            <!-- Row 1: Local / Offline -->
                             <tr>
-                                <td data-i18n="cmp-r1">Offline Processing</td>
-                                <td class="highlight-col">✅</td>
-                                <td>✅</td>
-                                <td>❌</td>
+                                <td>
+                                    <strong data-i18n="cmp-r1-title">Yerel ve Çevrimdışı Çalışma</strong>
+                                    <span class="row-hint" data-i18n="cmp-r1-hint">İnternet bağlantısı olmadan bağımsız çalışabilme</span>
+                                </td>
+                                <td class="highlight-col">
+                                    <div class="cmp-cell-val val-yes">✅ <span data-i18n="cmp-r1-doc">%100 Çevrimdışı</span></div>
+                                    <small data-i18n="cmp-r1-doc-sub">İnternet bağlantısı hiç gerekmez</small>
+                                </td>
+                                <td>
+                                    <div class="cmp-cell-val val-partial">⚠️ <span data-i18n="cmp-r1-ado">Kısmi Çevrimdışı</span></div>
+                                    <small data-i18n="cmp-r1-ado-sub">Periyodik online hesap doğrulaması ister</small>
+                                </td>
+                                <td>
+                                    <div class="cmp-cell-val val-no">❌ <span data-i18n="cmp-r1-onl">%0 Çevrimdışı</span></div>
+                                    <small data-i18n="cmp-r1-onl-sub">İnternetsiz hiçbir araç çalışmaz</small>
+                                </td>
                             </tr>
+                            <!-- Row 2: Cloud upload & Privacy -->
                             <tr>
-                                <td data-i18n="cmp-r2">No Subscription</td>
-                                <td class="highlight-col">✅</td>
-                                <td>❌</td>
-                                <td>❌</td>
+                                <td>
+                                    <strong data-i18n="cmp-r2-title">Veri Gizliliği & Bulut Riski</strong>
+                                    <span class="row-hint" data-i18n="cmp-r2-hint">Dosyaların üçüncü taraf sunuculara yüklenmesi</span>
+                                </td>
+                                <td class="highlight-col">
+                                    <div class="cmp-cell-val val-yes">🛡️ <span data-i18n="cmp-r2-doc">0 Bayt Yükleme</span></div>
+                                    <small data-i18n="cmp-r2-doc-sub">Verileriniz asla PC'nizden çıkmaz</small>
+                                </td>
+                                <td>
+                                    <div class="cmp-cell-val val-partial">⚠️ <span data-i18n="cmp-r2-ado">Bulut Entegrasyonu</span></div>
+                                    <small data-i18n="cmp-r2-ado-sub">Adobe Cloud senkronizasyonu & telemetri</small>
+                                </td>
+                                <td>
+                                    <div class="cmp-cell-val val-no">❌ <span data-i18n="cmp-r2-onl">Yüksek KVKK Riski</span></div>
+                                    <small data-i18n="cmp-r2-onl-sub">Tüm sayfalar yabancı sunuculara aktarılır</small>
+                                </td>
                             </tr>
-                            <tr>
-                                <td data-i18n="cmp-r3">Local OCR</td>
-                                <td class="highlight-col">✅</td>
-                                <td>✅</td>
-                                <td>⚠️</td>
+                            <!-- Row 3: Pricing model -->
+                            <tr class="cmp-pricing-row">
+                                <td>
+                                    <strong data-i18n="cmp-r3-title">Fiyatlandırma & Lisans</strong>
+                                    <span class="row-hint" data-i18n="cmp-r3-hint">Abonelik tuzağı mı, tek seferlik mi?</span>
+                                </td>
+                                <td class="highlight-col price-cell">
+                                    <div class="cmp-price-badge" data-i18n="cmp-r3-doc-price">$19.90 TEK SEFERLİK</div>
+                                    <small data-i18n="cmp-r3-doc-sub">Ömür boyu kullanım, aylık fatura yok</small>
+                                </td>
+                                <td>
+                                    <div class="cmp-cell-val val-price-bad" data-i18n="cmp-r3-ado-price">$239.88 / Yıl</div>
+                                    <small data-i18n="cmp-r3-ado-sub">Her yıl tekrarlanan zorunlu abonelik</small>
+                                </td>
+                                <td>
+                                    <div class="cmp-cell-val val-price-bad" data-i18n="cmp-r3-onl-price">$72 - $108 / Yıl</div>
+                                    <small data-i18n="cmp-r3-onl-sub">Aylık/yıllık yinelenen ücretler</small>
+                                </td>
                             </tr>
+                            <!-- Row 4: File Size limits -->
                             <tr>
-                                <td data-i18n="cmp-r4">Privacy Guarantee</td>
-                                <td class="highlight-col">✅</td>
-                                <td>⚠️</td>
-                                <td>❌</td>
+                                <td>
+                                    <strong data-i18n="cmp-r4-title">Dosya Boyutu ve Sayfa Sınırı</strong>
+                                    <span class="row-hint" data-i18n="cmp-r4-hint">Büyük dosyalar ve çoklu sayfalar</span>
+                                </td>
+                                <td class="highlight-col">
+                                    <div class="cmp-cell-val val-yes">✅ <span data-i18n="cmp-r4-doc">Tamamen Sınırsız</span></div>
+                                    <small data-i18n="cmp-r4-doc-sub">Bilgisayarınızın RAM ve CPU gücü kadar</small>
+                                </td>
+                                <td>
+                                    <div class="cmp-cell-val val-yes">✅ <span data-i18n="cmp-r4-ado">Yüksek Sınırlar</span></div>
+                                    <small data-i18n="cmp-r4-ado-sub">Masaüstü uygulaması destekler</small>
+                                </td>
+                                <td>
+                                    <div class="cmp-cell-val val-no">❌ <span data-i18n="cmp-r4-onl">Sıkı Limitler</span></div>
+                                    <small data-i18n="cmp-r4-onl-sub">Genellikle 15-25 MB veya işlem başına kısıtlama</small>
+                                </td>
                             </tr>
+                            <!-- Row 5: Local OCR -->
                             <tr>
-                                <td data-i18n="cmp-r5">Office Conversion</td>
-                                <td class="highlight-col">✅</td>
-                                <td>✅</td>
-                                <td>⚠️</td>
+                                <td>
+                                    <strong data-i18n="cmp-r5-title">Yerel OCR Metin Tanıma</strong>
+                                    <span class="row-hint" data-i18n="cmp-r5-hint">Taranmış kağıtları metne çevirme</span>
+                                </td>
+                                <td class="highlight-col">
+                                    <div class="cmp-cell-val val-yes">✅ <span data-i18n="cmp-r5-doc">Dahili Yerel OCR</span></div>
+                                    <small data-i18n="cmp-r5-doc-sub">Windows motoruyla cihazınızda yerel çalışır</small>
+                                </td>
+                                <td>
+                                    <div class="cmp-cell-val val-yes">✅ <span data-i18n="cmp-r5-ado">Mevcut</span></div>
+                                    <small data-i18n="cmp-r5-ado-sub">Yüksek doğruluklu Adobe motoru</small>
+                                </td>
+                                <td>
+                                    <div class="cmp-cell-val val-partial">⚠️ <span data-i18n="cmp-r5-onl">Ücretli / Bulutta</span></div>
+                                    <small data-i18n="cmp-r5-onl-sub">Tarama içeriği buluta aktarılır</small>
+                                </td>
                             </tr>
+                            <!-- Row 6: Metadata & DLP Cleaner -->
                             <tr>
-                                <td data-i18n="cmp-r6">Metadata Cleaning</td>
-                                <td class="highlight-col">✅</td>
-                                <td>❌</td>
-                                <td>❌</td>
+                                <td>
+                                    <strong data-i18n="cmp-r6-title">Kurumsal Metadata & İz Temizleme</strong>
+                                    <span class="row-hint" data-i18n="cmp-r6-hint">Yazar adı, makine yolu ve revizyon izlerini silme</span>
+                                </td>
+                                <td class="highlight-col">
+                                    <div class="cmp-cell-val val-yes">✅ <span data-i18n="cmp-r6-doc">Dahili DLP Aracı</span></div>
+                                    <small data-i18n="cmp-r6-doc-sub">PDF & Office dosyalarından sızıntıyı önler</small>
+                                </td>
+                                <td>
+                                    <div class="cmp-cell-val val-no">❌ <span data-i18n="cmp-r6-ado">Kapsamlı Değil</span></div>
+                                    <small data-i18n="cmp-r6-ado-sub">Sadece temel PDF meta alanları</small>
+                                </td>
+                                <td>
+                                    <div class="cmp-cell-val val-no">❌ <span data-i18n="cmp-r6-onl">Yok</span></div>
+                                    <small data-i18n="cmp-r6-onl-sub">Meta-veri gizlilik aracı bulunmaz</small>
+                                </td>
                             </tr>
+                            <!-- Row 7: Speed -->
                             <tr>
-                                <td data-i18n="cmp-r7">Price</td>
-                                <td class="highlight-col price-cell dynamic-price" data-i18n="cmp-r7-docentra">$19.90</td>
-                                <td data-i18n="cmp-r7-adobe">$239.88/year</td>
-                                <td data-i18n="cmp-r7-online">$72-$108/year</td>
+                                <td>
+                                    <strong data-i18n="cmp-r7-title">İşlem Hızı & Gecikme</strong>
+                                    <span class="row-hint" data-i18n="cmp-r7-hint">Dosyayı açma, işleme ve kaydetme süresi</span>
+                                </td>
+                                <td class="highlight-col">
+                                    <div class="cmp-cell-val val-yes">⚡ <span data-i18n="cmp-r7-doc">Anında (SSD/CPU)</span></div>
+                                    <small data-i18n="cmp-r7-doc-sub">Yükleme/indirme bekleme süresi 0 sn</small>
+                                </td>
+                                <td>
+                                    <div class="cmp-cell-val val-partial">⚡ <span data-i18n="cmp-r7-ado">Hızlı</span></div>
+                                    <small data-i18n="cmp-r7-ado-sub">Masaüstü donanım hızı</small>
+                                </td>
+                                <td>
+                                    <div class="cmp-cell-val val-no">🐢 <span data-i18n="cmp-r7-onl">İnternete Bağımlı</span></div>
+                                    <small data-i18n="cmp-r7-onl-sub">Büyük dosyalarda yükleme dakikalar sürer</small>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== ENTERPRISE / SECTORS ===================== -->
+        <section id="enterprise" class="enterprise-section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="badge" data-i18n="ent-badge">Kurumsal Güvenlik & KVKK / GDPR Uyumlu</span>
+                    <h2 data-i18n="ent-title">Hassas Belgeleriniz Buluta Emanet Edilemez</h2>
+                    <p data-i18n="ent-subtitle">Hukuk bürolarından finans kurumlarına; üçüncü taraf web sitelerine yüklenmesi yasal risk taşıyan kritik evraklar için güvenli masaüstü standardı.</p>
+                </div>
+                
+                <div class="enterprise-grid">
+                    <!-- Sector 1: Legal -->
+                    <div class="enterprise-card reveal">
+                        <div class="ent-card-header">
+                            <span class="ent-badge-pill" data-i18n="ent-s1-pill">Hukuk & Mevzuat</span>
+                            <span class="ent-icon">⚖️</span>
+                        </div>
+                        <h3 data-i18n="ent-s1-title">Hukuk Büroları & Avukatlar</h3>
+                        <p class="ent-problem" data-i18n="ent-s1-problem"><strong>Risk:</strong> Dava dosyalarını, müvekkil sözleşmelerini ve gizlilik sözleşmelerini (NDA) çevrimiçi PDF sitelerine yüklemek avukatlık sır saklama yükümlülüğü ve KVKK açısından ağır yaptırımlara yol açabilir.</p>
+                        <p class="ent-solution" data-i18n="ent-s1-solution"><strong>Docentra Güvencesi:</strong> %100 çevrimdışı parola şifreleme, dijital imzalama, sayfa birleştirme ve sıfır veri sızıntısı ile müvekkil gizliliği tam koruma altındadır.</p>
+                        <ul class="ent-features-list">
+                            <li data-i18n="ent-s1-f1">✓ Gizli dava dosyalarında 0 bayt bulut aktarımı</li>
+                            <li data-i18n="ent-s1-f2">✓ Resmi imza ve filigran ekleme araçları</li>
+                            <li data-i18n="ent-s1-f3">✓ Taranmış adli evraklar için yerel OCR</li>
+                        </ul>
+                    </div>
+
+                    <!-- Sector 2: Finance & Accounting -->
+                    <div class="enterprise-card reveal">
+                        <div class="ent-card-header">
+                            <span class="ent-badge-pill" data-i18n="ent-s2-pill">Finans & Denetim</span>
+                            <span class="ent-icon">📊</span>
+                        </div>
+                        <h3 data-i18n="ent-s2-title">Mali Müşavirler, Denetim & Muhasebe</h3>
+                        <p class="ent-problem" data-i18n="ent-s2-problem"><strong>Risk:</strong> Şirket bilançoları, personel maaş bordroları, vergi beyannameleri ve banka ekstreleri gibi ticari sırlar yabancı sunucularda saklanmamalıdır.</p>
+                        <p class="ent-solution" data-i18n="ent-s2-solution"><strong>Docentra Güvencesi:</strong> Limitsiz boyutlu büyük mizan ve defterleri saniyeler içinde birleştirin veya sayfa ayıklayın. Finansal verileriniz asla bilgisayarınızdan dışarı çıkmaz.</p>
+                        <ul class="ent-features-list">
+                            <li data-i18n="ent-s2-f1">✓ Yüzlerce sayfalık defterlerde dosya boyutu sınırı yok</li>
+                            <li data-i18n="ent-s2-f2">✓ Excel ve Word tablolarını hatasız PDF'e dönüştürme</li>
+                            <li data-i18n="ent-s2-f3">✓ Sayfa numaralandırma ve dönem damgaları</li>
+                        </ul>
+                    </div>
+
+                    <!-- Sector 3: Healthcare & HR -->
+                    <div class="enterprise-card reveal">
+                        <div class="ent-card-header">
+                            <span class="ent-badge-pill" data-i18n="ent-s3-pill">Sağlık & İK</span>
+                            <span class="ent-icon">🏥</span>
+                        </div>
+                        <h3 data-i18n="ent-s3-title">Sağlık Kuruluşları & İnsan Kaynakları</h3>
+                        <p class="ent-problem" data-i18n="ent-s3-problem"><strong>Risk:</strong> Hasta epikriz raporları, sağlık verileri ve çalışan özlük dosyaları kanunen en hassas kişisel veriler (özel nitelikli kişisel veri) sınıfındadır.</p>
+                        <p class="ent-solution" data-i18n="ent-s3-solution"><strong>Docentra Güvencesi:</strong> Belgeleri paylaşmadan önce Metadata Cleaner ile hazırlayan kişinin bilgisayar adını ve revizyon geçmişini temizleyin; tam KVKK/GDPR uyumu sağlayın.</p>
+                        <ul class="ent-features-list">
+                            <li data-i18n="ent-s3-f1">✓ Özel nitelikli sağlık ve personel verileri için yerel koruma</li>
+                            <li data-i18n="ent-s3-f2">✓ Kurumsal DLP Metadata Cleaner ile gizli izleri silme</li>
+                            <li data-i18n="ent-s3-f3">✓ Çoklu sekmede hızlı ve gizli belge inceleme</li>
+                        </ul>
+                    </div>
+
+                    <!-- Sector 4: Corporate IT & Air-Gapped Networks -->
+                    <div class="enterprise-card reveal">
+                        <div class="ent-card-header">
+                            <span class="ent-badge-pill" data-i18n="ent-s4-pill">Kapalı Ağlar & IT</span>
+                            <span class="ent-icon">🛡️</span>
+                        </div>
+                        <h3 data-i18n="ent-s4-title">Kurumsal IT & İnternetsiz (Air-Gapped) Ağlar</h3>
+                        <p class="ent-problem" data-i18n="ent-s4-problem"><strong>Risk:</strong> Güvenlik duvarları nedeniyle dış internete kapalı çalışan kurumlarda bulut araçları çalışmaz veya şirket güvenlik politikaları gereği engellenir.</p>
+                        <p class="ent-solution" data-i18n="ent-s4-solution"><strong>Docentra Güvencesi:</strong> Sadece 60 MB'lık temiz kurulum paketi. Telemetri yok, arka plan güncelleme zorunluluğu yok, internete kapalı ağlarda kusursuz çalışır.</p>
+                        <ul class="ent-features-list">
+                            <li data-i18n="ent-s4-f1">✓ İnternetsiz veya kısıtlı kurumsal ağlarda tam performans</li>
+                            <li data-i18n="ent-s4-f2">✓ Sıfır telemetri ve sıfır dış sunucu bağımlılığı</li>
+                            <li data-i18n="ent-s4-f3">✓ Kolay dağıtılabilir hafif Windows mimarisi</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Corporate Licensing Callout Box -->
+                <div class="enterprise-cta-box reveal">
+                    <div class="ent-cta-left">
+                        <span class="ent-cta-icon">🏢</span>
+                        <div>
+                            <h4 data-i18n="ent-cta-title">Şirketiniz veya Ekibiniz İçin Çoklu Lisans mı Gerekiyor?</h4>
+                            <p data-i18n="ent-cta-desc">5 ve üzeri kullanıcılar için kurumsal indirim, resmi şirket faturası ve öncelikli destek sunuyoruz.</p>
+                        </div>
+                    </div>
+                    <div class="ent-cta-actions">
+                        <a href="mailto:support@docentrapdf.com?subject=Docentra%20Kurumsal%20Lisans%20Talebi&body=Merhaba%2C%0A%0A%C5%9Eirketimiz%20i%C3%A7in%20Docentra%20toplu%20lisans%20teklifi%20almak%20istiyoruz.%0A%0A%C5%9Eirket%20Unvan%C4%B1%3A%20%0ATahmini%20Kullan%C4%B1c%C4%B1%20Say%C4%B1s%C4%B1%3A%20%0AYetkili%20Ad%20Soyad%20%2F%20Unvan%3A%20%0ATelefon%20%2F%20E-posta%3A%20" class="btn btn-primary" data-i18n="ent-btn-quote">
+                            📩 Kurumsal Fatura & Teklif İste
+                        </a>
+                        <a href="#pricing" class="btn btn-outline" data-i18n="ent-btn-single">
+                            💳 Tekil Lisans Satın Al ($19.90)
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -683,7 +884,8 @@
                     <h4 data-i18n="footer-product">Product</h4>
                     <ul>
                         <li><a href="#features" data-i18n="nav-features">Features</a></li>
-                        <li><a href="online-vs-offline.html" data-i18n="nav-compare">Why Offline?</a></li>
+                        <li><a href="#comparison" data-i18n="nav-compare">Why Offline?</a></li>
+                        <li><a href="#enterprise" data-i18n="nav-enterprise">Enterprise</a></li>
                         <li><a href="blog/index.html" data-i18n="nav-blog">Blog & Guides</a></li>
                         <li><a href="#pricing" data-i18n="nav-pricing">Pricing</a></li>
                         <li><a href="#roadmap" data-i18n="nav-roadmap">Roadmap</a></li>
@@ -801,6 +1003,6 @@
         </div>
     </div>
 
-    <script src="script.js?v=4"></script>
+    <script src="script.js?v=5"></script>
 </body>
 </html>
