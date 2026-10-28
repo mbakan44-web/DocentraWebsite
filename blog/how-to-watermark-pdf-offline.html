@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Watermark Sensitive PDFs Offline (Without Cloud Uploads) | Docentra</title>
+    <meta name="description" content="Learn how to watermark confidential PDFs, pitch decks, and legal contracts 100% offline. Protect intellectual property without uploading sensitive files to cloud converters.">
+    <meta name="keywords" content="watermark pdf offline, add confidential watermark to pdf, batch watermark pdf windows, stamp logo on pdf offline, protect pdf pitch deck, secure pdf watermarking windows">
+    <link rel="canonical" href="https://docentrapdf.com/blog/how-to-watermark-pdf-offline.html" />
+    
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://docentrapdf.com/blog/how-to-watermark-pdf-offline.html">
+    <meta property="og:title" content="How to Watermark Sensitive PDFs Offline (Without Cloud Uploads)">
+    <meta property="og:description" content="Never upload confidential investor decks or legal contracts to web tools just to stamp 'CONFIDENTIAL'. Here is how to batch watermark PDFs offline.">
+    <meta property="og:image" content="https://docentrapdf.com/assets/screenshots/watermark_screen.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@docentrapdf">
+    <meta name="twitter:title" content="How to Watermark Sensitive PDFs Offline (Without Cloud Uploads)">
+    <meta name="twitter:description" content="Protect trade secrets and intellectual property without cloud leaks. Step-by-step offline PDF watermarking guide for Windows.">
+    <meta name="twitter:image" content="https://docentrapdf.com/assets/screenshots/watermark_screen.png">
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "headline": "How to Watermark Sensitive PDFs Offline (Without Cloud Uploads)",
+          "description": "A comprehensive guide on securely adding text and logo watermarks to confidential business documents, contracts, and pitch decks without cloud exposure.",
+          "image": "https://docentrapdf.com/assets/screenshots/watermark_screen.png",
+          "author": {
+            "@type": "Organization",
+            "name": "Docentra Editorial Team",
+            "url": "https://docentrapdf.com"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Docentra PDF Suite",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://docentrapdf.com/hero-mockup.png"
+            }
+          },
+          "datePublished": "2026-10-28",
+          "dateModified": "2026-10-28"
+        },
+        {
+          "@type": "HowTo",
+          "name": "How to Watermark a PDF Document Offline on Windows",
+          "description": "Step-by-step instructions to stamp text or company logos onto PDF files without an internet connection.",
+          "step": [
+            {
+              "@type": "HowToStep",
+              "name": "Open Docentra PDF Suite",
+              "text": "Launch Docentra on your Windows PC and select the Watermark & Logo tool."
+            },
+            {
+              "@type": "HowToStep",
+              "name": "Import Your PDF Document",
+              "text": "Drag and drop your confidential PDF or an entire batch of documents into the workspace."
+            },
+            {
+              "@type": "HowToStep",
+              "name": "Configure Watermark Settings",
+              "text": "Choose Text ('CONFIDENTIAL', 'DRAFT') or upload your corporate Logo. Adjust opacity, font size, angle, and positioning."
+            },
+            {
+              "@type": "HowToStep",
+              "name": "Apply and Save",
+              "text": "Click Apply. The file is processed locally in RAM and saved directly to your local storage in seconds."
+            }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Why is it risky to watermark confidential PDFs using free online tools?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Online PDF watermarking websites require you to upload your entire document to their remote web servers. If you are watermarking an unreleased pitch deck, M&A financial report, or proprietary trade secret, uploading it to third-party cloud infrastructure creates severe data leakage, compliance, and IP exposure risks."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I watermark multiple PDF files in batch completely offline?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Docentra PDF Suite allows you to batch watermark hundreds of pages and multiple documents simultaneously using your local multi-core CPU, with zero internet connection required."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I make sure the watermark doesn't obscure readable contract text?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Docentra provides granular opacity controls (e.g., 15% to 30% transparency) and diagonal rotation angles, ensuring the watermark remains clearly visible for leak deterrence without compromising document readability."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does watermarking a PDF prevent someone from copying the text?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Visual watermarking deters unauthorized distribution and screenshot sharing. To completely block text copying or printing, combine watermarking with Docentra's offline AES-256 permission encryption."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body style="font-family: 'Plus Jakarta Sans', sans-serif; color: #1e293b; background: #f8fafc; line-height: 1.7;">
+
+    <!-- Navigation Header -->
+    <header style="background: rgba(255,255,255,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid #e2e8f0; position: sticky; top: 0; z-index: 100;">
+        <nav class="container" style="display: flex; justify-content: space-between; align-items: center; padding: 18px 20px;">
+            <a href="../index.html" class="logo" style="font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 1.5rem; color: #0f172a; text-decoration: none; letter-spacing: -0.5px;">DOCENTRA</a>
+            <ul class="nav-links" style="display: flex; gap: 24px; list-style: none; align-items: center; margin: 0; padding: 0;">
+                <li><a href="../index.html#features" style="color: #475569; text-decoration: none; font-weight: 500;">Features</a></li>
+                <li><a href="../online-vs-offline.html" style="color: #475569; text-decoration: none; font-weight: 500;">Why Offline?</a></li>
+                <li><a href="index.html" style="color: #2563eb; text-decoration: none; font-weight: 600;">Blog</a></li>
+                <li><a href="../index.html#pricing" style="color: #475569; text-decoration: none; font-weight: 500;">Pricing</a></li>
+                <li><a href="../download/index.html" class="btn btn-primary" style="padding: 9px 18px; border-radius: 8px; text-decoration: none; font-size: 0.95rem;">⬇️ Free Download</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="container" style="max-width: 860px; padding: 60px 20px 100px;">
+        
+        <!-- Breadcrumbs -->
+        <nav style="font-size: 0.9rem; color: #64748b; margin-bottom: 24px;">
+            <a href="../index.html" style="color: #64748b; text-decoration: none;">Home</a> &gt; 
+            <a href="index.html" style="color: #64748b; text-decoration: none;">Blog</a> &gt; 
+            <span style="color: #0f172a; font-weight: 500;">How to Watermark Sensitive PDFs Offline</span>
+        </nav>
+
+        <!-- Article Header -->
+        <header style="margin-bottom: 40px;">
+            <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 16px;">
+                <span style="background: #eff6ff; color: #2563eb; font-weight: 700; font-size: 0.8rem; padding: 4px 12px; border-radius: 20px; text-transform: uppercase;">Security &amp; IP Protection</span>
+                <span style="color: #94a3b8; font-size: 0.85rem;">• 6 Min Read • October 28, 2026</span>
+            </div>
+            <h1 style="font-family: 'Outfit', sans-serif; font-size: 2.6rem; line-height: 1.25; color: #0f172a; margin-bottom: 20px; font-weight: 800; letter-spacing: -0.5px;">
+                How to Watermark Sensitive PDFs Offline (Without Cloud Uploads)
+            </h1>
+            <p style="font-size: 1.2rem; color: #475569; line-height: 1.6; font-weight: 400;">
+                The corporate security paradox: Uploading an unreleased investor pitch deck, financial audit, or proprietary blueprint to a random web tool just to stamp "CONFIDENTIAL" on it. Here is how to protect your trade secrets with a true Zero-Trust, local-first workflow.
+            </p>
+        </header>
+
+        <!-- Featured Screenshot Graphic -->
+        <div style="margin: 35px 0 45px; border-radius: 16px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: 0 10px 30px rgba(0,0,0,0.06); background: #ffffff;">
+            <img src="../assets/screenshots/watermark_screen.png" alt="Docentra PDF Watermark Tool Interface on Windows" style="width: 100%; height: auto; display: block;">
+            <div style="padding: 12px 20px; background: #f8fafc; border-top: 1px solid #e2e8f0; font-size: 0.85rem; color: #64748b; text-align: center;">
+                Docentra PDF Suite: Batch text and logo watermarking executed 100% locally on Windows RAM.
+            </div>
+        </div>
+
+        <!-- Article Body -->
+        <article style="font-size: 1.08rem; color: #334155;">
+
+            <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.8rem; color: #0f172a; margin-top: 40px; margin-bottom: 16px;">
+                The Security Paradox of "Confidential" Documents
+            </h2>
+            <p>
+                Founders, CFOs, corporate legal teams, and architects encounter this scenario every week:
+            </p>
+            <p>
+                You have spent months preparing an unreleased investor pitch deck, a confidential M&amp;A due-diligence report, or an unannounced product specification. Before sharing the PDF with external parties or potential partners, you want to ensure it is visually marked to deter unauthorized redistribution:
+            </p>
+            <div style="background: #fef2f2; border-left: 4px solid #ef4444; padding: 16px 20px; border-radius: 0 8px 8px 0; margin: 24px 0; font-weight: 600; color: #991b1b;">
+                "CONFIDENTIAL - STRICTLY FOR BOARD REVIEW - DO NOT COPY OR DISTRIBUTE"
+            </div>
+            <p>
+                To achieve this quickly, an employee searches Google for <em>"free PDF watermark tool"</em>, navigates to the first sponsored search result, and drags the file into a browser window.
+            </p>
+            <p>
+                <strong>The irony is glaring:</strong> In an attempt to prevent unauthorized leaks, the confidential trade secrets were just uploaded to an unverified third-party cloud server before the intended recipient ever opened the document.
+            </p>
+
+            <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.8rem; color: #0f172a; margin-top: 45px; margin-bottom: 16px;">
+                What Actually Happens When You Watermark PDFs Online?
+            </h2>
+            <p>
+                Most web-based PDF utility sites market themselves as "free and easy," but the underlying infrastructure introduces severe liabilities for businesses:
+            </p>
+            <ul>
+                <li style="margin-bottom: 12px;"><strong>Uncontrolled Remote Retention:</strong> Web servers frequently store uploaded documents in temporary storage buckets or log directories for caching, debugging, or batch queues. Even if privacy policies promise "deletion after 1 hour," your file resides on an external machine outside your enterprise security perimeter.</li>
+                <li style="margin-bottom: 12px;"><strong>Third-Party Model Training:</strong> Several free online document tools reserve rights in their terms of service to analyze document text or utilize uploaded assets to train AI models and OCR parsers.</li>
+                <li style="margin-bottom: 12px;"><strong>Regulatory &amp; NDA Violations:</strong> Under GDPR, HIPAA, and corporate Non-Disclosure Agreements, transmitting personal data or proprietary business intelligence to unvetted cloud processors constitutes an unauthorized disclosure.</li>
+            </ul>
+
+            <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.8rem; color: #0f172a; margin-top: 45px; margin-bottom: 16px;">
+                Why Strategic Watermarking Protects Intellectual Property
+            </h2>
+            <p>
+                Visual watermarks remain one of the most effective psychological and legal deterrents against document leaks when implemented correctly:
+            </p>
+            <ol>
+                <li style="margin-bottom: 12px;"><strong>Dissuading Casual Screenshots:</strong> While technical users can sometimes strip text streams, a semi-transparent diagonal watermark across diagrams, tables, and financial charts makes leaked screenshots unusable for publishing or social media.</li>
+                <li style="margin-bottom: 12px;"><strong>Recipient-Specific Tracking:</strong> By stamping the recipient's organization name or email (e.g., <em>"Prepared exclusively for Venture Capital Firm A"</em>), you establish immediate accountability. If the deck surfaces elsewhere, the source of the leak is obvious.</li>
+                <li style="margin-bottom: 12px;"><strong>Differentiating Drafts from Executed Contracts:</strong> Stamping <em>"DRAFT - FOR INTERNAL REVIEW"</em> across preliminary agreements prevents parties from mistakenly signing outdated or unauthorized document versions.</li>
+            </ol>
+
+            <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.8rem; color: #0f172a; margin-top: 45px; margin-bottom: 16px;">
+                Step-by-Step: How to Watermark PDFs Offline with Docentra
+            </h2>
+            <p>
+                <a href="../index.html" style="color: #2563eb; font-weight: 600;">Docentra PDF Suite</a> was engineered around a strict <strong>Offline-Native philosophy</strong>. Every watermark calculation, opacity blend, and font rendering occurs entirely inside your Windows PC's CPU and RAM. No data ever leaves your device.
+            </p>
+
+            <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 25px; margin: 25px 0; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+                <h3 style="color: #0f172a; margin-top: 0; font-size: 1.25rem;">Step 1: Launch Docentra and Open Watermark Tool</h3>
+                <p style="margin-bottom: 0;">Open Docentra PDF Suite on your Windows machine and select the <strong>Watermark &amp; Logo</strong> module from the main dashboard.</p>
+            </div>
+
+            <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 25px; margin: 25px 0; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+                <h3 style="color: #0f172a; margin-top: 0; font-size: 1.25rem;">Step 2: Choose Text or Company Logo</h3>
+                <p style="margin-bottom: 0;">
+                    • <strong>Text Watermark:</strong> Type your warning text (e.g., <em>CONFIDENTIAL</em>, <em>DO NOT DISTRIBUTE</em>, <em>SAMPLE</em>). Select your font, color, and size.<br>
+                    • <strong>Logo Stamp:</strong> Upload your corporate logo (PNG, JPG, SVG) with transparent background support to brand commercial proposals.
+                </p>
+            </div>
+
+            <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 25px; margin: 25px 0; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+                <h3 style="color: #0f172a; margin-top: 0; font-size: 1.25rem;">Step 3: Fine-Tune Opacity, Angle, and Position</h3>
+                <p style="margin-bottom: 0;">
+                    Avoid obscuring critical numbers or legal text. Use Docentra's granular opacity slider (recommended: <strong>18% to 25%</strong>) and rotate the watermark diagonally (<strong>45 degrees</strong>) across the center of every page.
+                </p>
+            </div>
+
+            <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 25px; margin: 25px 0; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
+                <h3 style="color: #0f172a; margin-top: 0; font-size: 1.25rem;">Step 4: Batch Process in Milliseconds</h3>
+                <p style="margin-bottom: 0;">
+                    Whether watermarking a 10-page pitch deck or a 600-page scanned architectural package, click <strong>Apply</strong>. Processing completes locally at lightning native speeds with zero upload queues or bandwidth throttling.
+                </p>
+            </div>
+
+            <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.8rem; color: #0f172a; margin-top: 45px; margin-bottom: 16px;">
+                Feature Comparison: Offline Native vs. Cloud Watermark Tools
+            </h2>
+            <div style="overflow-x: auto; margin: 25px 0 35px;">
+                <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem; text-align: left; background: #ffffff; border-radius: 10px; overflow: hidden; border: 1px solid #e2e8f0;">
+                    <thead>
+                        <tr style="background: #0f172a; color: #ffffff;">
+                            <th style="padding: 14px 18px;">Feature</th>
+                            <th style="padding: 14px 18px; color: #60a5fa;">Docentra PDF Suite</th>
+                            <th style="padding: 14px 18px;">Free Web Converters</th>
+                            <th style="padding: 14px 18px;">Adobe Acrobat Pro</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom: 1px solid #e2e8f0;">
+                            <td style="padding: 14px 18px; font-weight: 600;">Data Confidentiality</td>
+                            <td style="padding: 14px 18px; color: #16a34a; font-weight: 700;">100% Offline (Local RAM)</td>
+                            <td style="padding: 14px 18px; color: #dc2626;">Uploaded to Remote Cloud</td>
+                            <td style="padding: 14px 18px;">Cloud Telemetry Enabled</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid #e2e8f0; background: #f8fafc;">
+                            <td style="padding: 14px 18px; font-weight: 600;">Pricing Model</td>
+                            <td style="padding: 14px 18px; color: #16a34a; font-weight: 700;">One-Time Lifetime License</td>
+                            <td style="padding: 14px 18px;">Ad-supported / Paywalls</td>
+                            <td style="padding: 14px 18px; color: #dc2626;">$240/year recurring subscription</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid #e2e8f0;">
+                            <td style="padding: 14px 18px; font-weight: 600;">Batch Processing Speed</td>
+                            <td style="padding: 14px 18px; color: #16a34a; font-weight: 700;">Instant (Multi-core CPU)</td>
+                            <td style="padding: 14px 18px;">Throttled by internet upload</td>
+                            <td style="padding: 14px 18px;">Fast Desktop</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid #e2e8f0; background: #f8fafc;">
+                            <td style="padding: 14px 18px; font-weight: 600;">File Size Limitations</td>
+                            <td style="padding: 14px 18px; color: #16a34a; font-weight: 700;">Unlimited (Hardware bound)</td>
+                            <td style="padding: 14px 18px; color: #dc2626;">Strict 15MB - 50MB caps</td>
+                            <td style="padding: 14px 18px;">Unlimited</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 14px 18px; font-weight: 600;">Transparent Logo Support</td>
+                            <td style="padding: 14px 18px; color: #16a34a; font-weight: 700;">Yes (PNG, SVG, Alpha channel)</td>
+                            <td style="padding: 14px 18px;">Limited or Premium only</td>
+                            <td style="padding: 14px 18px;">Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.8rem; color: #0f172a; margin-top: 45px; margin-bottom: 16px;">
+                Frequently Asked Questions (FAQ)
+            </h2>
+            <div style="margin-top: 20px;">
+                <div style="margin-bottom: 20px; background: #ffffff; padding: 20px 24px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <h3 style="font-size: 1.15rem; color: #0f172a; margin-top: 0; margin-bottom: 8px;">Why is it risky to watermark confidential PDFs using free online tools?</h3>
+                    <p style="margin-bottom: 0; color: #475569;">Online PDF watermarking websites require uploading your entire document to remote servers. When watermarking an unreleased pitch deck, financial audit, or trade secret, transmitting it across the public web creates severe data leakage, compliance, and IP exposure risks.</p>
+                </div>
+                <div style="margin-bottom: 20px; background: #ffffff; padding: 20px 24px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <h3 style="font-size: 1.15rem; color: #0f172a; margin-top: 0; margin-bottom: 8px;">Can I watermark multiple PDF files in batch completely offline?</h3>
+                    <p style="margin-bottom: 0; color: #475569;">Yes. Docentra PDF Suite allows you to batch watermark hundreds of pages and multiple documents simultaneously using your local multi-core CPU, with zero internet connection required.</p>
+                </div>
+                <div style="margin-bottom: 20px; background: #ffffff; padding: 20px 24px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <h3 style="font-size: 1.15rem; color: #0f172a; margin-top: 0; margin-bottom: 8px;">How do I make sure the watermark doesn't obscure readable contract text?</h3>
+                    <p style="margin-bottom: 0; color: #475569;">Docentra provides granular opacity controls (e.g., 18% to 25% transparency) and diagonal rotation angles, ensuring the watermark remains clearly visible for leak deterrence without compromising readability.</p>
+                </div>
+                <div style="margin-bottom: 20px; background: #ffffff; padding: 20px 24px; border-radius: 10px; border: 1px solid #e2e8f0;">
+                    <h3 style="font-size: 1.15rem; color: #0f172a; margin-top: 0; margin-bottom: 8px;">Does watermarking a PDF prevent someone from copying the text?</h3>
+                    <p style="margin-bottom: 0; color: #475569;">Visual watermarking deters unauthorized distribution and screenshots. To completely prevent text extraction or printing, combine watermarking with Docentra's offline AES-256 permission encryption.</p>
+                </div>
+            </div>
+
+            <!-- Call to Action Banner -->
+            <div style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #ffffff; border-radius: 16px; padding: 40px; margin: 50px 0 20px; text-align: center; box-shadow: 0 10px 30px rgba(15,23,42,0.15);">
+                <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.9rem; margin-top: 0; margin-bottom: 12px; color: #ffffff;">Protect Your Intellectual Property Today</h3>
+                <p style="font-size: 1.1rem; color: #94a3b8; max-width: 600px; margin: 0 auto 28px; line-height: 1.6;">
+                    Stop uploading confidential contracts, financial models, and pitch decks to web converters. Get the 100% offline All-in-One PDF Suite for Windows.
+                </p>
+                <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                    <a href="../download/index.html" class="btn btn-primary" style="padding: 14px 28px; font-size: 1.05rem; border-radius: 8px; text-decoration: none; font-weight: 700;">⬇️ Free Download for Windows</a>
+                    <a href="../tools/watermark-logo.html" class="btn btn-outline" style="padding: 14px 28px; font-size: 1.05rem; border-radius: 8px; text-decoration: none; border-color: #475569; color: #ffffff;">Explore Watermark Tool →</a>
+                </div>
+            </div>
+
+        </article>
+
+    </main>
+
+    <!-- Footer -->
+    <footer style="text-align: center; padding: 40px; border-top: 1px solid #e2e8f0; background: #ffffff;">
+        <p style="color: #64748b; margin: 0;">&copy; 2026 Docentra Team. All rights reserved.</p>
+        <p style="margin-top: 10px; font-size: 0.9rem;">
+            <a href="../open-source-notices.html" style="color: #2563eb; text-decoration: none;">Open Source Notices</a> · 
+            <a href="../index.html" style="color: #475569; text-decoration: none;">Home</a> · 
+            <a href="index.html" style="color: #475569; text-decoration: none;">Blog</a> · 
+            <a href="https://x.com/docentrapdf" target="_blank" rel="noopener noreferrer" style="color: #475569; text-decoration: none;">Twitter / X</a> · 
+            <a href="https://www.linkedin.com/company/docentrapdf" target="_blank" rel="noopener noreferrer" style="color: #475569; text-decoration: none;">LinkedIn</a>
+        </p>
+    </footer>
+
+</body>
+</html>
