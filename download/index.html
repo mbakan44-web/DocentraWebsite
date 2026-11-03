@@ -3,138 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download Docentra PDF Suite for Windows (100% Offline & Private)</title>
-    <meta name="description" content="Download Docentra for Windows 10 & 11. Free trial includes 14+ offline PDF tools, local OCR, metadata cleaner, merger, and splitter with total privacy.">
+    <title>Docentra PDF Suite - Downloading...</title>
+    <meta name="description" content="Downloading Docentra for Windows 10 & 11. 100% offline and private document suite.">
     <link rel="canonical" href="https://docentrapdf.com/download/" />
-    <meta http-equiv="refresh" content="0; url=https://github.com/mbakan44-web/DocentraWebsite/releases/download/v1.0.0/Docentra_Setup_v1.0.6.exe">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg: #0f172a;
-            --card-bg: rgba(30, 41, 59, 0.7);
-            --border: rgba(255, 255, 255, 0.1);
+            --bg: #0b0f19;
+            --card-bg: rgba(22, 30, 46, 0.85);
+            --border: rgba(255, 255, 255, 0.12);
             --text-main: #f8fafc;
             --text-sub: #94a3b8;
-            --accent: #3b82f6;
-            --accent-glow: rgba(59, 130, 246, 0.3);
+            --primary: #2563eb;
+            --primary-hover: #1d4ed8;
+            --success: #22c55e;
         }
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background: radial-gradient(circle at 50% 20%, #1e293b 0%, #0f172a 100%);
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: radial-gradient(circle at 50% 15%, #1e293b 0%, #0b0f19 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             color: var(--text-main);
-            padding: 20px;
+            padding: 24px;
         }
         .card {
             background: var(--card-bg);
             border: 1px solid var(--border);
-            -webkit-backdrop-filter: blur(16px);
-            backdrop-filter: blur(16px);
-            border-radius: 20px;
-            padding: 48px 40px;
-            max-width: 480px;
+            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+            border-radius: 24px;
+            padding: 44px 36px;
+            max-width: 500px;
             width: 100%;
             text-align: center;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 40px var(--accent-glow);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6), 0 0 50px rgba(37, 99, 235, 0.15);
             animation: fadeIn 0.4s ease-out;
         }
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
+            from { opacity: 0; transform: translateY(12px); }
             to { opacity: 1; transform: translateY(0); }
         }
-        .spinner {
-            width: 56px;
-            height: 56px;
-            border: 4px solid rgba(255, 255, 255, 0.1);
-            border-left-color: var(--accent);
-            border-radius: 50%;
-            margin: 0 auto 24px auto;
-            animation: spin 0.8s linear infinite;
+        .logo-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 800;
+            font-size: 1.1rem;
+            letter-spacing: 0.05em;
+            color: #ffffff;
+            margin-bottom: 24px;
         }
-        @keyframes spin {
-            to { transform: rotate(360deg); }
+        .icon-circle {
+            width: 72px;
+            height: 72px;
+            background: rgba(37, 99, 235, 0.15);
+            border: 2px solid rgba(37, 99, 235, 0.4);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 32px;
+            position: relative;
+        }
+        .icon-pulse {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 2px solid var(--primary);
+            animation: pulse 2s infinite ease-out;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 0.8; }
+            100% { transform: scale(1.4); opacity: 0; }
         }
         h1 {
-            font-size: 22px;
+            font-size: 26px;
             font-weight: 700;
-            margin-bottom: 12px;
-            letter-spacing: -0.02em;
+            margin-bottom: 10px;
+            color: #ffffff;
         }
-        p {
-            font-size: 14px;
+        .desc {
+            font-size: 15px;
             color: var(--text-sub);
-            line-height: 1.6;
-            margin-bottom: 28px;
+            line-height: 1.5;
+            margin-bottom: 24px;
         }
         .btn-direct {
-            display: inline-block;
-            background: linear-gradient(135deg, #2563eb, #1d4ed8);
-            color: #ffffff;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: var(--primary);
+            color: white;
+            padding: 13px 26px;
+            border-radius: 12px;
             font-weight: 600;
-            font-size: 14px;
-            padding: 12px 28px;
-            border-radius: 10px;
+            font-size: 15px;
             text-decoration: none;
             transition: all 0.2s ease;
             box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
+            margin-bottom: 20px;
         }
         .btn-direct:hover {
+            background: var(--primary-hover);
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.6);
-            background: linear-gradient(135deg, #3b82f6, #2563eb);
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.5);
         }
-        .note {
-            margin-top: 24px;
-            font-size: 12px;
+        .security-box {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 14px;
+            padding: 14px 18px;
+            font-size: 13px;
+            color: #cbd5e1;
+            text-align: left;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 18px;
+        }
+        .security-box span { font-size: 18px; }
+        .back-link {
+            font-size: 13px;
             color: #64748b;
+            text-decoration: none;
+            transition: color 0.2s;
         }
+        .back-link:hover { color: #94a3b8; }
     </style>
 </head>
 <body>
     <div class="card">
-        <div class="spinner"></div>
-        <h1>Docentra PDF Suite</h1>
-        <p>Your download is starting automatically.<br>If it does not begin in a few seconds, click the button below:</p>
-        <a id="downloadLink" href="https://github.com/mbakan44-web/DocentraWebsite/releases/download/v1.0.0/Docentra_Setup_v1.0.6.exe" class="btn-direct">
-            Download Now (v1.0.6)
+        <div class="logo-badge">DOCENTRA® PDF</div>
+        <div class="icon-circle">
+            <div class="icon-pulse"></div>
+            <span>⬇️</span>
+        </div>
+        <h1>İndirme Başlatılıyor...</h1>
+        <p class="desc">Docentra PDF Suite (v1.0.6) bilgisayarınıza indiriliyor.<br>İndirme otomatik başlamazsa aşağıdaki butona tıklayın:</p>
+        
+        <a id="downloadLink" href="#" class="btn-direct">
+            <span>💾</span> <span>Hemen İndir (Docentra_Setup_v1.0.6.exe)</span>
         </a>
-        <div class="note">Verified Safe &amp; 100% Offline • Windows 10 / 11</div>
+
+        <div class="security-box">
+            <span>🛡️</span>
+            <div>
+                <strong style="color: #ffffff; display: block; margin-bottom: 2px;">%100 Güvenli &amp; Yerel Kurulum</strong>
+                Kurulum tamamlandıktan sonra tüm işlemler internete ihtiyaç duymadan, doğrudan bilgisayarınızda çalışır.
+            </div>
+        </div>
+
+        <a href="../index.html" class="back-link">&larr; docentrapdf.com Ana Sayfasına Dön</a>
     </div>
+
+    <!-- Gizli iframe: Tarayıcının adres çubuğunu değiştirmeden indirmeyi arka planda tetikler -->
+    <iframe id="dlFrame" style="display: none;" title="Download Frame"></iframe>
 
     <script>
         (async function() {
-            var fallbackUrl = "https://github.com/mbakan44-web/DocentraWebsite/releases/download/v1.0.0/Docentra_Setup_v1.0.6.exe";
+            var defaultFile = "https://github.com/mbakan44-web/DocentraWebsite/releases/download/v1.0.0/Docentra_Setup_v1.0.6.exe";
             var btn = document.getElementById("downloadLink");
+            var iframe = document.getElementById("dlFrame");
+
+            var targetUrl = defaultFile;
 
             try {
-                // version.txt dosyasından güncel sürüm ve indirme linkini dinamik al
                 var res = await fetch("/version.txt?t=" + Date.now());
                 if (res.ok) {
                     var data = await res.text();
                     var lines = data.trim().split("\n");
-                    var version = (lines[0] || "").trim();
                     var url = (lines[1] || "").trim();
-
                     if (url && url.startsWith("http")) {
-                        if (btn) {
-                            btn.href = url;
-                            if (version) btn.innerText = "Download Now (v" + version + ")";
-                        }
-                        // Doğrudan indirmeyi başlat
-                        window.location.replace(url);
-                        return;
+                        targetUrl = url;
                     }
                 }
-            } catch (err) {
-                console.warn("Could not fetch version.txt:", err);
-            }
+            } catch (e) {}
 
-            // Fallback
-            if (btn) btn.href = fallbackUrl;
-            window.location.replace(fallbackUrl);
+            btn.href = targetUrl;
+
+            // 1 saniye sonra arka planda gizli iframe ile indirmeyi başlat
+            // Böylece tarayıcının adres çubuğu daima https://docentrapdf.com/download/ olarak kalır!
+            setTimeout(function() {
+                iframe.src = targetUrl;
+            }, 600);
         })();
     </script>
 </body>
