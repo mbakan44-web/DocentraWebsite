@@ -34,7 +34,7 @@
           "name": "Docentra PDF & Document Editor",
           "operatingSystem": "Windows 10, Windows 11 (64-bit)",
           "applicationCategory": "BusinessApplication, PDFSoftware",
-          "softwareVersion": "1.0.5",
+          "softwareVersion": "1.0.6",
           "fileSize": "60MB",
           "downloadUrl": "https://docentrapdf.com/download/",
           "author": {
@@ -137,7 +137,7 @@
                 <li><a href="#pricing" data-i18n="nav-pricing">Pricing</a></li>
                 <li><a href="#roadmap" data-i18n="nav-roadmap">Roadmap</a></li>
                 <li><a href="#faq" data-i18n="nav-faq">FAQ</a></li>
-                <li><a href="https://github.com/mbakan44-web/DocentraWebsite/releases/download/v1.0.0/Docentra_Setup_v1.0.5.exe" class="btn btn-nav-download btn-download-action" data-download-btn><span>⬇️</span> <span data-i18n="btn-download">Download</span></a></li>
+                <li><a href="https://github.com/mbakan44-web/DocentraWebsite/releases/download/v1.0.0/Docentra_Setup_v1.0.6.exe" class="btn btn-nav-download btn-download-action" data-download-btn><span>⬇️</span> <span data-i18n="btn-download">Download</span></a></li>
             </ul>
             <div class="nav-right">
                 <select id="lang-selector" class="lang-select" title="Select Language" aria-label="Select Language">
@@ -174,8 +174,8 @@
                     <h1 data-i18n="hero-title">Professional PDF Editor for Windows — <span>100% Offline & Private</span></h1>
                     <p data-i18n="hero-desc">Edit, merge, split, OCR, sign, clean metadata and convert PDFs directly on your PC. No cloud uploads, no monthly subscriptions, zero data tracking.</p>
                     <div class="hero-btns">
-                        <a href="https://github.com/mbakan44-web/DocentraWebsite/releases/download/v1.0.0/Docentra_Setup_v1.0.5.exe" class="btn btn-primary btn-download-action" data-download-btn data-i18n="btn-get-started">⬇️ Download Free Trial</a>
-                        <a href="https://docentra.gumroad.com/l/docentra" class="btn btn-outline" data-i18n="btn-pricing" target="_blank" rel="noopener noreferrer">💳 Buy Lifetime ($19.90)</a>
+                        <a href="https://github.com/mbakan44-web/DocentraWebsite/releases/download/v1.0.0/Docentra_Setup_v1.0.6.exe" class="btn btn-primary btn-download-action" data-download-btn data-i18n="btn-get-started">⬇️ Download Free Trial</a>
+                        <a href="#pricing" class="btn btn-outline" data-i18n="btn-pricing">💳 Buy Lifetime ($19.90)</a>
                     </div>
                     <div class="hero-micro-trust">
                         <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg> Kredi kartı gerekmez</span>
@@ -770,7 +770,7 @@
                             <li data-i18n="price-feat6">✅ Metadata Cleaner Included</li>
                             <li data-i18n="price-feat7">✅ 10 Language Support</li>
                         </ul>
-                        <a href="https://docentra.gumroad.com/l/docentra" class="btn btn-primary btn-block" data-i18n="btn-buy" target="_blank" rel="noopener noreferrer">Buy License Now</a>
+                        <button type="button" class="btn btn-primary btn-block btn-trigger-buy" data-i18n="btn-buy">Buy License Now</button>
                         <p class="tax-notice" data-i18n="tax-warning">* Applicable VAT/sales tax may be calculated by Gumroad depending on your country.</p>
                     </div>
 
@@ -981,10 +981,10 @@
                     <h2 data-i18n="cta-title">Ready to Take Control of Your Documents?</h2>
                     <p data-i18n="cta-desc">Download Docentra for free and experience the difference of true local processing. No sign-up required.</p>
                     <div class="cta-btns">
-                        <a href="https://github.com/mbakan44-web/DocentraWebsite/releases/download/v1.0.0/Docentra_Setup_v1.0.5.exe" class="btn btn-primary btn-lg btn-download-action" data-download-btn data-i18n="cta-btn-download">
+                        <a href="https://github.com/mbakan44-web/DocentraWebsite/releases/download/v1.0.0/Docentra_Setup_v1.0.6.exe" class="btn btn-primary btn-lg btn-download-action" data-download-btn data-i18n="cta-btn-download">
                             ⬇️ Download for Windows
                         </a>
-                        <span class="cta-meta" data-i18n="cta-meta">Windows 10/11 · v1.0.5 · 100% Offline · Free Trial Included</span>
+                        <span class="cta-meta" data-i18n="cta-meta">Windows 10/11 · v1.0.6 · 100% Offline · Free Trial Included</span>
                     </div>
                 </div>
             </div>
@@ -1082,13 +1082,57 @@
                 <span class="floating-bar-tag">100% Offline</span>
             </div>
             <div class="floating-bar-actions">
-                <a href="https://docentra.gumroad.com/l/docentra" class="floating-btn-buy" target="_blank" rel="noopener noreferrer" data-i18n="float-btn-buy">
+                <a href="#pricing" class="floating-btn-buy btn-trigger-buy" data-i18n="float-btn-buy">
                     Şimdi satın alın ($19.90)
                 </a>
-                <a href="https://github.com/mbakan44-web/DocentraWebsite/releases/download/v1.0.0/Docentra_Setup_v1.0.5.exe" class="floating-btn-download btn-download-action" data-download-btn data-i18n="float-btn-trial">
+                <a href="https://github.com/mbakan44-web/DocentraWebsite/releases/download/v1.0.0/Docentra_Setup_v1.0.6.exe" class="floating-btn-download btn-download-action" data-download-btn data-i18n="float-btn-trial">
                     Ücretsiz deneme sürümü
                 </a>
                 <button id="floating-bar-close" class="floating-bar-close" aria-label="Close" title="Kapat">✕</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- ===================== DESKTOP BUY ASSIST MODAL ===================== -->
+    <div id="buy-assist-modal" class="mobile-modal-backdrop" style="display: none; z-index: 10000;">
+        <div class="mobile-modal-card" style="max-width: 520px; text-align: left;">
+            <button class="modal-close-btn" id="buy-modal-close" aria-label="Close">✕</button>
+            <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 1rem;">
+                <div style="font-size: 2.2rem;">⚡</div>
+                <div>
+                    <h3 style="margin: 0; font-size: 1.3rem;" data-i18n="buy-modal-title">Ömür Boyu Lisans Aktivasyonu</h3>
+                    <p style="margin: 0; font-size: 0.85rem; color: #22c55e;" data-i18n="buy-modal-subtitle">100% Çevrimdışı Güvenlik & Tek Tıkla Cihaza Mühürleme</p>
+                </div>
+            </div>
+            
+            <p style="font-size: 0.95rem; line-height: 1.5; color: #cbd5e1; margin-bottom: 1.2rem;" data-i18n="buy-modal-desc">
+                Docentra, belgelerinizin gizliliğini korumak için <strong>cihazınıza özel donanım kimliğiyle (HWID)</strong> çalışır. 
+                Manuel kod kopyalamakla uğraşmamanız için en hızlı yol:
+            </p>
+
+            <div style="background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 10px; padding: 14px 16px; margin-bottom: 1.4rem;">
+                <div style="display: flex; gap: 12px; margin-bottom: 10px;">
+                    <span style="background: #2563eb; color: white; width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">1</span>
+                    <span style="font-size: 0.9rem;" data-i18n="buy-modal-step1">Aşağıdaki butonla <strong>Docentra'yı bilgisayarınıza indirin</strong> (10 saniye sürer).</span>
+                </div>
+                <div style="display: flex; gap: 12px; margin-bottom: 10px;">
+                    <span style="background: #2563eb; color: white; width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">2</span>
+                    <span style="font-size: 0.9rem;" data-i18n="buy-modal-step2">Uygulama açıldığında sol menüdeki <strong>"Premium Satın Al"</strong> butonuna tıklayın.</span>
+                </div>
+                <div style="display: flex; gap: 12px;">
+                    <span style="background: #2563eb; color: white; width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">3</span>
+                    <span style="font-size: 0.9rem;" data-i18n="buy-modal-step3">Donanım kimliğiniz otomatik işlenir, <strong>ödemeniz bittiği an lisansınız anında açılır!</strong></span>
+                </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 10px;">
+                <a href="https://github.com/mbakan44-web/DocentraWebsite/releases/download/v1.0.0/Docentra_Setup_v1.0.6.exe" class="btn btn-primary btn-download-action" data-download-btn id="btn-buy-modal-download" style="text-align: center; font-size: 1.05rem; padding: 14px;">
+                    ⬇️ <span data-i18n="buy-modal-btn-dl">Docentra'yı İndir & Uygulamadan Satın Al</span>
+                </a>
+                <a href="https://docentra.gumroad.com/l/docentra" target="_blank" rel="noopener noreferrer" style="text-align: center; font-size: 0.85rem; color: #94a3b8; text-decoration: underline; padding: 6px;" data-i18n="buy-modal-direct-web">
+                    Doğrudan tarayıcıda Gumroad üzerinden devam etmek istiyorum &rarr;
+                </a>
             </div>
         </div>
     </div>
@@ -1114,7 +1158,7 @@
             </div>
 
             <div class="modal-fallback">
-                <a href="https://github.com/mbakan44-web/DocentraWebsite/releases/download/v1.0.0/Docentra_Setup_v1.0.5.exe" download class="modal-fallback-link" data-i18n="modal-share-direct">
+                <a href="https://github.com/mbakan44-web/DocentraWebsite/releases/download/v1.0.0/Docentra_Setup_v1.0.6.exe" download class="modal-fallback-link" data-i18n="modal-share-direct">
                     Yine de .exe dosyasını telefonuma indir (145 MB) &darr;
                 </a>
             </div>
@@ -1128,7 +1172,7 @@
                 <span class="toast-badge">📥 <strong data-i18n="toast-title">İndirme Başladı!</strong></span>
                 <button id="toast-close" class="toast-close" aria-label="Close">✕</button>
             </div>
-            <p class="toast-msg" data-i18n="toast-desc"><strong>Docentra_Setup_v1.0.5.exe</strong> iniyor (145 MB). İndirme bittiğinde dosyayı açarak anında kurulumu tamamlayabilirsiniz.</p>
+            <p class="toast-msg" data-i18n="toast-desc"><strong>Docentra_Setup_v1.0.6.exe</strong> iniyor (145 MB). İndirme bittiğinde dosyayı açarak anında kurulumu tamamlayabilirsiniz.</p>
             <div class="toast-tip">
                 <span>🛡️</span>
                 <div>
