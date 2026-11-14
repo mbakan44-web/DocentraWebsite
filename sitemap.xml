@@ -108,7 +108,7 @@
 
    <!-- Blog & Guides -->
    <url>
-      <loc>https://docentrapdf.com/blog/index.html</loc>
+      <loc>https://docentrapdf.com/blog/pdf-to-3d-flipbook-offline-guide.html</loc></url><url><loc>https://docentrapdf.com/blog/index.html</loc>
       <lastmod>2026-10-22</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.75</priority>
@@ -156,3 +156,4 @@
       <priority>0.88</priority>
    </url>
 </urlset>
+
