@@ -118,231 +118,398 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
+    <style>
+        /* Interactive 3D Book Mini-Showcase inside the Blog Post */
+        .demo-stage {
+            background: linear-gradient(135deg, #f5f3ff 0%, #eff6ff 100%);
+            border: 2px solid #c4b5fd;
+            border-radius: 20px;
+            padding: 36px 24px 28px;
+            margin: 35px 0 45px;
+            text-align: center;
+            box-shadow: 0 12px 35px rgba(124, 58, 237, 0.08);
+        }
+        .mini-book-scene {
+            perspective: 1600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 22px auto;
+            height: 250px;
+        }
+        .mini-book {
+            position: relative;
+            width: 380px;
+            height: 240px;
+            display: flex;
+            transform-style: preserve-3d;
+            box-shadow: 0 20px 40px rgba(15, 23, 42, 0.18);
+            border-radius: 6px;
+        }
+        .mini-page {
+            width: 190px;
+            height: 240px;
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            padding: 20px 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: left;
+            position: relative;
+        }
+        .mini-page.left {
+            border-radius: 6px 0 0 6px;
+            background: linear-gradient(to right, #ffffff 85%, #f1f5f9 100%);
+            box-shadow: -3px 0 0 #e2e8f0, -6px 0 0 #cbd5e1;
+        }
+        .mini-page.right {
+            border-radius: 0 6px 6px 0;
+            background: linear-gradient(to left, #ffffff 85%, #f1f5f9 100%);
+            box-shadow: 3px 0 0 #e2e8f0, 6px 0 0 #cbd5e1;
+            cursor: pointer;
+        }
+        .mini-leaf {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 190px;
+            height: 240px;
+            transform-origin: left center;
+            transform-style: preserve-3d;
+            transition: transform 0.7s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+            z-index: 10;
+            cursor: pointer;
+        }
+        .mini-leaf.flipped {
+            transform: rotateY(-180deg);
+        }
+        .mini-leaf-face {
+            position: absolute;
+            inset: 0;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            padding: 20px 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: left;
+        }
+        .mini-leaf-front {
+            border-radius: 0 6px 6px 0;
+            background: linear-gradient(to left, #ffffff 85%, #e2e8f0 100%);
+        }
+        .mini-leaf-back {
+            transform: rotateY(180deg);
+            border-radius: 6px 0 0 6px;
+            background: linear-gradient(to right, #ffffff 85%, #e2e8f0 100%);
+        }
+        .demo-pill {
+            display: inline-block;
+            background: #ede9fe;
+            color: #6d28d9;
+            border: 1px solid #c4b5fd;
+            font-size: 0.78rem;
+            font-weight: 800;
+            padding: 4px 14px;
+            border-radius: 99px;
+            letter-spacing: 0.6px;
+            text-transform: uppercase;
+        }
+        @media (max-width: 520px) {
+            .mini-book { width: 300px; height: 200px; }
+            .mini-page, .mini-leaf { width: 150px; height: 200px; padding: 12px; }
+        }
+    </style>
 </head>
-<body style="font-family: 'Plus Jakarta Sans', sans-serif; color: #1e293b; background: #f8fafc; line-height: 1.7;">
-
-    <!-- Navigation Header -->
-    <header style="background: rgba(255,255,255,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid #e2e8f0; position: sticky; top: 0; z-index: 100;">
-        <nav class="container" style="display: flex; justify-content: space-between; align-items: center; padding: 18px 20px;">
-            <a href="../index.html" class="logo" style="font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 1.5rem; color: #0f172a; text-decoration: none; letter-spacing: -0.5px;">DOCENTRA</a>
-            <ul class="nav-links" style="display: flex; gap: 24px; list-style: none; align-items: center; margin: 0; padding: 0;">
-                <li><a href="../index.html#features" style="color: #475569; text-decoration: none; font-weight: 500;">Features</a></li>
-                <li><a href="../online-vs-offline.html" style="color: #475569; text-decoration: none; font-weight: 500;">Why Offline?</a></li>
-                <li><a href="index.html" style="color: #2563eb; text-decoration: none; font-weight: 600;">Blog</a></li>
-                <li><a href="../index.html#pricing" style="color: #475569; text-decoration: none; font-weight: 500;">Pricing</a></li>
-                <li><a href="../download/index.html" class="btn btn-primary" style="padding: 9px 18px; border-radius: 8px; text-decoration: none; font-size: 0.95rem;">⬇️ Free Download</a></li>
+<body>
+    <header>
+        <nav class="container" style="display: flex; justify-content: space-between; align-items: center; padding: 20px 0;">
+            <a href="../index.html" class="logo">DOCENTRA</a>
+            <ul class="nav-links" style="display: flex; gap: 20px; list-style: none;">
+                <li><a href="../index.html#features">Features</a></li>
+                <li><a href="../online-vs-offline.html">Why Offline?</a></li>
+                <li><a href="index.html">Blog</a></li>
+                <li><a href="../index.html#pricing">Pricing</a></li>
+                <li><a href="https://docentrapdf.com/download/" class="btn btn-nav-download">⬇️ Download</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Main Content Area -->
-    <main class="container" style="max-width: 860px; padding: 60px 20px 100px;">
-        
-        <!-- Breadcrumbs -->
-        <nav style="font-size: 0.9rem; color: #64748b; margin-bottom: 24px;">
-            <a href="../index.html" style="color: #64748b; text-decoration: none;">Home</a> &gt; 
-            <a href="index.html" style="color: #64748b; text-decoration: none;">Blog</a> &gt; 
-            <span style="color: #0f172a; font-weight: 500;">How to Convert PDF to 3D Flipbook Offline</span>
-        </nav>
+    <main class="container" style="padding: 130px 20px 80px; max-width: 860px; line-height: 1.8;">
+        <!-- Breadcrumb -->
+        <div style="font-size: 0.9rem; opacity: 0.75; margin-bottom: 20px;">
+            <a href="../index.html" style="color: inherit; text-decoration: none;">Home</a> &rsaquo; 
+            <a href="index.html" style="color: inherit; text-decoration: none;">Blog</a> &rsaquo; 
+            <span style="color: var(--primary-color); font-weight: 600;">PDF to 3D Flipbook Offline Guide</span>
+        </div>
 
-        <!-- Article Header -->
-        <header style="margin-bottom: 40px;">
-            <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 16px; flex-wrap: wrap;">
-                <span style="background: #f3e8ff; color: #7c3aed; font-weight: 800; font-size: 0.8rem; padding: 4px 12px; border-radius: 20px; text-transform: uppercase;">✨ New in v1.0.7</span>
-                <span style="background: #eff6ff; color: #2563eb; font-weight: 700; font-size: 0.8rem; padding: 4px 12px; border-radius: 20px; text-transform: uppercase;">Interactive Publishing &amp; Privacy</span>
-                <span style="color: #94a3b8; font-size: 0.85rem;">• 7 Min Read • November 14, 2026</span>
-            </div>
-            <h1 style="font-family: 'Outfit', sans-serif; font-size: 2.6rem; line-height: 1.22; color: #0f172a; margin-bottom: 20px; font-weight: 800; letter-spacing: -0.5px;">
-                How to Convert PDF to an Interactive 3D Flipbook Offline (With Standalone HTML5 Export)
-            </h1>
-            <p style="font-size: 1.2rem; color: #475569; line-height: 1.6; font-weight: 400;">
-                Static PDFs can feel flat when presenting product catalogs, digital magazines, lookbooks, or executive proposals. Learn how to transform any PDF into a tactile 3D page-turning experience with realistic paper sound effects — 100% offline on Windows, with zero monthly cloud hosting fees.
-            </p>
-        </header>
+        <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 16px; flex-wrap: wrap;">
+            <span class="badge" style="margin-bottom: 0; background: #f3e8ff; color: #7c3aed; border: 1px solid #c4b5fd;">✨ New in v1.0.7</span>
+            <span class="badge" style="margin-bottom: 0;">Interactive Publishing &amp; Privacy</span>
+        </div>
 
-        <!-- Visual 3D Flipbook Banner Card -->
-        <div style="margin: 35px 0 45px; border-radius: 18px; overflow: hidden; background: radial-gradient(circle at 50% 30%, #1e293b 0%, #0f172a 100%); border: 1px solid #334155; box-shadow: 0 20px 45px rgba(15,23,42,0.22); padding: 40px 30px; text-align: center; color: #ffffff;">
-            <div style="display: inline-block; background: linear-gradient(135deg, #8b5cf6, #3b82f6); color: #fff; font-size: 0.78rem; font-weight: 800; padding: 4px 14px; border-radius: 99px; letter-spacing: 0.8px; text-transform: uppercase; margin-bottom: 18px;">
-                DOCENTRA 3D FLIPBOOK STUDIO
-            </div>
-            <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.75rem; color: #f8fafc; margin: 0 0 12px;">
-                📖 Realistic 3D Page Curling · 🔊 Paper Sound · 🌐 Single-File HTML5 Export
-            </h3>
-            <p style="color: #94a3b8; font-size: 1rem; max-width: 640px; margin: 0 auto 24px;">
-                Read your PDFs as an interactive double-page magazine inside Docentra, or export a single self-contained <code style="background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px; color: #e2e8f0;">.html</code> file that opens offline in any browser.
+        <h1 style="font-size: 2.65rem; margin-bottom: 18px; line-height: 1.22; color: #0f172a;">
+            How to Convert PDF to an Interactive 3D Flipbook Offline (Standalone HTML5 Export)
+        </h1>
+
+        <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 28px; font-size: 0.95rem; color: #64748b; border-bottom: 1px solid #e2e8f0; padding-bottom: 18px; flex-wrap: wrap;">
+            <span>📅 November 14, 2026</span>
+            <span>•</span>
+            <span>⏱️ 6 min read</span>
+            <span>•</span>
+            <span>👤 Docentra Product Team</span>
+        </div>
+
+        <p style="font-size: 1.18rem; margin-bottom: 28px; line-height: 1.7;">
+            Static, vertical-scrolling PDFs often feel flat when presenting product catalogs, digital magazines, real estate brochures, or executive lookbooks. With <strong>Docentra PDF Suite v1.0.7</strong>, you can transform any PDF into a tactile <strong>3D page-turning flipbook</strong> with realistic paper sound effects — <strong>100% offline on Windows</strong>, with zero monthly cloud hosting fees.
+        </p>
+
+        <!-- Interactive Live 3D Flipbook Demo Box -->
+        <div class="demo-stage">
+            <span class="demo-pill">⚡ Interactive Live Preview — Click to Flip Page</span>
+            <h3 style="font-size: 1.45rem; margin: 12px 0 6px;">Experience True 3D Page-Turning Physics &amp; Paper Sound</h3>
+            <p style="font-size: 0.95rem; max-width: 620px; margin: 0 auto 10px;">
+                Click the button or page below to test the 3D spine crease and synthesized Web Audio paper-turn sound that Docentra embeds into every exported <code>.html</code> flipbook:
             </p>
-            <div style="display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; font-size: 0.85rem; color: #cbd5e1;">
-                <span style="background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); padding: 6px 14px; border-radius: 99px;">🌑 Dark Spotlight Studio</span>
-                <span style="background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); padding: 6px 14px; border-radius: 99px;">🪵 Classic Wood Desk</span>
-                <span style="background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); padding: 6px 14px; border-radius: 99px;">☀️ Modern Light Gallery</span>
+
+            <div class="mini-book-scene">
+                <div class="mini-book" onclick="toggleDemoFlip()">
+                    <!-- Left Base Page -->
+                    <div class="mini-page left">
+                        <div>
+                            <div style="font-size: 0.7rem; font-weight: 800; color: #7c3aed; letter-spacing: 0.5px;">DOCENTRA CATALOG</div>
+                            <h4 style="font-size: 1.05rem; margin: 6px 0;">100% Local Processing</h4>
+                            <p style="font-size: 0.8rem; line-height: 1.45;">Your confidential price lists and designs never leave your computer.</p>
+                        </div>
+                        <div style="font-size: 0.75rem; font-weight: 700; color: #94a3b8;">Page 2</div>
+                    </div>
+
+                    <!-- Flipping 3D Leaf -->
+                    <div class="mini-leaf" id="demoLeaf">
+                        <div class="mini-leaf-face mini-leaf-front">
+                            <div>
+                                <div style="font-size: 0.7rem; font-weight: 800; color: #2563eb; letter-spacing: 0.5px;">3D FLIPBOOK STUDIO</div>
+                                <h4 style="font-size: 1.05rem; margin: 6px 0;">Interactive Cover</h4>
+                                <p style="font-size: 0.8rem; line-height: 1.45;">Click anywhere on this page to see the 3D curl animation &amp; hear the paper sound!</p>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; align-items: center;">
+                                <span style="font-size: 0.75rem; font-weight: 700; color: #94a3b8;">Page 3</span>
+                                <span style="font-size: 0.75rem; font-weight: 700; color: #2563eb;">Flip ▶</span>
+                            </div>
+                        </div>
+                        <div class="mini-leaf-face mini-leaf-back">
+                            <div>
+                                <div style="font-size: 0.7rem; font-weight: 800; color: #16a34a; letter-spacing: 0.5px;">STANDALONE HTML5</div>
+                                <h4 style="font-size: 1.05rem; margin: 6px 0;">Single-File Export</h4>
+                                <p style="font-size: 0.8rem; line-height: 1.45;">Share a single <code>.html</code> file via email or embed it on your site forever for $0/mo.</p>
+                            </div>
+                            <div style="font-size: 0.75rem; font-weight: 700; color: #94a3b8;">Page 4</div>
+                        </div>
+                    </div>
+
+                    <!-- Right Base Page Underneath -->
+                    <div class="mini-page right">
+                        <div>
+                            <div style="font-size: 0.7rem; font-weight: 800; color: #d97706; letter-spacing: 0.5px;">3 STUDIO THEMES</div>
+                            <h4 style="font-size: 1.05rem; margin: 6px 0;">Zero Cloud Fees</h4>
+                            <p style="font-size: 0.8rem; line-height: 1.45;">Includes Dark Studio, Classic Wood Desk, and Light Gallery themes.</p>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-size: 0.75rem; font-weight: 700; color: #7c3aed;">◀ Flip Back</span>
+                            <span style="font-size: 0.75rem; font-weight: 700; color: #94a3b8;">Page 5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 14px; display: flex; justify-content: center; gap: 12px; flex-wrap: wrap;">
+                <button type="button" class="btn btn-primary" onclick="toggleDemoFlip()" style="padding: 10px 22px; font-size: 0.9rem;">📖 Flip Demo Page (With Sound 🔊)</button>
+                <a href="https://docentrapdf.com/download/" class="btn btn-secondary" style="padding: 10px 22px; font-size: 0.9rem;">⬇️ Download Docentra v1.0.7</a>
             </div>
         </div>
 
-        <!-- Article Body -->
-        <article style="font-size: 1.08rem; color: #334155;">
-
-            <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.8rem; color: #0f172a; margin-top: 40px; margin-bottom: 16px;">
-                Why Traditional Cloud Flipbook Platforms Are a Trap
-            </h2>
-            <p>
-                Whether you are a marketing team publishing a seasonal product catalog, a real estate agency showcasing luxury property brochures, an educator distributing interactive textbooks, or an enterprise sharing an annual report, <strong>3D flipbooks</strong> dramatically outperform flat vertical-scrolling PDFs in reader engagement.
-            </p>
-            <p>
-                However, if you search for a <em>"PDF to Flipbook converter"</em> today, nearly every result (such as FlipHTML5, Issuu, Flipsnack, or Publuu) forces you into a restrictive SaaS cloud model with three major drawbacks:
-            </p>
-            <ul>
-                <li style="margin-bottom: 14px;"><strong>Mandatory Cloud Uploads (Privacy &amp; NDA Risk):</strong> To generate a flipbook on web platforms, you must upload your PDF to their public cloud servers. For internal B2B wholesale price lists, unreleased product catalogs, or board presentations, uploading confidential documents to third-party web hosts violates strict corporate data governance policies.</li>
-                <li style="margin-bottom: 14px;"><strong>Renting Your Own Documents ($180 to $950+/Year):</strong> Cloud flipbook services charge hefty recurring monthly subscriptions just to keep your flipbook links alive. The moment you cancel your subscription, your embedded flipbooks are deactivated, deleted, or plastered with intrusive third-party ads.</li>
-                <li style="margin-bottom: 14px;"><strong>No True Offline Portability:</strong> Most web-based flipbook tools lock standalone HTML5 downloads behind their most expensive "Enterprise" tiers, leaving you dependent on an active internet connection during client meetings or trade show kiosks.</li>
+        <!-- Executive Summary Callout -->
+        <section style="background: #f8fafc; border: 1px solid #cbd5e1; border-left: 4px solid #7c3aed; padding: 24px; border-radius: 10px; margin-bottom: 40px;">
+            <h3 style="font-size: 1.25rem; margin-bottom: 10px;">⚡ Key Highlights of Docentra 3D Flipbook Studio</h3>
+            <ul style="margin: 0; padding-left: 20px; font-size: 0.98rem;">
+                <li style="margin-bottom: 6px;"><strong>100% Offline Rendering:</strong> Convert confidential B2B catalogs, wholesale price lists, and board reports into 3D flipbooks without uploading a single byte to the cloud.</li>
+                <li style="margin-bottom: 6px;"><strong>Single-File Standalone HTML5 Export (<code>.html</code>):</strong> Export a completely self-contained HTML file that opens offline in any browser (Chrome, Edge, Safari, Firefox) or embeds on your website.</li>
+                <li style="margin-bottom: 6px;"><strong>Synthesized Web Audio Page Sound:</strong> Built-in acoustic paper-turn sound generator requiring zero external MP3 files or internet access.</li>
+                <li><strong>No Monthly Hosting Subscriptions:</strong> Pay once ($19.90 lifetime license for the entire 15+ tool PDF Suite) instead of paying $180–$950/year to cloud flipbook hosts.</li>
             </ul>
+        </section>
 
-            <div style="background: #f5f3ff; border-left: 4px solid #7c3aed; padding: 18px 22px; border-radius: 0 10px 10px 0; margin: 28px 0; color: #4c1d95;">
-                <strong>The Docentra Philosophy:</strong> You shouldn't have to pay a monthly rent to turn your own PDF into an interactive magazine, nor should you ever upload private documents to a stranger's server.
+        <h2 style="font-size: 1.85rem; margin: 42px 0 16px;">Why Traditional Cloud Flipbook Platforms Are a Trap</h2>
+        <p style="margin-bottom: 16px;">
+            If you search for a <em>"PDF to Flipbook creator"</em> online, almost every service (such as FlipHTML5, Issuu, Flipsnack, or Publuu) locks you into a cloud hosting subscription with three serious business problems:
+        </p>
+        <ol style="margin: 20px 0 30px; padding-left: 25px;">
+            <li style="margin-bottom: 12px;">
+                <strong>Mandatory Cloud Uploads (Privacy &amp; NDA Risk):</strong> To create a flipbook on web platforms, you must upload your PDF to their multi-tenant servers. For internal B2B price lists, pre-release lookbooks, or financial reports, uploading documents to third-party web hosts violates strict corporate data protection policies.
+            </li>
+            <li style="margin-bottom: 12px;">
+                <strong>Renting Your Own Catalogs ($180 to $950+/Year):</strong> Cloud flipbook services charge recurring monthly fees just to keep your flipbook links online. The moment you cancel your subscription, your embedded website catalogs break, expire, or display competitor advertisements.
+            </li>
+            <li style="margin-bottom: 12px;">
+                <strong>No Offline Trade-Show Reliability:</strong> Most web tools restrict standalone offline HTML5 downloads to expensive "Enterprise" tiers, leaving sales teams stranded when exhibition hall Wi-Fi drops.
+            </li>
+        </ol>
+
+        <h2 style="font-size: 1.85rem; margin: 45px 0 18px;">Step-by-Step: How to Convert a PDF to a 3D Flipbook Offline</h2>
+        <p style="margin-bottom: 20px;">
+            Docentra v1.0.7 makes creating both in-app 3D magazines and portable HTML5 web flipbooks effortless:
+        </p>
+
+        <div style="display: grid; gap: 18px; margin: 24px 0 40px;">
+            <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 22px 24px; box-shadow: 0 4px 14px rgba(0,0,0,0.03);">
+                <h3 style="margin-top: 0; font-size: 1.2rem;">Step 1: Open the 3D Flipbook Module</h3>
+                <p style="margin-bottom: 0;">Launch Docentra PDF Suite on Windows 10 or 11. Click <strong>3D Flipbook (Magazine)</strong> in the left sidebar or drag and drop your PDF file directly onto the 3D Flipbook card on the Control Center dashboard.</p>
             </div>
 
-            <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.8rem; color: #0f172a; margin-top: 45px; margin-bottom: 16px;">
-                Introducing Docentra 3D Flipbook Studio (100% Offline)
-            </h2>
-            <p>
-                Starting with <strong>Docentra PDF Suite v1.0.7</strong>, we built a hardware-accelerated <strong>PDF to 3D Flipbook Studio</strong> directly into our native Windows desktop application. Every page is rendered locally on your machine and transformed into a rich, tactile 3D book spread.
+            <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 22px 24px; box-shadow: 0 4px 14px rgba(0,0,0,0.03);">
+                <h3 style="margin-top: 0; font-size: 1.2rem;">Step 2: Customize Your Studio Theme, Spread &amp; Sound</h3>
+                <p style="margin-bottom: 0;">
+                    Choose your default stage theme (<strong>Dark Cinematic Studio</strong>, <strong>Classic Wood Desk</strong>, or <strong>Modern Light Gallery</strong>) and enable <strong>Double-Page Magazine Spread</strong>, <strong>Realistic Page-Turn Sound</strong>, and <strong>Ultra HD Page Rendering</strong>.
+                </p>
+            </div>
+
+            <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 22px 24px; box-shadow: 0 4px 14px rgba(0,0,0,0.03);">
+                <h3 style="margin-top: 0; font-size: 1.2rem;">Step 3: Read in 3D Studio or Export Standalone HTML (.html)</h3>
+                <p style="margin-bottom: 0;">
+                    Click <strong>"Open in 3D Flipbook Studio"</strong> to browse your interactive catalog immediately inside Docentra (complete with thumbnail drawer, 250% zoom, and auto-play presentation mode), or click <strong>"Export Standalone HTML (.html)"</strong> to save a single portable web file.
+                </p>
+            </div>
+        </div>
+
+        <h2 style="font-size: 1.85rem; margin: 45px 0 18px;">Comparison: Docentra Offline 3D Flipbook vs. Cloud Flipbook SaaS</h2>
+        <div class="table-wrapper" style="margin: 20px 0 40px;">
+            <table class="comparison-table" style="width: 100%; border-collapse: collapse; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden;">
+                <thead>
+                    <tr>
+                        <th style="padding: 14px 18px; text-align: left; border-bottom: 2px solid #e2e8f0;">Feature / Criteria</th>
+                        <th style="padding: 14px 18px; text-align: left; border-bottom: 2px solid #e2e8f0; background: #f5f3ff !important;">Docentra 3D Flipbook (v1.0.7)</th>
+                        <th style="padding: 14px 18px; text-align: left; border-bottom: 2px solid #e2e8f0;">Cloud Flipbook SaaS (FlipHTML5, Issuu)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 14px 18px;"><strong>Data Confidentiality</strong></td>
+                        <td style="padding: 14px 18px; background: #faf5ff;">✅ <strong>100% Offline</strong> (0 Bytes Uploaded)</td>
+                        <td style="padding: 14px 18px;">❌ Uploaded to Third-Party Cloud</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 14px 18px;"><strong>Pricing Model</strong></td>
+                        <td style="padding: 14px 18px; background: #faf5ff;">✅ <strong>$19.90 One-Time</strong> (Lifetime Suite)</td>
+                        <td style="padding: 14px 18px;">❌ $180 – $950+ / Year Subscription</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 14px 18px;"><strong>Standalone HTML5 Export</strong></td>
+                        <td style="padding: 14px 18px; background: #faf5ff;">✅ <strong>Included</strong> (Single self-contained <code>.html</code>)</td>
+                        <td style="padding: 14px 18px;">⚠️ Locked behind expensive Enterprise tiers</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 14px 18px;"><strong>Catalog Link Longevity</strong></td>
+                        <td style="padding: 14px 18px; background: #faf5ff;">✅ <strong>Permanent</strong> (You own the file forever)</td>
+                        <td style="padding: 14px 18px;">❌ Deactivated if you stop paying monthly</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 14px 18px;"><strong>Additional PDF Tools</strong></td>
+                        <td style="padding: 14px 18px; background: #faf5ff;">✅ <strong>15+ Tools</strong> (OCR, Merge, Sign, Compress)</td>
+                        <td style="padding: 14px 18px;">❌ Flipbook hosting only</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 style="font-size: 1.85rem; margin: 45px 0 18px;">Frequently Asked Questions (FAQ)</h2>
+        <div style="display: grid; gap: 16px; margin-bottom: 45px;">
+            <div style="background: #ffffff; padding: 20px 24px; border-radius: 12px; border: 1px solid #e2e8f0;">
+                <h3 style="font-size: 1.12rem; margin: 0 0 8px;">Can I convert a PDF to a flipbook without uploading it to the cloud?</h3>
+                <p style="margin: 0;">Yes. With Docentra PDF Suite, the entire PDF-to-Flipbook rendering process happens 100% locally on your Windows CPU and RAM. Your confidential catalogs, price lists, and board reports never touch an external server.</p>
+            </div>
+            <div style="background: #ffffff; padding: 20px 24px; border-radius: 12px; border: 1px solid #e2e8f0;">
+                <h3 style="font-size: 1.12rem; margin: 0 0 8px;">How does the exported HTML flipbook work offline?</h3>
+                <p style="margin: 0;">Docentra compiles your rendered PDF pages, the 3D CSS/JavaScript page-curling engine, and a Web Audio API page-turn sound synthesizer into a single standalone <code>.html</code> file. Anyone can double-click this file to open it in Chrome, Edge, Safari, or Firefox without an internet connection or external folders.</p>
+            </div>
+            <div style="background: #ffffff; padding: 20px 24px; border-radius: 12px; border: 1px solid #e2e8f0;">
+                <h3 style="font-size: 1.12rem; margin: 0 0 8px;">Can I embed the exported HTML flipbook on my own website?</h3>
+                <p style="margin: 0;">Absolutely! Because the exported flipbook is a standard self-contained HTML5 file with zero external dependencies, you can upload it directly to your own web server, WordPress site, or GitHub Pages and embed it using a simple <code>&lt;iframe&gt;</code> — with zero watermarks and zero monthly fees.</p>
+            </div>
+        </div>
+
+        <!-- Call to Action Box (Light/Lavender High-Contrast Theme compatible with style.css) -->
+        <div style="background: linear-gradient(135deg, #eff6ff 0%, #f5f3ff 100%); border: 2px solid #93c5fd; border-radius: 18px; padding: 40px 30px; text-align: center; box-shadow: 0 10px 30px rgba(37, 99, 235, 0.08);">
+            <span class="demo-pill" style="margin-bottom: 12px;">🚀 Ready to Try Docentra v1.0.7?</span>
+            <h2 style="font-size: 1.9rem; margin: 8px 0 12px;">Transform Your PDFs into Interactive 3D Flipbooks Today</h2>
+            <p style="font-size: 1.08rem; max-width: 620px; margin: 0 auto 26px;">
+                Download Docentra PDF Suite for Windows and experience the 100% offline 3D Flipbook Studio, Standalone HTML5 Export, Local OCR, and 15+ professional PDF tools.
             </p>
-
-            <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.35rem; color: #0f172a; margin-top: 28px; margin-bottom: 12px;">
-                Key Capabilities of the 3D Flipbook Engine:
-            </h3>
-            <ol>
-                <li style="margin-bottom: 14px;">
-                    <strong>Realistic 3D Page-Turning Physics &amp; Spine Shadows:</strong> Experience dynamic 3D perspective page curling, center book-binding crease shadows, multi-layered paper edge thickness, and interactive corner hover previews.
-                </li>
-                <li style="margin-bottom: 14px;">
-                    <strong>Synthesized Web Audio Page-Turn Sound (Zero External Files):</strong> Using a custom offline Web Audio API acoustic synthesizer, every page turn produces a natural paper-slide rustle sound without relying on external MP3 assets or internet requests. Readers can toggle sound on or off with one click.
-                </li>
-                <li style="margin-bottom: 14px;">
-                    <strong>Double-Page Magazine Spread &amp; Single-Page Modes:</strong> Present your cover page centered like a real hardcover book, open into a full two-page catalog spread, or switch to single-page portrait mode anytime.
-                </li>
-                <li style="margin-bottom: 14px;">
-                    <strong>Interactive Control Dock, Zoom, Thumbnails &amp; Auto-Play:</strong> Includes a sleek glassmorphic bottom dock featuring a visual thumbnail grid drawer, up to 250% zoom with click-and-drag panning, keyboard arrow navigation, fullscreen mode, and an <strong>Auto-Play presentation timer</strong> ideal for exhibition booths and trade show displays.
-                </li>
-                <li style="margin-bottom: 14px;">
-                    <strong>1-Click Standalone HTML5 Export (<code style="font-size: 0.95rem;">.html</code>):</strong> Export your entire 3D flipbook as a <strong>single, self-contained HTML file</strong>. Send it to clients via email or WhatsApp, open it offline on any Windows, Mac, iOS, or Android browser, or upload it to your own company website with zero ongoing hosting costs!
-                </li>
-            </ol>
-
-            <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.8rem; color: #0f172a; margin-top: 45px; margin-bottom: 16px;">
-                Step-by-Step: How to Create a 3D Flipbook Offline on Windows
-            </h2>
-
-            <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 25px; margin: 25px 0; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-                <h3 style="color: #0f172a; margin-top: 0; font-size: 1.25rem;">Step 1: Open the 3D Flipbook Tool in Docentra</h3>
-                <p style="margin-bottom: 0;">Launch <a href="../download/index.html" style="color: #2563eb; font-weight: 600;">Docentra PDF Suite</a> on your Windows 10 or Windows 11 PC. Click <strong>3D Flipbook</strong> from the left navigation sidebar or drag your PDF directly onto the 3D Flipbook card on the Control Center dashboard.</p>
+            <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;">
+                <a href="https://docentrapdf.com/download/" class="btn btn-primary">⬇️ Free Download for Windows (v1.0.7)</a>
+                <a href="../index.html#pricing" class="btn btn-secondary">💳 Lifetime License ($19.90)</a>
             </div>
-
-            <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 25px; margin: 25px 0; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-                <h3 style="color: #0f172a; margin-top: 0; font-size: 1.25rem;">Step 2: Choose Your Stage Theme &amp; Display Options</h3>
-                <p style="margin-bottom: 0;">
-                    Select your preferred initial stage environment:<br>
-                    • <strong>Dark Cinematic Studio:</strong> High-contrast spotlight aesthetic perfect for product lookbooks and portfolios.<br>
-                    • <strong>Classic Wood Desk:</strong> Warm library wood grain texture ideal for e-books, magazines, and historical archives.<br>
-                    • <strong>Modern Light Gallery:</strong> Clean minimalist daylight backdrop tailored for corporate reports and whitepapers.<br>
-                    <em>(Note: Readers can also switch between all three themes live inside the viewer!)</em>
-                </p>
-            </div>
-
-            <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 25px; margin: 25px 0; box-shadow: 0 4px 15px rgba(0,0,0,0.03);">
-                <h3 style="color: #0f172a; margin-top: 0; font-size: 1.25rem;">Step 3: Read in 3D Studio or Export Standalone HTML</h3>
-                <p style="margin-bottom: 0;">
-                    • Click <strong>"Open in 3D Flipbook Studio"</strong> to launch the dedicated hardware-accelerated 3D reader window inside Docentra.<br>
-                    • Or click <strong>"Export Standalone HTML (.html)"</strong> to save a single portable HTML5 file to your hard drive in seconds.
-                </p>
-            </div>
-
-            <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.8rem; color: #0f172a; margin-top: 45px; margin-bottom: 16px;">
-                Comparison: Docentra Offline 3D Flipbook vs. Cloud Flipbook SaaS
-            </h2>
-            <div style="overflow-x: auto; margin: 25px 0 35px;">
-                <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem; text-align: left; background: #ffffff; border-radius: 10px; overflow: hidden; border: 1px solid #e2e8f0;">
-                    <thead>
-                        <tr style="background: #0f172a; color: #ffffff;">
-                            <th style="padding: 14px 18px;">Criteria</th>
-                            <th style="padding: 14px 18px; color: #a78bfa;">Docentra 3D Flipbook</th>
-                            <th style="padding: 14px 18px;">Cloud SaaS (FlipHTML5, Issuu, etc.)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr style="border-bottom: 1px solid #e2e8f0;">
-                            <td style="padding: 14px 18px; font-weight: 600;">Document Privacy</td>
-                            <td style="padding: 14px 18px; color: #16a34a; font-weight: 700;">100% Offline (0 Bytes Uploaded)</td>
-                            <td style="padding: 14px 18px; color: #dc2626;">Uploaded to Public Cloud Servers</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid #e2e8f0; background: #f8fafc;">
-                            <td style="padding: 14px 18px; font-weight: 600;">Pricing &amp; Ownership</td>
-                            <td style="padding: 14px 18px; color: #16a34a; font-weight: 700;">$19.90 One-Time (Lifetime Suite)</td>
-                            <td style="padding: 14px 18px; color: #dc2626;">$180 – $950+ / year recurring subscription</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid #e2e8f0;">
-                            <td style="padding: 14px 18px; font-weight: 600;">Standalone HTML5 Export</td>
-                            <td style="padding: 14px 18px; color: #16a34a; font-weight: 700;">Included (Single .html file)</td>
-                            <td style="padding: 14px 18px;">Restricted to expensive Enterprise plans</td>
-                        </tr>
-                        <tr style="border-bottom: 1px solid #e2e8f0; background: #f8fafc;">
-                            <td style="padding: 14px 18px; font-weight: 600;">What Happens If You Cancel?</td>
-                            <td style="padding: 14px 18px; color: #16a34a; font-weight: 700;">Nothing — Perpetual License &amp; Files</td>
-                            <td style="padding: 14px 18px; color: #dc2626;">Links expire or show third-party ads</td>
-                        </tr>
-                        <tr>
-                            <td style="padding: 14px 18px; font-weight: 600;">Bonus PDF Suite Tools</td>
-                            <td style="padding: 14px 18px; color: #16a34a; font-weight: 700;">15+ Tools (OCR, Merge, Sign, Compress)</td>
-                            <td style="padding: 14px 18px;">Flipbook only</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <h2 style="font-family: 'Outfit', sans-serif; font-size: 1.8rem; color: #0f172a; margin-top: 45px; margin-bottom: 16px;">
-                Frequently Asked Questions (FAQ)
-            </h2>
-            <div style="margin-top: 20px;">
-                <div style="margin-bottom: 20px; background: #ffffff; padding: 20px 24px; border-radius: 10px; border: 1px solid #e2e8f0;">
-                    <h3 style="font-size: 1.15rem; color: #0f172a; margin-top: 0; margin-bottom: 8px;">Can I convert a PDF to a flipbook without uploading it to the cloud?</h3>
-                    <p style="margin-bottom: 0; color: #475569;">Yes. With Docentra PDF Suite, the entire PDF-to-Flipbook rendering process happens 100% locally on your Windows CPU and RAM. Your confidential catalogs, price lists, and board reports never touch an external server.</p>
-                </div>
-                <div style="margin-bottom: 20px; background: #ffffff; padding: 20px 24px; border-radius: 10px; border: 1px solid #e2e8f0;">
-                    <h3 style="font-size: 1.15rem; color: #0f172a; margin-top: 0; margin-bottom: 8px;">How does the exported HTML flipbook work offline?</h3>
-                    <p style="margin-bottom: 0; color: #475569;">Docentra compiles your rendered PDF pages, the 3D CSS/JavaScript page-curling engine, and a Web Audio API page-turn sound synthesizer into a single standalone <code>.html</code> file. Anyone can double-click this file to open it in Chrome, Edge, Safari, or Firefox without an internet connection, external image folders, or plugins.</p>
-                </div>
-                <div style="margin-bottom: 20px; background: #ffffff; padding: 20px 24px; border-radius: 10px; border: 1px solid #e2e8f0;">
-                    <h3 style="font-size: 1.15rem; color: #0f172a; margin-top: 0; margin-bottom: 8px;">Can I embed the exported HTML flipbook on my own website?</h3>
-                    <p style="margin-bottom: 0; color: #475569;">Absolutely! Because the exported flipbook is a standard self-contained HTML5 file with zero external dependencies, you can upload it directly to your own web server, WordPress site, or GitHub Pages and embed it using a simple <code>&lt;iframe&gt;</code> — with zero watermarks and zero monthly fees.</p>
-                </div>
-            </div>
-
-            <!-- Call to Action Banner -->
-            <div style="background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%); color: #ffffff; border-radius: 16px; padding: 40px; margin: 50px 0 20px; text-align: center; box-shadow: 0 10px 30px rgba(15,23,42,0.18);">
-                <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.9rem; margin-top: 0; margin-bottom: 12px; color: #ffffff;">Transform Your PDFs into Interactive 3D Flipbooks Today</h3>
-                <p style="font-size: 1.1rem; color: #cbd5e1; max-width: 620px; margin: 0 auto 28px; line-height: 1.6;">
-                    Download Docentra PDF Suite v1.0.7 for Windows and try the 3D Flipbook Studio, Standalone HTML5 Export, Local OCR, and 15+ offline PDF tools free.
-                </p>
-                <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-                    <a href="../download/index.html" class="btn btn-primary" style="padding: 14px 28px; font-size: 1.05rem; border-radius: 8px; text-decoration: none; font-weight: 700;">⬇️ Free Download for Windows (v1.0.7)</a>
-                    <a href="../index.html#pricing" class="btn btn-outline" style="padding: 14px 28px; font-size: 1.05rem; border-radius: 8px; text-decoration: none; border-color: #6366f1; color: #ffffff;">💳 Lifetime License ($19.90)</a>
-                </div>
-            </div>
-
-        </article>
-
+        </div>
     </main>
 
-    <!-- Footer -->
-    <footer style="text-align: center; padding: 40px; border-top: 1px solid #e2e8f0; background: #ffffff;">
-        <p style="color: #64748b; margin: 0;">&copy; 2026 Docentra Team. All rights reserved.</p>
+    <footer style="text-align: center; padding: 40px; margin-top: 60px; border-top: 1px solid #e2e8f0;">
+        <p style="color: #64748b;">&copy; 2026 Docentra Team. All rights reserved.</p>
         <p style="margin-top: 10px; font-size: 0.9rem;">
-            <a href="../open-source-notices.html" style="color: #2563eb; text-decoration: none;">Open Source Notices</a> · 
-            <a href="../index.html" style="color: #475569; text-decoration: none;">Home</a> · 
-            <a href="index.html" style="color: #475569; text-decoration: none;">Blog</a>
+            <a href="../open-source-notices.html">Open Source Notices</a> · 
+            <a href="../index.html">Home</a> · 
+            <a href="index.html">Blog</a>
         </p>
     </footer>
 
+    <script>
+        let demoAudioCtx = null;
+        function playDemoFlipSound() {
+            try {
+                if (!demoAudioCtx) {
+                    const AudioContext = window.AudioContext || window.webkitAudioContext;
+                    demoAudioCtx = new AudioContext();
+                }
+                if (demoAudioCtx.state === 'suspended') demoAudioCtx.resume();
+                const duration = 0.34;
+                const sr = demoAudioCtx.sampleRate;
+                const buf = demoAudioCtx.createBuffer(1, sr * duration, sr);
+                const data = buf.getChannelData(0);
+                let b0 = 0, b1 = 0, b2 = 0;
+                for (let i = 0; i < data.length; i++) {
+                    const w = Math.random() * 2 - 1;
+                    b0 = 0.997 * b0 + w * 0.029;
+                    b1 = 0.985 * b1 + w * 0.032;
+                    b2 = 0.950 * b2 + w * 0.048;
+                    data[i] = (b0 + b1 + b2 + w * 0.12) * Math.sin((i / data.length) * Math.PI) * 0.5;
+                }
+                const src = demoAudioCtx.createBufferSource();
+                src.buffer = buf;
+                const flt = demoAudioCtx.createBiquadFilter();
+                flt.type = 'bandpass';
+                flt.frequency.setValueAtTime(1050, demoAudioCtx.currentTime);
+                flt.frequency.exponentialRampToValueAtTime(380, demoAudioCtx.currentTime + duration);
+                const gain = demoAudioCtx.createGain();
+                gain.gain.setValueAtTime(0.01, demoAudioCtx.currentTime);
+                gain.gain.linearRampToValueAtTime(0.25, demoAudioCtx.currentTime + 0.07);
+                gain.gain.exponentialRampToValueAtTime(0.005, demoAudioCtx.currentTime + duration);
+                src.connect(flt);
+                flt.connect(gain);
+                gain.connect(demoAudioCtx.destination);
+                src.start();
+            } catch (e) {}
+        }
+
+        function toggleDemoFlip() {
+            const leaf = document.getElementById('demoLeaf');
+            if (leaf) {
+                leaf.classList.toggle('flipped');
+                playDemoFlipSound();
+            }
+        }
+    </script>
 </body>
 </html>

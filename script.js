@@ -433,6 +433,13 @@ tr: {
 "sim-status-success": "Yerel olarak 0.8 saniyede tamamlandı! 0KB yüklendi. Güvenli ve Gizli."
 },
 fr: {
+"feat-flipbook-title":"Flipbook 3D (Magazine & Catalogue)","feat-flipbook-desc":"Transformez vos PDF en magazines interactifs 3D avec effet de tourne-page réaliste et son papier, ou exportez en fichier HTML5 autonome.",
+"flip-spot-badge":"NOUVEAU v1.0.7 · STUDIO FLIPBOOK 3D 100% HORS-LIGNE",
+"flip-spot-title":"Transformez vos PDF statiques en magazines 3D interactifs et catalogues HTML5",
+"flip-spot-desc":"Lisez vos PDF avec une physique de page 3D réaliste et un son de papier synthétisé — ou exportez un fichier .html unique à partager ou intégrer sur votre site sans abonnement cloud.",
+"flip-spot-btn-try":"⬇️ Essayer Flipbook 3D Gratuitement",
+"flip-spot-btn-guide":"📖 Lire le Guide Flipbook →",
+
 "nav-features":"Fonctionnalités","nav-compare":"Pourquoi Offline?","nav-blog":"Blog","nav-pricing":"Tarifs","nav-roadmap":"Feuille de Route","nav-faq":"FAQ","btn-download":"Télécharger",
 "hero-badge":"Architecture native pour la vie privée","hero-title":'Édition & Lecture PDF professionnelles, <span>réinventées.</span>',
 "hero-desc":"Découvrez la puissance du traitement local. Lisez, annotez, modifiez, convertissez et numérisez (OCR) vos documents 100% hors ligne avec une confidentialité totale et des performances ultra-rapides.",
@@ -554,6 +561,13 @@ fr: {
 "sim-status-success": "Terminé localement en 0.8s ! 0 Ko transférés. Sécurisé & Privé."
 },
 de: {
+"feat-flipbook-title":"3D-Flipbook (Magazin & Katalog)","feat-flipbook-desc":"Verwandeln Sie PDFs in interaktive 3D-Blätterkataloge mit realistischer Seitenphysik und Papierklang oder exportieren Sie als eigenständige HTML5-Datei.",
+"flip-spot-badge":"NEU IN v1.0.7 · 100% OFFLINE 3D-FLIPBOOK-STUDIO",
+"flip-spot-title":"Verwandeln Sie statische PDFs in interaktive 3D-Magazine & HTML5-Kataloge",
+"flip-spot-desc":"Erleben Sie PDFs mit realistischem 3D-Umblättereffekt und Papierklang — oder exportieren Sie eine einzelne .html-Datei zum Teilen oder Einbetten ohne monatliche Cloud-Gebühren.",
+"flip-spot-btn-try":"⬇️ 3D-Flipbook Kostenlos Testen",
+"flip-spot-btn-guide":"📖 Flipbook-Anleitung Lesen →",
+
 "nav-features":"Funktionen","nav-compare":"Warum Offline?","nav-blog":"Blog","nav-pricing":"Preise","nav-roadmap":"Roadmap","nav-faq":"FAQ","btn-download":"Herunterladen",
 "hero-badge":"Privacy-Native Architektur","hero-title":'Professionelle PDF-Bearbeitung & -Anzeige, <span>neu gedacht.</span>',
 "hero-desc":"Erleben Sie die Leistung lokaler Verarbeitung. Lesen, kommentieren, bearbeiten, konvertieren und OCR-erkennen Sie Ihre Dokumente 100% offline — mit absoluter Privatsphäre und hoher Performance.",
@@ -737,6 +751,13 @@ de: {
 "sim-status-success": "Lokal in 0,8 s abgeschlossen! 0 KB hochgeladen. Sicher & Privat."
 },
 es: {
+"feat-flipbook-title":"Flipbook 3D (Revista y Catálogo)","feat-flipbook-desc":"Transforma cualquier PDF en una revista interactiva 3D con física realista de paso de página y sonido de papel, o expórtalo como archivo HTML5 independiente.",
+"flip-spot-badge":"NUEVO EN v1.0.7 · ESTUDIO FLIPBOOK 3D 100% SIN CONEXIÓN",
+"flip-spot-title":"Convierte PDFs estáticos en revistas 3D interactivas y catálogos HTML5",
+"flip-spot-desc":"Lee tus PDFs con física 3D realista y sonido de página — o exporta un único archivo .html independiente para compartir con clientes o incrustar en tu web sin cuotas mensuales en la nube.",
+"flip-spot-btn-try":"⬇️ Probar Flipbook 3D Gratis",
+"flip-spot-btn-guide":"📖 Leer Guía de Flipbook →",
+
 "nav-features":"Características","nav-compare":"¿Por qué offline?","nav-blog":"Blog","nav-pricing":"Precios","nav-roadmap":"Hoja de Ruta","nav-faq":"FAQ","btn-download":"Descargar",
 "hero-badge":"Arquitectura nativa de privacidad","hero-title":'Edición y visualización profesional de PDF, <span>reinventadas.</span>',
 "hero-desc":"Descubra el poder del procesamiento local. Lea, anote, edite, convierta y haga OCR en sus documentos 100% fuera de línea, con total privacidad y el máximo rendimiento.",
@@ -858,6 +879,13 @@ es: {
 "sim-status-success": "¡Completado localmente en 0.8s! 0KB subidos. Seguro y Privado."
 },
 it: {
+"feat-flipbook-title":"Flipbook 3D (Rivista e Catalogo)","feat-flipbook-desc":"Trasforma qualsiasi PDF in una rivista interattiva 3D con effetto sfoglia-pagina realistico e suono della carta, o esporta come singolo file HTML5 autonomo.",
+"flip-spot-badge":"NOVITÀ v1.0.7 · STUDIO FLIPBOOK 3D 100% OFFLINE",
+"flip-spot-title":"Trasforma PDF statici in riviste 3D interattive e cataloghi HTML5 autonomi",
+"flip-spot-desc":"Sfoglia i tuoi PDF con fisica 3D realistica e suono della carta — oppure esporta un singolo file .html autonomo da condividere con i clienti o incorporare nel tuo sito a costo zero.",
+"flip-spot-btn-try":"⬇️ Prova Flipbook 3D Gratis",
+"flip-spot-btn-guide":"📖 Leggi la Guida Flipbook →",
+
 "nav-features":"Caratteristiche","nav-compare":"Perché offline?","nav-blog":"Blog","nav-pricing":"Prezzi","nav-roadmap":"Tabella di Marcia","nav-faq":"FAQ","btn-download":"Scarica",
 "hero-badge":"Architettura nativa per la privacy","hero-title":'Lettura & Modifica PDF professionale, <span>reinventate.</span>',
 "hero-desc":"Scopri la potenza dell'elaborazione locale. Leggi, annota, modifica, converti ed esegui l'OCR sui tuoi documenti al 100% offline, con privacy assoluta e prestazioni elevate.",
@@ -979,6 +1007,13 @@ it: {
 "sim-status-success": "Completato locale in 0.8s! 0KB caricati. Sicuro e Privato."
 },
 zh: {
+"feat-flipbook-title":"3D 翻页电子书 (杂志与画册)","feat-flipbook-desc":"将任何 PDF 转换为具有逼真 3D 翻页物理效果和纸张翻页音效的交互式电子杂志，或导出为单个独立的 HTML5 文件。",
+"flip-spot-badge":"v1.0.7 全新功能 · 100% 离线 3D 翻页电子书工作室",
+"flip-spot-title":"将静态 PDF 转化为交互式 3D 电子杂志与独立 HTML5 产品画册",
+"flip-spot-desc":"通过逼真的 3D 翻页动画、书脊阴影和合成纸张音效阅读 PDF — 或一键导出为单个独立 .html 文件，零月租费即可分享给客户或嵌入您的网站。",
+"flip-spot-btn-try":"⬇️ 免费试用 3D 翻页电子书",
+"flip-spot-btn-guide":"📖 阅读翻页书指南 →",
+
 "nav-features":"功能","nav-compare":"为何选择离线？","nav-blog":"博客","nav-pricing":"价格","nav-roadmap":"路线图","nav-faq":"常见问题","btn-download":"下载",
 "hero-badge":"隐私原生架构","hero-title":'重塑专业的 PDF 阅读与编辑体验',
 "hero-desc":"体验本地处理的高效与强大。100% 离线安全地阅读、标注、编辑、转换以及对您的文档进行 OCR 文字识别，享受极致隐私保护与超凡性能。",
@@ -1098,6 +1133,13 @@ zh: {
 "sim-status-success": "本地仅用 0.8 秒完成！0KB 上传。安全且极度私密。"
 },
 ja: {
+"feat-flipbook-title":"3D フリップブック (雑誌・カタログ)","feat-flipbook-desc":"PDFをリアルな3Dページめくり効果と紙めくり音付きのインタラクティブな雑誌・カタログに変換、または単一のHTML5ファイルとして出力します。",
+"flip-spot-badge":"v1.0.7 新機能 · 100% オフライン 3D フリップブックスタジオ",
+"flip-spot-title":"静的なPDFをインタラクティブな3Dマガジン＆独立型HTML5カタログに変換",
+"flip-spot-desc":"リアルな3Dページめくり物理演算と紙の音でPDFを閲覧 — または単一の.htmlファイルとして出力し、クラウド月額費用ゼロで顧客と共有・Webサイトへ埋め込み可能です。",
+"flip-spot-btn-try":"⬇️ 3D フリップブックを無料体験",
+"flip-spot-btn-guide":"📖 フリップブックガイドを読む →",
+
 "nav-features":"機能","nav-compare":"オフラインの理由","nav-blog":"ブログ","nav-pricing":"価格","nav-roadmap":"ロードマップ","nav-faq":"FAQ","btn-download":"ダウンロード",
 "hero-badge":"プライバシーネイティブ","hero-title":'プロフェッショナルなPDF閲覧＆編集を、<span>再定義。</span>',
 "hero-desc":"ローカル処理の圧倒的なパワーを体感してください。完全なプライバシーと高速なパフォーマンスで、PDFの閲覧、注釈追加、編集、変換、ローカルOCRを100%オフラインで実行できます。",
@@ -1217,6 +1259,13 @@ ja: {
 "sim-status-success": "ローカルでわずか0.8秒で完了！送信データ0KB。安全かつプライベート。"
 },
 ru: {
+"feat-flipbook-title":"3D Флипбук (Журнал и Каталог)","feat-flipbook-desc":"Превратите любой PDF в интерактивный 3D-журнал с реалистичной физикой перелистывания страниц и звуком бумаги или экспортируйте в автономный файл HTML5.",
+"flip-spot-badge":"НОВИНКА v1.0.7 · 100% ОФЛАЙН СТУДИЯ 3D ФЛИПБУКОВ",
+"flip-spot-title":"Превратите статичные PDF в интерактивные 3D-журналы и HTML5-каталоги",
+"flip-spot-desc":"Читайте PDF с реалистичной 3D-анимацией перелистывания и звуком страниц — или экспортируйте единый автономный файл .html для отправки клиентам и встраивания на сайт без облачной абонплаты.",
+"flip-spot-btn-try":"⬇️ Попробовать 3D Флипбук Бесплатно",
+"flip-spot-btn-guide":"📖 Читать Руководство →",
+
 "nav-features":"Функции","nav-compare":"Почему офлайн?","nav-blog":"Блог","nav-pricing":"Цены","nav-roadmap":"План развития","nav-faq":"FAQ","btn-download":"Скачать",
 "hero-badge":"Приватная архитектура","hero-title":'Профессиональное чтение и редактирование PDF, <span>переосмысленное.</span>',
 "hero-desc":"Оцените мощь локальной обработки. Просматривайте, аннотируйте, редактируйте, конвертируйте и распознавайте ваши документы на 100% оффлайн, обеспечивая максимальную скорость и конфиденциальность.",
@@ -1336,6 +1385,13 @@ ru: {
 "sim-status-success": "Завершено локально за 0.8 сек! Отправлено 0 КБ. Безопасно и конфиденциально."
 },
 ar: {
+"feat-flipbook-title":"كتاب تفاعلي ثلاثي الأبعاد (3D Flipbook)","feat-flipbook-desc":"حوّل أي ملف PDF إلى مجلة أو كتالوج تفاعلي ثلاثي الأبعاد مع تأثير تقليب صفحات واقعي وصوت الورق، أو قم بتصديره كملف HTML5 مستقل.",
+"flip-spot-badge":"جديد في v1.0.7 · استوديو الكتب التفاعلية 3D بدون إنترنت 100%",
+"flip-spot-title":"حوّل ملفات PDF الثابتة إلى مجلات تفاعلية ثلاثية الأبعاد وكتالوجات HTML5",
+"flip-spot-desc":"تصفح ملفات PDF بفيزياء تقليب صفحات ثلاثية الأبعاد وصوت ورق واقعي — أو قم بتصدير ملف .html واحد مستقل لمشاركته مع العملاء أو تضمينه في موقعك بدون رسوم سحابية شهرية.",
+"flip-spot-btn-try":"⬇️ جرّب 3D Flipbook مجاناً",
+"flip-spot-btn-guide":"📖 اقرأ دليل Flipbook ←",
+
 "nav-features":"الميزات","nav-how":"كيف يعمل","nav-privacy":"الخصوصية","nav-pricing":"الأسعار","nav-roadmap":"خريطة الطريق","nav-faq":"الأسئلة","btn-download":"تحميل",
 "hero-badge":"بنية الخصوصية الأصلية","hero-title":'قراءة وتعديل ملفات PDF باحترافية، <span>بمنظور جديد.</span>',
 "hero-desc":"اختبر قوة المعالجة المحلية. اقرأ، وعلق، وحرر، وحوّل، واستخرج النصوص (OCR) من مستنداتك 100% بدون اتصال بالإنترنت مع خصوصية تامة وأداء فائق.",
