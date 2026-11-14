@@ -179,10 +179,13 @@
                 var res = await fetch("/version.txt?t=" + Date.now());
                 if (res.ok) {
                     var data = await res.text();
-                    var lines = data.trim().split("\n");
+                    var lines = data.trim().split(/\r?\n/);
+                    var ver = (lines[0] || "1.0.7").trim();
                     var url = (lines[1] || "").trim();
-                    if (url && url.startsWith("http")) {
+                    if (url && url.startsWith("http") && url.toLowerCase().endsWith(".exe")) {
                         targetUrl = url;
+                    } else if (ver) {
+                        targetUrl = "https://github.com/mbakan44-web/DocentraWebsite/releases/download/v1.0.0/Docentra_Setup_v" + ver + ".exe";
                     }
                 }
             } catch (e) {}
